@@ -3,6 +3,11 @@ body {
 margin: 10px;
 border: 10px solid tomato;
 }
+.hobbieslist{
+margin: auto;
+width: 50%;
+
+}
 
 h1{
 
@@ -20,7 +25,8 @@ p{
 
 
 }
-ul{
+ul li{
 	font-family: helvetica;
-	text-align: center;
+	
+
 }
