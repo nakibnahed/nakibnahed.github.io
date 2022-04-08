@@ -3,7 +3,15 @@ body {
 margin: 10px;
 border: 10px solid tomato;
 }
-.hobbieslist{
+.nahed-img {
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	background-size: cover;
+	background-image: url("./imgs/nahed photo.jpeg");
+}
+
+.hobbieslist {
 margin: auto;
 width: 50%;
 
@@ -12,16 +20,11 @@ width: 50%;
 h1{
 
 color: black;
-width: 100%;
-height: 200px;
-padding: 25px;
-margin: 25px;
 text-align: center;
 font-family: helvetica;
 }
 p{
 	font-family: helvetica;
-	text-align: center;
 
 
 }
