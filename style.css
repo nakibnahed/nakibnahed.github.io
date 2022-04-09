@@ -1,19 +1,21 @@
 
 body {
 margin: 10px;
-border: 10px solid tomato;
+border: 10px solid rgb(74, 70, 69);
+text-align: center;
 }
 .nahed-img {
 	width: 200px;
 	height: 200px;
 	border-radius: 100px;
 	background-size: cover;
-	background-image: url("./imgs/nahed photo.jpeg");
+	background-image: url("./imgs/nahed .jpeg");
 }
 
 .hobbieslist {
 margin: auto;
 width: 50%;
+
 
 }
 
@@ -21,7 +23,9 @@ h1{
 
 color: black;
 text-align: center;
+display: flex;
 font-family: helvetica;
+align-items: center;
 }
 p{
 	font-family: helvetica;
@@ -30,6 +34,11 @@ p{
 }
 ul li{
 	font-family: helvetica;
+	text-decoration: none;
 	
 
+}
+a{
+	text-decoration: none;
+	color: black;
 }
