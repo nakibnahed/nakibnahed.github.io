@@ -4,38 +4,299 @@
 	<link rel="stylesheet" type="text/css" href="./pure/buttons/css/buttons.css">
 	<link rel="stylesheet" type="text/css" href="./pure/buttons/css/buttons-core.css">
 	<link rel="stylesheet" type="text/css" href="./pure/grids/css/grids-core.css">
-	<link rel="stylesheet" href="style.css">
+	<mate name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>University Website Desing - Easy Tutorials</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+        <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-	<div class="pure-g">
-		<div class="pure-u-1-3">
-			<div class="nahed-img"></div>
-		</div>
 
-		<div class="pure-u-2-3">
-			<h1>Nahed Nakib</h1>
-			<p> i am 24 years old and lives in turkey</p>
-		</div>
-	</div>
-
-
-	<div class="hobbieslist">
-		<ul>
-			<a href="">
-				<li>sports</li>
-			</a>
-			<a href="">
-				<li>UNV</li>
-			</a>
-			<a href="">
-				<li>life</li>
-			</a>
-			<a href="">
-				<li>work</li>
-			</a>
-		</ul>
-	</div>
-
-	<script></script>
-</body>
+	
+	<body>
+	
+		<section class="header">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#">Navbar</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="navbar-nav">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+							<a class="nav-link" href="#">Features</a>
+							<a class="nav-link" href="#">Pricing</a>
+							<a class="nav-link disabled">Disabled</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<nav class="menu" id="side-menu">
+				<span class="close-btn" id="closebtn">=</span>
+				<ul id="father">
+					<li><a href="">HOME</a> </li>
+					<li><a href="">ABOUT</a></li>
+					<li><a href="">COURSE</a>
+						<!--  <ul id="son">
+							<li>Istanbu</li>
+							<li>Antalya</li>
+							<li>Erzurum</li>
+						</ul> -->
+					</li>
+					<li><a href="">BLOG</a></li>
+					<li><a href="">CONTACT</a></li>
+				</ul>
+			</nav>
+	
+			<div class="text-box">
+				<h1>TRACK & FIELD</h1>
+				<p class="running-inpho">all what you want to know about running you can find it here in our website
+				</p>
+				<a href="" class="hero-btn" id="hero-btn">Visit Us To Know more</a>
+			</div>
+		</section>
+	
+	
+		<!------ cards---->
+	
+		<section class="mysection">
+			<!-- <div>
+				<h1 class="title1">RUNNING PLEACES</h1>
+			</div> -->
+			<div id="now" class="card cards" style="width: 18rem;">
+				<img src="imgs/28.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a id="tap" href="#" class="btn btn-primary abtnn">Go somewhere</a>
+				</div>
+			</div>
+			<div class="card cards" style="width: 18rem;">
+				<img src="imgs/27.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a id="tap" href="#" class="btn btn-primary abtnn">Go somewhere</a>
+				</div>
+			</div>
+			<div class="card cards" style="width: 18rem;">
+				<img src="imgs/30.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a id="tap" href="#" class="btn btn-primary abtnn">Go somewhere</a>
+				</div>
+			</div>
+		</section>
+	
+		<!------ Course ------>
+	
+		<section class="course">
+			<h1 class="campsh1">Camps we Offer</h1>
+			<p class="below-course">all what you want to know about running you can find it just here in our website </p>
+	
+			<div class="row">
+				<div class="course-col">
+					<a href="https://www.google.com/maps/d/u/0/viewer?mid=1tPIzLHeWrguV8tbxIgG1hHlcm9Q&hl=en&ll=41.01306600000003%2C28.981933999999995&z=12" style=" text-decoration: none; color: black; ">
+						<h3>Istanbul</h3>
+					</a>
+					<a href="https://en.wikipedia.org/wiki/Istanbul" style=" text-decoration: none; color: black;">
+						<p>Istanbul is located in north-western Turkey and straddles the strait Bosporus, which provides the only passage from the Black Sea to the Mediterranean via the ...</p>
+					</a>
+				</div>
+				<div class="course-col">
+					<a href="https://www.google.com/maps/d/u/0/viewer?mid=1tPIzLHeWrguV8tbxIgG1hHlcm9Q&hl=en&ll=36.8979770519474%2C30.71810505000002&z=12" style="text-decoration: none; color: black;">
+						<h3>Antalya</h3>
+					</a>
+					<a href="https://en.wikipedia.org/wiki/Antalya" style="text-decoration: none; color: black;">
+						<p>Antalya is the fifth-most populous city in Turkey and the capital of Antalya Province. ... This fruit is dried and exported to Egypt, where it is regarded as a ...</p>
+					</a>
+				</div>
+				<div class="course-col">
+					<a href="https://www.google.com/maps/d/u/0/viewer?mid=1tPIzLHeWrguV8tbxIgG1hHlcm9Q&hl=en&ll=39.905499299999995%2C41.26582359999999&z=12" style="text-decoration: none; color: black;">
+						<h3>Erzurum</h3>
+					</a>
+					<a href="https://en.wikipedia.org/wiki/Erzurum" style="text-decoration: none; color: black;">
+						<p>Erzurum is a city in eastern Anatolia, Turkey. It is the largest city in and capital of Erzurum Province. It is situated 1,900 meters (6,233 feet) above sea ...</p>
+					</a>
+				</div>
+			</div>
+	
+		</section>
+	
+	
+		<!------ Our Running Places ------->
+	
+		<section class="orp">
+			<h1>Our Running Places</h1>
+			<p class="pp">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	
+			<div class="row">
+	
+				<div class="orp-col">
+					<a href="https://www.google.com/search?q=belgrad+forest&sxsrf=ALeKk024mmcYRz9-vlhaG7eSqs5j-hBcFw:1629550480427&source=lnms&tbm=isch&sa=X&sqi=2&ved=2ahUKEwjNvZ3MlMLyAhVLqZUCHVOKB-EQ_AUoAnoECAEQBA&biw=1366&bih=667">
+						<img src="imgs/18.jpg">
+					</a>
+					<h3>Forests</h3>
+					<p> have many wonderful forests where you can run on dirt<br> roads that are comfortable for runners</p>
+				</div>
+	
+	
+				<div class="orp-col">
+					<a href="https://www.google.com/search?q=istanbul+atletizim+pistleri&tbm=isch&ved=2ahUKEwj91f_xlMLyAhXO34UKHe-uAhEQ2-cCegQIABAA&oq=istanbul+atletizim+pistleri&gs_lcp=CgNpbWcQAzoECCMQJzoHCCMQ6gIQJzoHCAAQsQMQQzoICAAQgAQQsQM6BAgAEEM6BQgAEIAEOggIABCxAxCDAToLCAAQgAQQsQMQgwE6BggAEAgQHjoECAAQGFCPhwFY5f4BYPqBAmgKcAB4A4ABpwGIAb4qkgEFMzIuMjKYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABCsABAQ&sclient=img&ei=3_cgYb3qJc6_lwTv3YqIAQ&bih=667&biw=1366">
+						<img src="imgs/14.jpg">
+					</a>
+					<h3>Tracks</h3>
+					<p>We also have many cool new tracks that you can run on comfortably for runners</p>
+				</div>
+	
+	
+				<div class="orp-col">
+					<a href="https://www.google.com/search?q=sapanca++trail&tbm=isch&ved=2ahUKEwituu7WlcLyAhWR0oUKHRQ4CmcQ2-cCegQIABAA&oq=sapanca++trail&gs_lcp=CgNpbWcQAzIECCMQJ1DKQFjuSWDtTGgAcAB4AIABZYgBnAWSAQM1LjKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=s_ggYe2UCZGllwSU8Ki4Bg&bih=667&biw=1349&hl=tr">
+						<img src="imgs/19.jpg">
+					</a>
+					<h3>Trails</h3>
+					<p>And also a lot of trail places that have great weather</p>
+				</div>
+	
+			</div>
+	
+	
+	
+		</section>
+	
+	
+	
+	
+	
+		<!----- Our Professional Runners ----->
+	
+		<section class="campus">
+			<h1>Our Professional Runners</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	
+			<div class="row">
+	
+				<div class="campus-col">
+					<img src="imgs/9.jpg">
+					<div class="layer">
+						<h3>JUST</h3>
+					</div>
+				</div>
+	
+				<div class="campus-col">
+					<img src="imgs/4.jpg">
+					<div class="layer">
+						<h3>DO</h3>
+					</div>
+				</div>
+	
+				<div class="campus-col">
+					<img src="imgs/3.jpg">
+					<div class="layer">
+						<h3>IT.</h3>
+					</div>
+				</div>
+	
+			</div>
+	
+		</section>
+	
+	
+	
+	
+	
+	
+		<!----- What Our Runners Says ------>
+		<section class="testimonials">
+			<h1>What Our Runners Says</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	
+			<div class="row">
+				<div class="testimonials-col">
+					<img src="imgs/1.jpg">
+					<div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibusest sollicitudin ut. maecenas ut venenatis ex, et dapibus purus.</p>
+						<h3>Nahed Nakib</h3>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+	
+	
+					</div>
+				</div>
+	
+				<!---------      
+			 <div class="testimonials-col">
+				<img src="img/user2.jpg">
+				<div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					   Pellentesque aliquet turpis nulla, eleifend faucibusest sollicitudin ut. maecenas ut venenatis ex, 
+					   et dapibus purus.</p>
+					   <h3>David Byer</h3>
+					   <i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+				</div>
+			</div>
+			
+		 </div>
+		 -->
+	
+		</section>
+	
+	
+	
+		<!------ Call to Action ------>
+	
+		<section class="cta">
+			<h1>Enroll for our Various Onlime Courses <br>Anywhere From The World</h1>
+			<a href="" class="hero-btn">CONTACT US</a>
+		</section>
+	
+	
+	
+	
+	
+	
+	
+	
+		<!---- Footer ---->
+	
+		<section class="footer">
+			<h4>About Us</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibusest sollicitudin ut.<br> maecenas ut venenatis ex, et dapibus purus.</p>
+			<div class="icons">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-linkedin"></i>
+			</div>
+			<p>Made with <i class="fa fa-heart-o"></i>By nahed nakib</p>
+		</section>
+	
+	
+	
+	
+	
+	
+	
+		<!------Javascript for toggle menu------->
+	
+	
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="script1.JS"></script>
+	
+	</body>
+	
+	</html>
