@@ -110,60 +110,7 @@ li:hover {
 }
 
 
-/* son */
 
-
-/* #son {
-    display: none;
-    width: 100% !important;
-    text-decoration: none;
-}
-
-#son line {
-    background-color: darkgray;
-    color: black;
-    text-decoration: none;
-}
-
-#son>li>a {
-    color: black;
-}
-
-#son>li:hover {
-    background-color: crimson;
-    text-decoration: none;
-} */
-
-
-/* end of menu  */
-
-
-/* .nav-links ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-}
-
-.nav-links ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 13px;
-}
-
-.nav-links ul li::after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #f44336;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-
-.nav-links ul li:hover::after {
-    width: 100%;
-} */
 
 .text-box {
     width: 90%;
@@ -280,6 +227,8 @@ nav.fa {
 
 .btn {
     background-color: rgb(52, 76, 182);
+    text-decoration: none;
+
 }
 
 .card-img-top {
@@ -461,18 +410,17 @@ h3 {
 /*----- Our Professional Runners -----*/
 
 .campus {
+    min-height: 75vh;
+    height: auto;
     width: 100%;
-    height: 100%;
-    margin-top: 0;
-    position: relative;
     background-position: center;
-    background-size: auto;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.774), rgba(4, 9, 30, 0.774)), url(imgs/18.jpg);
-    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(4, 5, 8, 0.7), rgba(4, 9, 30, 0.7)), url(imgs/18.jpg);
+    margin: auto;
     text-align: center;
-    padding: 50px;
-    margin-top: 0;
+    padding-top: 50px;
     display: inline-block;
+    padding-bottom: 0;
 }
 
 .campus h1 {
@@ -515,6 +463,8 @@ h3 {
 .layer:hover {
     background: rgba(173, 17, 17, 0.596);
     position: absolute;
+    max-width: auto;
+    
 }
 
 .layer h3 {
@@ -539,12 +489,17 @@ h3 {
 /*------- What Our Runners Says ------*/
 
 .testimonials {
-    width: 80%;
+    min-height: 75vh;
+    height: auto;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(4, 5, 8, 0.7), rgba(4, 9, 30, 0.7)), url(imgs/18.jpg);
     margin: auto;
-    padding-top: 100px;
     text-align: center;
-    border-radius: 50px 20px;
-    ;
+    padding-top: 50px;
+    display: inline-block;
+    padding-bottom: 0;
 }
 
 .testimonials h1 {
@@ -552,10 +507,19 @@ h3 {
     width: 50%;
     margin: auto;
     background-color: #f3f2f2ab;
-    flex-basis: 31%;
+    
     border: 2px solid rgb(197, 180, 180);
     border-radius: 50px 20px;
     text-align: center;
+}
+
+.row-1{
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    display: inline;
+    overflow: auto;
 }
 
 .testimonials-col {
@@ -567,6 +531,7 @@ h3 {
     padding: 25px;
     cursor: pointer;
     display: flex;
+    align-items: center;
 }
 
 .testimonials-col img {
@@ -601,13 +566,18 @@ h3 {
 
 .cta {
     margin: 100px auto;
-    width: 80%;
+    width:100%;
+    height: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(imgs/11.jpg);
     background-position: center;
     background-size: cover;
-    border-radius: 10px;
     text-align: center;
     padding: 100px 0;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    display: inline-block;
+    padding-bottom: 0;
 }
 
 .cta h1 {
