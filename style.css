@@ -489,7 +489,7 @@ h3 {
 /*------- What Our Runners Says ------*/
 
 .testimonials {
-    min-height: 75vh;
+      min-height: 75vh;
     height: auto;
     width: 100%;
     background-position: center;
@@ -566,18 +566,13 @@ h3 {
 
 .cta {
     margin: 100px auto;
-    width:100%;
-    height: 100%;
+    width: 80%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(imgs/11.jpg);
     background-position: center;
     background-size: cover;
+    border-radius: 10px;
     text-align: center;
     padding: 100px 0;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-    display: inline-block;
-    padding-bottom: 0;
 }
 
 .cta h1 {
