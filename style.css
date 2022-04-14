@@ -7,7 +7,7 @@
 
 body {
     text-decoration: none;
-    background: rgba(221, 221, 221, 0.452);
+    background: rgba(155, 115, 63, 0.341);
 }
 
 .header {
@@ -19,98 +19,9 @@ body {
     position: relative;
 }
 
-nav {
-    display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;
+.header::after {
+    top: -50px;
 }
-
-nav img {
-    width: 150px;
-}
-
-.nav-links {
-    flex: 1;
-    text-align: right;
-}
-
-
-/* start of menu */
-
-.menu {
-    position: relative;
-    float: left;
-    left: -425px;
-    width: 260px;
-    height: 100vh;
-    background-color: rgb(204, 204, 204);
-    color: white;
-    z-index: 999;
-    transition: all 1.0s;
-    text-decoration: none;
-}
-
-
-/* menu-open */
-
-.menu-open {
-    left: 0px;
-    background-color: rgba(247, 247, 247, 0.6);
-    text-decoration: none;
-}
-
-
-/* close-btn */
-
-.close-btn {
-    display: block;
-    height: 60px;
-    font-size: 30px;
-    float: right;
-    padding: 0 10px;
-    background-color: rgba(255, 255, 255, 0.4);
-    color: white;
-    cursor: pointer;
-    position: absolute;
-    left: 425px;
-    line-height: 60px;
-    transition: all 1.0s;
-    text-decoration: none;
-}
-
-
-/* open-btn */
-
-.open-btn {
-    background-color: rgb(0, 0, 0, 0.7);
-    text-decoration: none;
-}
-
-
-/* father */
-
-#father>li {
-    list-style-type: none;
-    text-align: center;
-    line-height: 60px;
-    cursor: pointer;
-    border-bottom: 1px solid darkgray;
-    text-decoration: none;
-}
-
-#father>li>a {
-    color: black;
-}
-
-li:hover {
-    background-color: rgba(194, 59, 59, 0.74);
-    color: black;
-    text-decoration: none;
-}
-
-
-
 
 .text-box {
     width: 90%;
@@ -205,7 +116,6 @@ nav.fa {
     padding: 0;
 }
 
-
 .cards {
     width: 100%;
     height: auto;
@@ -214,13 +124,13 @@ nav.fa {
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.39);
     text-align: center;
     display: inline-block;
-	align-items: center;
+    align-items: center;
 }
 
 .cards:hover {
     box-shadow: 0 0 20px 10px rgba(194, 27, 27, 0.445);
     background-color: #ff11008c;
-    box-decoration-break: initial; 
+    box-decoration-break: initial;
     color: rgba(0, 0, 0, 1.0);
     bottom: 20px;
 }
@@ -228,7 +138,6 @@ nav.fa {
 .btn {
     background-color: rgb(52, 76, 182);
     text-decoration: none;
-
 }
 
 .card-img-top {
@@ -236,7 +145,6 @@ nav.fa {
     border-radius: 7px;
     height: 250px;
     box-shadow: 0px 0px 15px 0px rgba(14, 14, 14, 0.39);
-	
 }
 
 @media(max-width: 700px) {
@@ -248,8 +156,6 @@ nav.fa {
         height: auto;
     }
 }
-
-
 
 
 /*------ course ------*/
@@ -284,6 +190,9 @@ h1 {
 
 .below-course {
     color: rgb(252, 249, 245);
+    padding-top: 30px;
+    padding-bottom: 5px;
+    margin: 0;
 }
 
 p {
@@ -295,14 +204,16 @@ p {
 }
 
 .course-col p:hover {
-    box-shadow: 0 0 20px 0px rgb(0, 0, 0);
+    box-shadow: 0 0 20px 0px rgba(124, 54, 54, 0.813);
     box-decoration-break: initial;
     color: rgba(0, 0, 0, 1.0);
     text-align: center;
+    border-radius: 15px;
 }
 
 .row {
-    margin: 5%;
+    margin: 35px;
+    padding-top: 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -322,6 +233,10 @@ h3 {
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
+}
+
+.course-col h3:hover {
+    color: #d14137be;
 }
 
 .course-col:hover {
@@ -373,6 +288,7 @@ h3 {
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
+    padding-top: 10px;
     text-align: left;
 }
 
@@ -389,7 +305,8 @@ h3 {
 
 .pp {
     color: whitesmoke;
-    padding: auto;
+    padding: 50px;
+    padding-top: 30px;
     margin: auto;
 }
 
@@ -464,7 +381,6 @@ h3 {
     background: rgba(173, 17, 17, 0.596);
     position: absolute;
     max-width: auto;
-    
 }
 
 .layer h3 {
@@ -489,7 +405,7 @@ h3 {
 /*------- What Our Runners Says ------*/
 
 .testimonials {
-      min-height: 75vh;
+    min-height: 75vh;
     height: auto;
     width: 100%;
     background-position: center;
@@ -498,7 +414,6 @@ h3 {
     margin: auto;
     text-align: center;
     padding-top: 50px;
-    display: inline-block;
     padding-bottom: 0;
 }
 
@@ -507,13 +422,16 @@ h3 {
     width: 50%;
     margin: auto;
     background-color: #f3f2f2ab;
-    
     border: 2px solid rgb(197, 180, 180);
     border-radius: 50px 20px;
     text-align: center;
 }
 
-.row-1{
+.testimonials p {
+    color: #fff;
+}
+
+.row-1 {
     text-align: center;
     align-items: center;
     width: 50%;
@@ -524,29 +442,34 @@ h3 {
 
 .testimonials-col {
     flex-basis: 44%;
+    width: 35%;
+    height: 35%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    background: #f3e3e3;
-    padding: 25px;
+    background: #ce98989b;
+    padding: 15px;
     cursor: pointer;
-    display: flex;
+    display: inline-block;
     align-items: center;
 }
 
 .testimonials-col img {
-    height: 40px;
+    height: 60px;
     margin-left: 5px;
     margin-right: 30px;
     border-radius: 50%;
 }
 
 .testimonials-col p {
-    padding: 0;
+    color: #000;
+    padding-top: 20px;
+    padding-left: 5px;
 }
 
 .testimonials-col h3 {
     margin-top: 15px;
+    padding-top: 5px;
     text-align: left;
 }
 
