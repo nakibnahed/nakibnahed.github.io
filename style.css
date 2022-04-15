@@ -149,6 +149,7 @@ nav.fa {
     box-decoration-break: initial;
     color: rgba(0, 0, 0, 1.0);
     bottom: 20px;
+    transition: 0.5s;
 }
 
 .btn {
@@ -225,6 +226,8 @@ p {
     color: rgba(0, 0, 0, 1.0);
     text-align: center;
     border-radius: 15px;
+    transform: scaleY(1.1);
+    transition: 0.3s;
 }
 
 .row {
@@ -317,6 +320,8 @@ h3 {
     box-shadow: 0 0 20px 0px rgba(194, 27, 27, 1.0);
     box-decoration-break: initial;
     color: rgba(0, 0, 0, 1.0);
+    transform: scaleY(1.1);
+    transition: 0.5s;
 }
 
 .pp {
@@ -381,6 +386,11 @@ h3 {
 
 .campus-col img {
     width: 100%;
+}
+
+.campus-col img:hover {
+    transform: scaleY(1.1);
+    transition: 0.5s;
 }
 
 .layer {

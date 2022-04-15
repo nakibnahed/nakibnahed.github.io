@@ -1,5 +1,12 @@
-var myfunction = document.getElementById("myfunction");
+var a;
 
 function myfunction() {
 
+    if (a == 1) {
+        document.getElementById("navbar").style.display = "inline";
+        return a = 0;
+    } else {
+        document.getElementById("navbar").style.display = "none";
+        return a = 1;
+    }
 }
