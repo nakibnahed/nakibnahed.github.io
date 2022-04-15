@@ -19,8 +19,24 @@ body {
     position: relative;
 }
 
-.header::after {
-    top: -50px;
+.navbtn {
+    position: absolute;
+    top: 10px;
+    background-color: aliceblue;
+    right: 15px;
+    border: 2px solid rgba(74, 32, 32, 0.361);
+    border-radius: 5px;
+    width: 40px;
+    height: 25px;
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbtn:hover {
+    background-color: #e42b1e6d;
+    transition: 0.3s;
+    transform: scaleY(1.5);
 }
 
 .text-box {
