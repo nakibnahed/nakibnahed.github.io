@@ -21,6 +21,9 @@ body {
 
 .navbtn {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
     top: 10px;
     background-color: aliceblue;
     right: 15px;
@@ -469,17 +472,9 @@ h3 {
     color: #fff;
 }
 
-.row-1 {
-    text-align: center;
-    align-items: center;
-    width: 50%;
-    height: 50%;
-    display: inline;
-    overflow: auto;
-}
+.row-1 {}
 
 .testimonials-col {
-    flex-basis: 44%;
     width: 35%;
     height: 35%;
     border-radius: 10px;
@@ -487,10 +482,9 @@ h3 {
     text-align: left;
     background: #ce98989b;
     padding: 15px;
-    cursor: pointer;
-    display: inline-block;
-    align-items: center;
 }
+
+.video-run {}
 
 .testimonials-col img {
     height: 60px;
