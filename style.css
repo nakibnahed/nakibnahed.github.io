@@ -472,7 +472,10 @@ h3 {
     color: #fff;
 }
 
-.row-1 {}
+.row-1 {
+    display: inline;
+    justify-content: space-between;
+}
 
 .testimonials-col {
     width: 35%;
@@ -482,9 +485,25 @@ h3 {
     text-align: left;
     background: #ce98989b;
     padding: 15px;
+    margin: 0px;
 }
 
-.video-run {}
+.video-run {
+    padding: 25px;
+    margin: 25px;
+    justify-content: flex-start;
+    float: right;
+    align-items: flex-start;
+    display: inline;
+    float: inline-start;
+    top: 0;
+}
+
+.video-run img {
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
 
 .testimonials-col img {
     height: 60px;
