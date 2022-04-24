@@ -574,6 +574,13 @@ h3 {
     .cta h1 {
         font-size: 24px;
     }
+    .row-1 {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 
 
