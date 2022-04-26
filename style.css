@@ -168,8 +168,18 @@ nav.fa {
     transition: 0.5s;
 }
 
+.cards h5 {
+    color: rgb(157, 169, 180);
+}
+
+.cards p {
+    color: rgb(35, 33, 33);
+}
+
 .btn {
-    background-color: rgb(52, 76, 182);
+    color: rgba(199, 209, 221, 0.848);
+    border: rgb(68, 87, 171);
+    background-color: rgb(68, 87, 171);
     text-decoration: none;
 }
 
