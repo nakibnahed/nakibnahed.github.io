@@ -523,6 +523,8 @@ h3 {
 }
 
 .video-run iframe {
+    width: 500px;
+    height: 310px;
     border-radius: 15px;
 }
 
