@@ -11,7 +11,7 @@ function myfunction() {
     }
 }
 
-var b;
+/* var b;
 
 function showmenu() {
     if (b == 1) {
@@ -21,4 +21,4 @@ function showmenu() {
         document.getElementById("navbar").style.display = "inline";
         return b = 0;
     }
-};
+}; */

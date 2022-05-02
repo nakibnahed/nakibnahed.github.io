@@ -575,6 +575,21 @@ h3 {
     box-shadow: 0 0 20px 10px rgba(194, 27, 27, 0.445);
 }
 
+.person-img {
+    width: 500px;
+    height: 310px;
+    padding: 25px;
+    margin: 25px;
+    float: left;
+    border-radius: 10px;
+    text-align: left;
+    background: #ce98989b;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+    right: 25px;
+}
+
 
 /*------ Call to Action ------*/
 
