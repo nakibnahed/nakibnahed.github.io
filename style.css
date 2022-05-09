@@ -236,6 +236,8 @@ h1 {
     padding-top: 30px;
     padding-bottom: 5px;
     margin: 0;
+    font-weight: 300;
+    font-size: large;
 }
 
 p {
@@ -276,7 +278,6 @@ p {
 
 h3 {
     text-align: center;
-    color: #fff;
     font-weight: 600;
     margin: 10px 0;
 }
@@ -559,36 +560,20 @@ h3 {
     padding-top: 50px;
 }
 
-.last-div p {
+.last-div h1,
+{
     color: #fff;
 }
 
-.last-div img {
+.last-div-img img {
     width: 250px;
     height: 250px;
+    margin: 5px;
 }
 
-.last-sec a:hover {
-    color: #f44336;
-    transition: 1s;
-    position: relative;
-    left: 10px;
-    box-shadow: 0 0 20px 10px rgba(194, 27, 27, 0.445);
-}
-
-.person-img {
-    width: 500px;
-    height: 310px;
-    padding: 25px;
-    margin: 25px;
-    float: left;
-    border-radius: 10px;
-    text-align: left;
-    background: #ce98989b;
-    align-items: center;
-    text-decoration: none;
-    position: relative;
-    right: 25px;
+.last-div-img button {
+    background: none;
+    border: none;
 }
 
 

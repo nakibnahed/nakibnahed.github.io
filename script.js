@@ -11,6 +11,10 @@ function myfunction() {
     }
 }
 
+function myFunction() {
+    alert("I am an alert box!");
+}
+
 /* var b;
 
 function showmenu() {
