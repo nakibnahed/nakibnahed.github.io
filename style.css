@@ -40,7 +40,7 @@ body {
 .navbtn:hover {
     background-color: #e42b1e6d;
     transition: 0.3s;
-    transform: scaleY(1.5);
+    transform: scaleY(1.2);
 }
 
 .text-box {
