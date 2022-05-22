@@ -228,6 +228,7 @@ h1 {
     border: 2px solid rgb(197, 180, 180);
     border-radius: 50px 20px;
     text-align: center;
+    justify-content: center;
 }
 
 .below-course {
