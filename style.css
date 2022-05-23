@@ -128,7 +128,7 @@ nav.fa {
     background-color: #ff1100a0;
     box-decoration-break: initial;
     color: black;
-    bottom: 5px;
+    bottom: 1px;
     transition: 0.5s;
     transform: scale(1.1);
 }
