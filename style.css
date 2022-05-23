@@ -19,41 +19,6 @@ body {
     position: relative;
 }
 
-.navbtn {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    top: 10px;
-    background-color: aliceblue;
-    right: 15px;
-    border: 2px solid rgba(74, 32, 32, 0.361);
-    border-radius: 5px;
-    width: 40px;
-    height: 25px;
-    font-size: 15px;
-    margin-top: 10px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.navbtn:hover {
-    background-color: #e42b1e6d;
-    transition: 0.3s;
-    transform: scaleY(1.5);
-}
-
-.navbtn-show {
-    position: absolute;
-    background-color: aliceblue;
-    right: 13px;
-    border: 2px solid rgba(74, 32, 32, 0.361);
-    border-radius: 5px;
-    width: 40px;
-    height: 25px;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .text-box {
     width: 90%;
     color: white;
