@@ -1,0 +1,57 @@
+body {
+    background-image: linear-gradient(rgba(38, 52, 109, 0.336), rgba(38, 52, 109, 0.336)), url(imgs/6.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    /* background-color: rgba(26, 41, 58, 0.418); */
+}
+
+.game {
+    width: 255px;
+    text-align: center;
+    font-family: system-ui;
+    color: white;
+    margin: auto;
+    font-weight: 500;
+    position: relative;
+    top: 100px;
+}
+
+.title {
+    background: #f55;
+    padding: 5px 0;
+    margin: 5px 0;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px 4px rgba(0, 0, 0, 0.521);
+    color: rgba(0, 0, 0, 0.445);
+    /* color: rgb(247, 216, 177); */
+}
+
+span {
+    color: rgba(211, 208, 11, 0.788);
+}
+
+.square {
+    width: 80px;
+    height: 80px;
+    background: rgba(255, 85, 85, 0.918);
+    text-align: center;
+    float: left;
+    margin: 2px;
+    box-shadow: inset 0px 0px 5px 4px rgba(0, 0, 0, 0.521);
+    font-size: 50px;
+    border-radius: 15px;
+    color: rgba(0, 0, 0, 0.445);
+}
+
+.square:hover {
+    /* background: rgba(0, 0, 0, 0.253); */
+    box-shadow: inset 0 0 10px 10px rgba(0, 0, 0, 0.616);
+    color: rgba(0, 0, 0, 0.397);
+    cursor: pointer;
+    transition: 0.5s;
+    background-size: 25px;
+    border-radius: 15px;
+}
