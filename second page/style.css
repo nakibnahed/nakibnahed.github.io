@@ -23,7 +23,7 @@ body {
     background: #f55;
     padding: 5px 0;
     margin: 5px 0;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: inset 0px 0px 5px 4px rgba(0, 0, 0, 0.521);
     color: rgba(0, 0, 0, 0.445);
     /* color: rgb(247, 216, 177); */
@@ -36,7 +36,7 @@ span {
 .square {
     width: 80px;
     height: 80px;
-    background: rgba(255, 85, 85, 0.918);
+    background: rgba(255, 85, 85, 0.708);
     text-align: center;
     float: left;
     margin: 2px;
