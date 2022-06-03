@@ -46,13 +46,13 @@ body {
 
 .text-box h1 {
     font-size: 62px;
-    color: rgba(248, 248, 248, 0.7);
+    color: rgba(248, 248, 248, 0.85);
 }
 
 .text-box p {
     margin: 10px 0 40px;
     font-size: 20px;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.85);
 }
 
 .hero-btn {
@@ -115,7 +115,7 @@ nav.fa {
     width: 100%;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(4, 5, 8, 0.7), rgba(4, 9, 30, 0.7)), url(imgs/18.jpg);
+    background-image: linear-gradient(rgba(4, 5, 8, 0.85), rgba(4, 9, 30, 0.75)), url(imgs/18.jpg);
     margin: auto;
     text-align: center;
     padding-top: 100px;
@@ -192,7 +192,7 @@ nav.fa {
     width: 100%;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(4, 5, 8, 0.7), rgba(4, 9, 30, 0.7)), url(imgs/18.jpg);
+    background-image: linear-gradient(rgba(4, 5, 8, 0.85), rgba(4, 9, 30, 0.75)), url(imgs/18.jpg);
     margin: auto;
     text-align: center;
     padding-top: 50px;
@@ -292,7 +292,7 @@ h3 {
     width: 100%;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(4, 5, 8, 0.7), rgba(4, 9, 30, 0.7)), url(imgs/18.jpg);
+    background-image: linear-gradient(rgba(4, 5, 8, 0.85), rgba(4, 9, 30, 0.75)), url(imgs/18.jpg);
     margin: auto;
     text-align: center;
     padding-top: 50px;
@@ -368,7 +368,7 @@ h3 {
     width: 100%;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(4, 5, 8, 0.7), rgba(4, 9, 30, 0.7)), url(imgs/18.jpg);
+    background-image: linear-gradient(rgba(4, 5, 8, 0.85), rgba(4, 9, 30, 0.75)), url(imgs/18.jpg);
     margin: auto;
     text-align: center;
     padding-top: 50px;
@@ -457,7 +457,7 @@ h3 {
     width: 100%;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(4, 5, 8, 0.7), rgba(4, 9, 30, 0.7)), url(imgs/18.jpg);
+    background-image: linear-gradient(rgba(4, 5, 8, 0.85), rgba(4, 9, 30, 0.75)), url(imgs/18.jpg);
     margin: auto;
     text-align: center;
     padding-top: 50px;
@@ -547,7 +547,7 @@ h3 {
     width: 100%;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(4, 5, 8, 0.7), rgba(4, 9, 30, 0.7)), url(imgs/18.jpg);
+    background-image: linear-gradient(rgba(4, 5, 8, 0.85), rgba(4, 9, 30, 0.75)), url(imgs/18.jpg);
     margin: auto;
     text-align: center;
     padding-top: 50px;
@@ -564,7 +564,7 @@ h3 {
 .cta {
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(imgs/11.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.75)), url(imgs/11.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
