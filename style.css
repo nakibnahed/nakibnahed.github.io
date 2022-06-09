@@ -553,12 +553,20 @@ h3 {
 .cta {
     margin: 100px auto;
     width: 80%;
+    height: 50%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.75)), url(imgs/11.jpg);
     background-position: center;
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
     padding: 100px 0;
+}
+
+.cta:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.401), rgba(0, 0, 0, 0.402)), url(imgs/11.jpg);
+    transition: 1s;
+    transform: scale(1, 1, 1);
+    height: 70%;
 }
 
 .cta a {
