@@ -490,6 +490,8 @@ h3 {
     flex-direction: row;
 }
 
+.row-1:hover {}
+
 .testimonials-col {
     width: 500px;
     height: 310px;
@@ -503,6 +505,12 @@ h3 {
     text-decoration: none;
     position: relative;
     right: 25px;
+}
+
+.testimonials-col:hover {
+    transition: 3s;
+    transform: scale(1, 1, 1);
+    height: 70%;
 }
 
 .testimonials-col h3 {
