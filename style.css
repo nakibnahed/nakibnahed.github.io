@@ -490,8 +490,6 @@ h3 {
     flex-direction: row;
 }
 
-.row-1:hover {}
-
 .testimonials-col {
     width: 500px;
     height: 310px;
@@ -505,12 +503,6 @@ h3 {
     text-decoration: none;
     position: relative;
     right: 25px;
-}
-
-.testimonials-col:hover {
-    transition: 3s;
-    transform: scale(1, 1, 1);
-    height: 70%;
 }
 
 .testimonials-col h3 {
@@ -572,7 +564,7 @@ h3 {
 
 .cta:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.401), rgba(0, 0, 0, 0.402)), url(imgs/11.jpg);
-    transition: 1s;
+    transition: 2s;
     transform: scale(1, 1, 1);
     height: 70%;
 }
