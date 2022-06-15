@@ -18,9 +18,101 @@ body {
     position: relative;
 }
 
-.navbar {
-    background-color: rgb(243, 237, 237) !important;
+
+/* nav bar */
+
+.menu-bar {
+    background: rgba(45, 69, 45, 0.784);
+    text-align: center;
+    height: 80px;
 }
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.menu-bar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.active {
+    height: 50px;
+}
+
+.active,
+.menu-bar ul li:hover {
+    background: #6ca260;
+    border-radius: 3px;
+    height: 50px;
+}
+
+.menu-bar .fa {
+    margin-right: 3px;
+}
+
+.sub-menu-1 {
+    display: none;
+    border-radius: 5px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+    color: #b2ff00;
+}
+
+.fa-angle-right {
+    float: right;
+}
+
+.sub-menu-2 {
+    display: none;
+    border-radius: 5px;
+}
+
+.hover-me:hover .sub-menu-2 {
+    display: block;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color: rgb(0, 100, 0);
+}
+
+
+/* nav bar */
 
 .text-box {
     width: 90%;
@@ -579,6 +671,37 @@ h3 {
     color: #fff;
     margin-bottom: 40px;
     padding: 0;
+}
+
+.cost-info {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-email {
+    text-align: center;
+    margin: 10px;
+    position: relative;
+}
+
+.form-email label {
+    color: #000;
+}
+
+.form-email input {
+    border-radius: 5px;
+}
+
+.form-phone {
+    text-align: center;
+    margin: 10px;
+    position: relative;
+}
+
+.form-phone input {
+    border-radius: 5px;
 }
 
 @media(max-width: 700px) {
