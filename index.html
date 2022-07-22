@@ -1,365 +1,201 @@
-<head>
-    <link rel="stylesheet" type="text/css" href="./pure/base/css/base.css">
-    <link rel="stylesheet" type="text/css" href="./pure/normalize.css">
-    <link rel="stylesheet" type="text/css" href="./pure/buttons/css/buttons.css">
-    <link rel="stylesheet" type="text/css" href="./pure/buttons/css/buttons-core.css">
-    <link rel="stylesheet" type="text/css" href="./pure/grids/css/grids-core.css">
-    <mate name="viewport" content="with=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
-        <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/cdf4b33f78.js" crossorigin="anonymous"></script>
-        <title>Running Website</title>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>website project</title>
 </head>
 
 <body>
-    <section class="header" id="home">
-        <!--        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/newwebsite/second page/index.html">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#links">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+    <header>
+        <a href="#" class="logo">Nahed</a>
+        <nav class="navigation">
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+    </header>
+
+    <!----- Mine section ------>
+    <section class="main">
+        <div>
+            <h2>Hello, I'm Nahed<br><span>Front-End Developer</span> </h2>
+            <h3>I build websites</h3>
+            <a href="#projects" class="main-btn">View my work</a>
+            <div class="social-icons">
+                <a href="#"><i id="linkedin" class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i id="github" class="fa-brands fa-github"></i></a>
+                <a href="#"><i id="instagram" class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i id="whatsapp" class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+
+    </section>
+
+    <!------services section------>
+
+    <section class="cards" id="services">
+        <h2 class="title">Services</h2>
+        <div class="contant">
+            <div class="card">
+                <div class="icon">
+                    <i id="code" class="fa-solid fa-code"></i>
+                </div>
+                <div class="info">
+                    <h3 id="code">websites</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos rerum libero</p>
                 </div>
             </div>
-        </nav> -->
-        <div class="menu-bar">
-            <ul>
-                <li class="active">
-                    <a href="#"><i class="fa fa-home"></i>
-                        Home</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-user"></i>
-                        About US</a>
-                    <div class="sub-menu-1">
-                        <ul>
-                            <li><a href="#">Mission</a></li>
-                            <li><a href="#">Vision</a></li>
-                            <li><a href="#">Team</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-clone"></i>
-                        Services</a>
-                    <div class="sub-menu-1">
-                        <ul>
-                            <li><a href="#">Web Designing</a></li>
-                            <li class="hover-me"><a href="#">Marketing</a> <i class="fa fa-angle-right"></i>
-                                <div class="sub-menu-2">
-                                    <ul>
-                                        <li><a href="#">SEO</a></li>
-                                        <li><a href="#">Social Media</a></li>
-                                        <li><a href="#">Email Marketing</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="hover-me"><a href="#">Mobile App</a> <i class="fa fa-angle-right"></i>
-                                <div class="sub-menu-2">
-                                    <ul>
-                                        <li><a href="#">Android</a></li>
-                                        <li><a href="#">IOS App</a></li>
-                                        <li><a href="#">Aonic App</a></li>
-                                        <li><a href="#">Flutter App</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-users "></i>
-                        Clients</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-angelist"></i>
-                        Investers</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-inr "></i>
-                        Pricing</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-edit"></i>
-                        Training</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-phone"></i>
-                        Contact </a>
-                </li>
-            </ul>
-        </div>
-
-        <!-- <button class="navbtn-show" onclick="showmenu()">Menu</button> -->
-
-        <div class="text-box">
-            <h1>TRACK & FIELD</h1>
-            <p class="running-inpho">all what you want to know about running you can find it here in our website
-            </p>
-            <a href="https://www.instagram.com/nahed_nakib/?hl=en" target="_blank" class="hero-btn" id="hero-btn">
-                Visit Us To Know more
-            </a>
-        </div>
-    </section>
-
-    <!--- space between--->
-
-    <div class="space-between"></div>
-
-    <!-----cards---->
-
-    <section class="mysection">
-
-        <div class="card cards" style="width: 18rem;">
-            <img src="imgs/28.jpg" class="card-img-top">
-            <div class="card-body">
-                <h5 class="card-title">Winden,Germany</h5>
-                <p class="card-text">Winden is a town in the district of Emmendingen in Baden-Württemberg in Germany.
-                </p>
-                <a id="tap" href="https://en.wikipedia.org/wiki/Winden_im_Elztal" target="_blank" class="btn btn-primary abtnn">Tap Here</a>
-            </div>
-        </div>
-        <div class="card cards" style="width: 18rem;">
-            <img src="imgs/27.jpg" class="card-img-top">
-            <div class="card-body">
-                <h5 class="card-title">Amazon Rainforest</h5>
-                <p class="card-text">The Amazon" and "Amazonia" redirect here. For the river, see Amazon River...</p>
-                <a id="tap" href="https://en.wikipedia.org/wiki/Amazon_rainforest" target="_blank" class="btn btn-primary abtnn">Tap Here</a>
-            </div>
-        </div>
-        <div class="card cards" style="width: 18rem;">
-            <img src="imgs/30.jpg" class="card-img-top">
-            <div class="card-body">
-                <h5 class="card-title">Belgrad Forest</h5>
-                <p class="card-text">is a mixed deciduous forest lying adjacent to Istanbul, Turkey. It is named after the...
-                </p>
-                <a id="tap" href="https://en.wikipedia.org/wiki/Belgrad_Forest" target="_blank" class="btn btn-primary abtnn">Tap Here</a>
-            </div>
-        </div>
-
-    </section>
-
-
-    <!--- space between--->
-
-    <div class="space-between"></div>
-
-    <!------ Course ------>
-
-    <section class="course" id="links">
-        <h1 class="campsh1">Camps we Offer</h1>
-        <p class="below-course">all what you want to know about running you can find it just here in our website </p>
-
-        <div class="row">
-            <div class="course-col">
-                <a href="https://www.google.com/maps/d/u/0/viewer?mid=1tPIzLHeWrguV8tbxIgG1hHlcm9Q&hl=en&ll=41.01306600000003%2C28.981933999999995&z=12" style=" text-decoration: none; color: black; ">
-                    <h3>Istanbul</h3>
-                </a>
-                <a href="https://en.wikipedia.org/wiki/Istanbul" style=" text-decoration: none; color: black;">
-                    <p>Istanbul is located in north-western Turkey and straddles the strait Bosporus, which provides the only passage from the Black Sea to the Mediterranean via the ...</p>
-                </a>
-            </div>
-            <div class="course-col">
-                <a href="https://www.google.com/maps/d/u/0/viewer?mid=1tPIzLHeWrguV8tbxIgG1hHlcm9Q&hl=en&ll=36.8979770519474%2C30.71810505000002&z=12" style="text-decoration: none; color: black;">
-                    <h3>Antalya</h3>
-                </a>
-                <a href="https://en.wikipedia.org/wiki/Antalya" style="text-decoration: none; color: black;">
-                    <p>Antalya is the fifth-most populous city in Turkey and the capital of Antalya Province. ... This fruit is dried and exported to Egypt, where it is regarded as a ...</p>
-                </a>
-            </div>
-            <div class="course-col">
-                <a href="https://www.google.com/maps/d/u/0/viewer?mid=1tPIzLHeWrguV8tbxIgG1hHlcm9Q&hl=en&ll=39.905499299999995%2C41.26582359999999&z=12" style="text-decoration: none; color: black;">
-                    <h3>Erzurum</h3>
-                </a>
-                <a href="https://en.wikipedia.org/wiki/Erzurum" style="text-decoration: none; color: black;">
-                    <p>Erzurum is a city in eastern Anatolia, Turkey. It is the largest city in and capital of Erzurum Province. It is situated 1,900 meters (6,233 feet) above sea ...</p>
-                </a>
-            </div>
-        </div>
-
-    </section>
-
-    <!--- space between--->
-
-    <div class="space-between"></div>
-
-    <!------ Our Running Places ------->
-
-    <section class="orp">
-        <h1>Our Running Places</h1>
-        <p class="pp">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-        <div class="row">
-
-            <div class="orp-col">
-                <a href="https://www.google.com/search?q=belgrad+forest&sxsrf=ALeKk024mmcYRz9-vlhaG7eSqs5j-hBcFw:1629550480427&source=lnms&tbm=isch&sa=X&sqi=2&ved=2ahUKEwjNvZ3MlMLyAhVLqZUCHVOKB-EQ_AUoAnoECAEQBA&biw=1366&bih=667">
-                    <img src="imgs/18.jpg">
-                </a>
-                <h3>Forests</h3>
-                <p> have many wonderful forests where you can run on dirt<br> roads that are comfortable for runners</p>
-            </div>
-
-
-            <div class="orp-col">
-                <a href="https://www.google.com/search?q=istanbul+atletizim+pistleri&tbm=isch&ved=2ahUKEwj91f_xlMLyAhXO34UKHe-uAhEQ2-cCegQIABAA&oq=istanbul+atletizim+pistleri&gs_lcp=CgNpbWcQAzoECCMQJzoHCCMQ6gIQJzoHCAAQsQMQQzoICAAQgAQQsQM6BAgAEEM6BQgAEIAEOggIABCxAxCDAToLCAAQgAQQsQMQgwE6BggAEAgQHjoECAAQGFCPhwFY5f4BYPqBAmgKcAB4A4ABpwGIAb4qkgEFMzIuMjKYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABCsABAQ&sclient=img&ei=3_cgYb3qJc6_lwTv3YqIAQ&bih=667&biw=1366">
-                    <img src="imgs/14.jpg">
-                </a>
-                <h3>Tracks</h3>
-                <p>We also have many cool new tracks that you can run on comfortably for runners</p>
-            </div>
-
-
-            <div class="orp-col">
-                <a href="https://www.google.com/search?q=sapanca++trail&tbm=isch&ved=2ahUKEwituu7WlcLyAhWR0oUKHRQ4CmcQ2-cCegQIABAA&oq=sapanca++trail&gs_lcp=CgNpbWcQAzIECCMQJ1DKQFjuSWDtTGgAcAB4AIABZYgBnAWSAQM1LjKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=s_ggYe2UCZGllwSU8Ki4Bg&bih=667&biw=1349&hl=tr">
-                    <img src="imgs/19.jpg">
-                </a>
-                <h3>Trailss</h3>
-                <p>And also a lot of trail places that have great weather</p>
-            </div>
-
-        </div>
-
-    </section>
-
-    <!--- space between--->
-
-    <div class="space-between"></div>
-
-    <!----- Our Professional Runners ----->
-
-    <section class="campus">
-        <h1>Our Professional Runners</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-        <div class="row">
-
-            <div class="campus-col">
-                <img src="imgs/9.jpg">
-                <div class="layer">
-                    <h2>JUST</h2>
+            <div class="card">
+                <div class="icon">
+                    <i id="wordpress" class="fa-brands fa-wordpress"></i>
+                </div>
+                <div class="info">
+                    <h3 id="wordpress">Wordpress</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos rerum libero</p>
                 </div>
             </div>
-
-            <div class="campus-col">
-                <img src="imgs/4.jpg">
-                <div class="layer">
-                    <h2>DO</h2>
+            <div class="card">
+                <div class="icon" id="">
+                    <i id="seo" class="fa-brands fa-searchengin"></i>
+                </div>
+                <div class="info">
+                    <h3 id="seo">SEO</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos rerum libero</p>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="campus-col">
-                <img src="imgs/3.jpg">
-                <div class="layer">
-                    <h2>IT.</h2>
+    <!-----Projects------->
+    <section class="projects" id="projects">
+        <h2 class="title">Projects</h2>
+        <div class="contant">
+            <div class="project-card">
+                <div class="preject-img">
+                    <img src="imgs/27.jpg">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">New website building</p>
+                    <strong class="project-title">
+                        <span>front-end</span>
+                        <a href="#" class="more-details">More Details</a>
+                    </strong>
+                </div>
+
+            </div>
+            <div class="project-card">
+                <div class="preject-img">
+                    <img src="imgs/28.jpg">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">New website building</p>
+                    <strong class="project-title">
+                        <span>front-end</span>
+                        <a href="#" class="more-details">More Details</a>
+                    </strong>
+                </div>
+
+            </div>
+            <div class="project-card">
+                <div class="preject-img">
+                    <img src="imgs/29.jpg">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">New website building</p>
+                    <strong class="project-title">
+                        <span>front-end</span>
+                        <a href="#" class="more-details">More Details</a>
+                    </strong>
+                </div>
+
+            </div>
+            <div class="project-card">
+                <div class="preject-img">
+                    <img src="imgs/30.jpg">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">New website building</p>
+                    <strong class="project-title">
+                        <span>front-end</span>
+                        <a href="#" class="more-details">More Details</a>
+                    </strong>
+                </div>
+
+            </div>
+            <div class="project-card">
+                <div class="preject-img">
+                    <img src="imgs/31.jpg">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">New website building</p>
+                    <strong class="project-title">
+                        <span>front-end</span>
+                        <a href="#" class="more-details">More Details</a>
+                    </strong>
+                </div>
+
+            </div>
+            <div class="project-card">
+                <div class="preject-img">
+                    <img src="imgs/32.jpg">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">New website building</p>
+                    <strong class="project-title">
+                        <span>front-end</span>
+                        <a href="#" class="more-details">More Details</a>
+                    </strong>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!----contact----->
+    <section class="cards contact" id="contact">
+        <h2 class="title">Let's Work Together</h2>
+        <div class="contant contacts">
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <p>+905346810886</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p>nahednakibyos@gmail.com</p>
                 </div>
             </div>
 
         </div>
-
     </section>
 
-    <!--- space between--->
-
-    <div class="space-between"></div>
-
-    <!----- What Our Runners Says ------>
-
-    <section class="testimonials">
-        <h1>What Our Runners Says</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-        <div class="row-1">
-            <div class="testimonials-col">
-                <img src="imgs/1.jpg">
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibusest sollicitudin ut. maecenas ut venenatis ex, et dapibus purus.</p>
-                    <a style="text-decoration: none;" href="https://www.google.com/search?q=nahed+el+nakib&oq=nahed+el+nakib&aqs=chrome..69i57j0i390l5.5402j0j7&sourceid=chrome&ie=UTF-8" target="_blank">
-                        <h3>Nahed Nakib</h3>
-                    </a>
-                </div>
-            </div>
-
+    <!----footer---->
+    <footer class="footer">
+        <p class="footer-title">Copyrights @ <span>Nahed Nakib</span></p>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
 
-    </section>
+    </footer>
 
-    <!------ Call to Action ------>
-
-    <section class="cta">
-        <h1>Enroll for our Various Onlime Courses <br>Anywhere From The World</h1>
-        <a href="https://nahednakibyos@gmail.com/" target="_blank" class="hero-btn">CONTACT US</a>
-
-    </section>
-
-    <!---- Footer ---->
-
-    <section class="footer" id="">
-        <h4>About Us</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibusest sollicitudin ut.<br> maecenas ut venenatis ex, et dapibus purus.</p>
-        <div class="icons">
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-twitter"></i>
-            <a href="https://www.instagram.com/nahed_nakib/?hl=en" target="_blenk"> <i class="fa fa-instagram"></i></a>
-            <i class="fa fa-linkedin"></i>
-        </div>
-        <div class="cost-info">
-            <div class="form-email">
-                <label for="email">Email    :</label>
-                <input type="email" name="email" id="email" required>
-            </div>
-            <div class="form-phone">
-                <label for="phone"> Phone</label>
-                <input type="tel" name="phone" id="phone">
-            </div>
-        </div>
-        <p> <strong>Made By : <a href="https://www.linkedin.com/in/nahed-nakib-450ab9239" target="_blank"><strong> Nahed Nakib</strong>
-            </strong>
-            </a>
-        </p>
-    </section>
-
-
-
-    <!------Javascript for toggle menu------->
-
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="script.js"></script>
 
 </body>
 
