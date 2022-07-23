@@ -347,7 +347,7 @@ section {
         font-size: 1em;
     }
     section {
-        padding: 80px 20px;
+        padding: 80px 10px;
     }
     .main-content h2 {
         font-size: 1em;
@@ -367,41 +367,6 @@ section {
         background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(imgs/1.jpg) no-repeat;
         background-size: cover;
         background-position: -520px;
-        background-attachment: fixed;
-    }
-}
-
-@media (max-width: 641px) {
-    header {
-        padding: 12px 20px;
-    }
-    .navigation a {
-        padding: 10px;
-    }
-    .title {
-        font-size: 1em;
-    }
-    section {
-        padding: 80px 20px;
-    }
-    .main-content h2 {
-        font-size: 1em;
-    }
-    .main-content h3 {
-        font-size: 1em;
-    }
-    .contant {
-        align-items: center;
-        flex-direction: column;
-    }
-    .main {
-        width: 100%;
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(imgs/1.jpg) no-repeat;
-        background-size: cover;
-        background-position: -770px;
         background-attachment: fixed;
     }
 }
