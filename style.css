@@ -238,6 +238,7 @@ section {
 .more-details {
     text-decoration: none;
     color: #901329;
+    font-size: 0.8em;
 }
 
 .more-details:hover {
