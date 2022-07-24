@@ -26,6 +26,17 @@ header {
     font-size: 1.8em;
 }
 
+
+/* .titles {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #901235;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+} */
+
 .navigation a {
     color: #901235;
     text-decoration: none;
@@ -338,35 +349,21 @@ section {
     header {
         padding: 12px 20px;
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        float: left;
+        position: fixed;
     }
-    .navigation a {
-        padding: 10px;
+    body {
+        max-width: 400px;
     }
     .title {
         font-size: 1em;
     }
     section {
         padding: 80px 10px;
+        max-width: 400px;
     }
-    .main-content h2 {
-        font-size: 1em;
-    }
-    .main-content h3 {
-        font-size: 1em;
-    }
-    .contant {
-        align-items: center;
-        flex-direction: column;
-    }
-    .main {
-        width: 100%;
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(imgs/1.jpg) no-repeat;
-        background-size: cover;
-        background-position: -520px;
-        background-attachment: fixed;
+    .my-card {
+        max-width: 400px;
     }
 }
