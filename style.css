@@ -142,10 +142,10 @@ section {
 }
 
 .card {
-    background-color: rgb(249, 240, 240);
+    background-color: #fff;
     width: 18.25em;
     height: 26em;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.400);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.4);
     border-radius: 10px;
     padding: 30px;
     margin: 20px;
@@ -195,7 +195,7 @@ section {
 .project-card {
     background-color: #fff;
     border: 1px solid white;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.400);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.4);
     min-height: 14em;
     width: 19em;
     overflow: hidden;
@@ -249,11 +249,11 @@ section {
 /* About Me */
 
 .my-card {
-    background-color: rgb(249, 240, 240);
+    background-color: #fff;
     width: 50.25em !important;
     height: 25em;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.300);
-    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
     padding: 30px;
     margin: 20px;
     transition: 0.7s ease;
