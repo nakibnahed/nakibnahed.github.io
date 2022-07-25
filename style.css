@@ -139,10 +139,13 @@ section {
 .title {
     display: flex;
     justify-content: center;
+    align-items: center;
     color: #901235;
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
+    box-shadow: 0 2px 60px rgba(174, 174, 174, 0.553);
+    background-color: rgba(255, 255, 255, 0.058);
 }
 
 .contant {
@@ -156,7 +159,7 @@ section {
     background-color: #fff;
     width: 18.25em;
     height: 26em;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     padding: 30px;
     margin: 20px;
@@ -206,7 +209,7 @@ section {
 .project-card {
     background-color: #fff;
     border: 1px solid white;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
     min-height: 14em;
     width: 19em;
     overflow: hidden;
@@ -263,7 +266,7 @@ section {
     background-color: #fff;
     width: 50.25em !important;
     height: 25em;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
     border-radius: 20px;
     padding: 30px;
     margin: 20px;
