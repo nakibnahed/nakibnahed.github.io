@@ -144,8 +144,6 @@ section {
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
-    box-shadow: 0 2px 60px rgba(174, 174, 174, 0.553);
-    background-color: rgba(255, 255, 255, 0.058);
 }
 
 .contant {
@@ -363,6 +361,8 @@ section {
     .main {
         background-position: center center;
         background-size: cover;
+        display: flex;
+        justify-content: left;
     }
     .title {
         font-size: 1em;
@@ -380,7 +380,7 @@ section {
     }
 }
 
-@media (max-width: 400px) {
+@media only screen and (max-width: 640px) {
     header {
         padding: 12px 20px;
         display: flex;
@@ -390,7 +390,7 @@ section {
         position: fixed;
     }
     body {
-        max-width: 400px;
+        max-width: 640px;
     }
     .main {
         background-position: center center;
@@ -401,13 +401,13 @@ section {
     }
     section {
         padding: 80px 10px;
-        max-width: 400px;
+        max-width: 640px;
     }
     .contant-me {
         max-width: 1023px;
     }
     .my-card {
-        max-width: 400px;
+        max-width: 640px;
         height: 500px;
     }
 }
