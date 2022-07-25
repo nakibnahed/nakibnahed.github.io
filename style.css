@@ -354,10 +354,47 @@ section {
         display: flex;
         flex-direction: column;
         float: left;
+        flex-wrap: wrap;
+        position: fixed;
+    }
+    body {
+        max-width: 1023px;
+    }
+    .main {
+        background-position: center center;
+        background-size: cover;
+    }
+    .title {
+        font-size: 1em;
+    }
+    section {
+        padding: 80px 10px;
+        max-width: 1023px;
+    }
+    .contant-me {
+        max-width: 1023px;
+    }
+    .my-card {
+        max-width: 1023px;
+        height: 500px;
+    }
+}
+
+@media (max-width: 400px) {
+    header {
+        padding: 12px 20px;
+        display: flex;
+        flex-direction: column;
+        float: left;
+        flex-wrap: wrap;
         position: fixed;
     }
     body {
         max-width: 400px;
+    }
+    .main {
+        background-position: center center;
+        background-size: cover;
     }
     .title {
         font-size: 1em;
@@ -366,7 +403,11 @@ section {
         padding: 80px 10px;
         max-width: 400px;
     }
+    .contant-me {
+        max-width: 1023px;
+    }
     .my-card {
         max-width: 400px;
+        height: 500px;
     }
 }
