@@ -380,6 +380,8 @@ section {
         background-size: cover;
         display: flex;
         justify-content: left;
+    }
+    .main-div {
         position: absolute;
         left: 100px;
     }
@@ -406,8 +408,6 @@ section {
         flex-direction: column;
         float: left;
         flex-wrap: wrap;
-        position: absolute;
-        left: 100px;
     }
     body {
         max-width: 640px;
@@ -415,6 +415,10 @@ section {
     .main {
         background-position: center center;
         background-size: cover;
+    }
+    .main-div {
+        position: absolute;
+        left: 100px;
     }
     .title {
         font-size: 1em;
