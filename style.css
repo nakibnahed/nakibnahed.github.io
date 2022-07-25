@@ -24,6 +24,7 @@ header {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
+    padding-right: 500px;
 }
 
 
@@ -376,7 +377,7 @@ section {
         max-width: 1023px;
     }
     .main {
-        background-position: center center;
+        background-position: right center;
         background-size: cover;
         display: flex;
         justify-content: left;
@@ -397,7 +398,7 @@ section {
     }
     .my-card {
         max-width: 1023px;
-        height: 500px;
+        height: 600px;
     }
 }
 
@@ -413,7 +414,7 @@ section {
         max-width: 640px;
     }
     .main {
-        background-position: center center;
+        background-position: right center;
         background-size: cover;
     }
     .main-div {
@@ -432,6 +433,6 @@ section {
     }
     .my-card {
         max-width: 640px;
-        height: 500px;
+        height: 600px;
     }
 }
