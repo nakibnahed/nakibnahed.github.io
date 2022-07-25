@@ -380,6 +380,8 @@ section {
         background-size: cover;
         display: flex;
         justify-content: left;
+        position: absolute;
+        left: 100px;
     }
     .title {
         font-size: 1em;
@@ -404,7 +406,8 @@ section {
         flex-direction: column;
         float: left;
         flex-wrap: wrap;
-        position: fixed;
+        position: absolute;
+        left: 100px;
     }
     body {
         max-width: 640px;
