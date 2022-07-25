@@ -136,6 +136,22 @@ section {
 
 /*    services section     */
 
+.title-icon {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.title-icon i {
+    padding: 13px 0 0 0;
+    text-decoration: none;
+    color: #901235;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
 .title {
     display: flex;
     justify-content: center;
@@ -144,6 +160,7 @@ section {
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
+    padding-left: 15px;
 }
 
 .contant {
