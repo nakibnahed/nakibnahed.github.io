@@ -457,7 +457,7 @@ section {
 
 @media only screen and (max-width: 414px) {
     .main {
-        background-position: -700px center;
+        background-position: -500px center;
         background-size: cover;
         display: flex;
         justify-content: left;
