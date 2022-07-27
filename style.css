@@ -423,7 +423,7 @@ section {
         max-width: 640px;
     }
     .main {
-        background-position: -550px center;
+        background-position: -750px center;
         background-size: cover;
     }
     .main-div {
@@ -446,5 +446,36 @@ section {
     .my-card {
         max-width: 640px;
         height: 600px;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .main {
+        background-position: -800px center;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .main {
+        background-position: -550px center;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .main {
+        background-position: -700px center;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .main {
+        background-position: -550px center;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .main {
+        background-position: -750px center;
     }
 }
