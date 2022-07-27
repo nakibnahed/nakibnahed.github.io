@@ -455,6 +455,19 @@ section {
     }
 }
 
+@media only screen and (max-width: 414px) {
+    .main {
+        background-position: -700px center;
+        background-size: cover;
+        display: flex;
+        justify-content: left;
+    }
+    .main {
+        background-position: -550px center;
+        background-size: cover;
+    }
+}
+
 @media only screen and (max-width: 375px) {
     .main {
         background-position: -550px center;
