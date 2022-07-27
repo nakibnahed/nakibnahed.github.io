@@ -437,6 +437,9 @@ section {
         padding: 80px 10px;
         max-width: 640px;
     }
+    .title-icon i {
+        padding: 0;
+    }
     .contant-me {
         max-width: 1023px;
     }
