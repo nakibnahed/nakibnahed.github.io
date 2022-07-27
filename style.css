@@ -69,7 +69,7 @@ section {
     align-items: center;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(imgs/1.jpg) no-repeat;
     background-size: cover;
-    background-position: right top;
+    background-position: right center;
     background-attachment: fixed;
     padding: 100px 200px;
 }
@@ -380,8 +380,11 @@ section {
     body {
         max-width: 1023px;
     }
+    .logo {
+        display: none;
+    }
     .main {
-        background-position: right center;
+        background-position: -1000px center;
         background-size: cover;
         display: flex;
         justify-content: left;
@@ -410,20 +413,22 @@ section {
     header {
         padding: 12px 20px;
         display: flex;
-        flex-direction: column;
-        float: left;
-        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .logo {
+        display: none;
     }
     body {
         max-width: 640px;
     }
     .main {
-        background-position: right center;
+        background-position: -550px center;
         background-size: cover;
     }
     .main-div {
         position: absolute;
-        left: 100px;
+        left: 30px;
     }
     .title {
         font-size: 1em;
