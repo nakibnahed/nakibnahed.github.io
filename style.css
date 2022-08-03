@@ -250,6 +250,7 @@ section {
     width: 100%;
     max-height: 200px;
     border: 1px 10px solid black;
+    height: auto;
 }
 
 .project-info {
@@ -373,9 +374,7 @@ section {
         padding: 12px 20px;
         display: flex;
         flex-direction: column;
-        float: left;
         flex-wrap: wrap;
-        position: fixed;
     }
     body {
         max-width: 1023px;
@@ -384,7 +383,7 @@ section {
         display: none;
     }
     .main {
-        background-position: -1000px center;
+        background-position: center;
         background-size: cover;
         display: flex;
         justify-content: left;
@@ -400,6 +399,10 @@ section {
         padding: 80px 10px;
         max-width: 1023px;
     }
+    .contant {
+        display: flex;
+        justify-content: center;
+    }
     .contant-me {
         max-width: 1023px;
     }
@@ -409,26 +412,21 @@ section {
     }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 767px) {
     header {
         padding: 12px 20px;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
     .logo {
         display: none;
     }
-    body {
-        max-width: 640px;
-    }
     .main {
-        background-position: -750px center;
+        background-position: center;
         background-size: cover;
-    }
-    .main-div {
-        position: absolute;
-        left: 30px;
+        display: flex;
+        justify-content: center;
     }
     .title {
         font-size: 1em;
@@ -436,6 +434,10 @@ section {
     section {
         padding: 80px 10px;
         max-width: 640px;
+    }
+    .contant {
+        display: flex;
+        justify-content: center;
     }
     .title-icon i {
         padding: 0;
@@ -446,49 +448,5 @@ section {
     .my-card {
         max-width: 640px;
         height: 600px;
-    }
-}
-
-@media only screen and (max-width: 820px) {
-    .main {
-        background-position: -800px center;
-    }
-}
-
-@media only screen and (max-width: 414px) {
-    .main {
-        background-position: -500px center;
-        background-size: cover;
-        display: flex;
-        justify-content: left;
-    }
-    .main {
-        background-position: -550px center;
-        background-size: cover;
-    }
-}
-
-@media only screen and (max-width: 375px) {
-    .main {
-        background-position: -550px center;
-        background-size: cover;
-    }
-}
-
-@media only screen and (max-width: 360px) {
-    .main {
-        background-position: -700px center;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-    .main {
-        background-position: -550px center;
-    }
-}
-
-@media only screen and (max-width: 280px) {
-    .main {
-        background-position: -750px center;
     }
 }
