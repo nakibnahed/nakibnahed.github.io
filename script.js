@@ -1,16 +1,17 @@
-var a;
+let workTitle = "Front-End Developer";
 
-function myfunction() {
+let index = 1;
 
-    if (a == 1) {
-        document.getElementById("navbar").style.display = "inline";
-        return a = 0;
-    } else {
-        document.getElementById("navbar").style.display = "none";
-        return a = 1;
+function writeText() {
+    document.getElementById("work-title").textContent = workTitle.slice(0, index);
+
+    index++
+
+    if (index > workTitle.length) {
+        index = 1;
     }
 }
 
-function myFunction() {
-    alert("I am an alert box!");
-}
+setInterval(() => {
+    writeText()
+}, 120);

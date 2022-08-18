@@ -88,6 +88,10 @@ section {
     font-weight: 600;
 }
 
+.nahed-name {
+    font-family: cursive;
+}
+
 .main h3 {
     color: #fff;
     font-size: 1.5em;
