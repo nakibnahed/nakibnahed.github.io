@@ -14,4 +14,4 @@ function writeText() {
 
 setInterval(() => {
     writeText()
-}, 120);
+}, 120, 5);
