@@ -256,12 +256,12 @@ section {
 }
 
 .project-card:hover .preject-img {
-    opacity: 0.9;
+    opacity: .9;
 }
 
 .preject-img img {
     width: 100%;
-    max-height: 200px;
+    max-height: 220px;
     border: 1px 10px solid black;
     height: auto;
 }
