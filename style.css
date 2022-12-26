@@ -200,14 +200,15 @@ section {
     transition: 0.7s ease;
     opacity: 0.9;
     box-decoration-break: initial;
-    border: 0.1px solid rgba(0, 0, 0, 0.2);
+    border: 0.1px solid rgba(0, 0, 0, 0.3);
     border-radius: 16px !important;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
     margin: 20px;
 }
 
 .card:hover {
-    transform: scale(1.1);
+    transform: scale(0.99);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
 }
 
 .icon {
@@ -266,8 +267,8 @@ section {
 }
 
 .project-card:hover {
-    transform: scale(1.1);
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    transform: scale(0.99);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
 }
 
 .project-card:hover .preject-img {
@@ -357,8 +358,13 @@ section {
 
 .contacts .card {
     height: 250px;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.11);
-    background: linear-gradient(#f8f9fa, #efefef, #e1e1e1);
+    background-color: #f8f9fa;
+    border: 0.1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+}
+
+.contacts .card:hover {
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
 }
 
 .card:hover #phone {
