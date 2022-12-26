@@ -1,4 +1,4 @@
-let workTitle = "Front-End Developer";
+let workTitle = "Web Developer";
 
 let index = 1;
 
