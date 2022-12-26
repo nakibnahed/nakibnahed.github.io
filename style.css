@@ -78,7 +78,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/imgs/Untitled-1.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/imgs/nahedbg.jpg) no-repeat;
     background-size: cover;
     background-position: top center;
     background-attachment: fixed;
