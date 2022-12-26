@@ -128,7 +128,9 @@ section {
 
 .main-btn:hover {
     background-color: #901329;
-    transform: scale(1.1);
+    transform: scale(0.99);
+     text-decoration: none;
+
 }
 
 .social-icons a {
