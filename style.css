@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "../node_modules/bootstrap/scss/functions";
 * {
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,7 +14,7 @@ body {
 }
 
 header {
-    background-color: rgba(45, 44, 44, 0.404);
+    /* background-color: rgba(45, 44, 44, 0.7); */
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -76,9 +78,9 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(imgs/1.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/imgs/Untitled-1.jpg) no-repeat;
     background-size: cover;
-    background-position: right center;
+    background-position: top center;
     background-attachment: fixed;
     padding: 100px 200px;
 }
@@ -162,12 +164,12 @@ section {
 }
 
 .title-icon i {
-    padding: 13px 0 0 0;
+    padding: 18px 0 0 0;
     text-decoration: none;
     color: #901235;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 1.8em;
+    font-size: 2.8em;
 }
 
 .title {
@@ -186,17 +188,22 @@ section {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .card {
-    background: linear-gradient(#f8f9fa, #efefef, #e1e1e1);
-    width: 18.25em;
-    height: 26em;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    padding: 30px;
-    margin: 20px;
+    background: linear-gradient(0.50turn, #F5F5F5, #F0FFF0, #F0FFF0);
+    width: 350px;
+    height: 450px;
+    max-height: 700px;
+    padding: 10px;
     transition: 0.7s ease;
+    opacity: 0.9;
+    box-decoration-break: initial;
+    border: 0.1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 16px !important;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+    margin: 20px;
 }
 
 .card:hover {
@@ -207,6 +214,7 @@ section {
     color: #901235;
     font-size: 8em;
     text-align: center;
+    margin-top: 30px;
 }
 
 .card:hover #wordpress {
@@ -227,9 +235,14 @@ section {
 
 .info h3 {
     color: #901235;
-    font-size: 1.2em;
+    font-size: 1.9em;
     font-weight: 700;
     margin: 10px;
+}
+
+.info p {
+    margin: 20px 50px;
+    font-size: 18px;
 }
 
 
@@ -242,9 +255,10 @@ section {
 .project-card {
     background-color: #f8f9fa;
     border: 1px solid white;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.09);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
     min-height: 14em;
-    width: 21em;
+    width: 25em;
+    height: 300px;
     overflow: hidden;
     border-radius: 10px;
     margin: 20px;
@@ -253,10 +267,11 @@ section {
 
 .project-card:hover {
     transform: scale(1.1);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
 }
 
 .project-card:hover .preject-img {
-    opacity: .9;
+    opacity: 1;
 }
 
 .preject-img img {
@@ -297,11 +312,11 @@ section {
 /* About Me */
 
 .my-card {
-    background: linear-gradient(#f8f9fa, #efefef, #e1e1e1);
+    background: #fff;
     width: 50.25em !important;
-    height: 25em;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.11);
-    border-radius: 20px;
+    border: 0.1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
     padding: 30px;
     margin: 20px;
     transition: 0.7s ease;
@@ -309,9 +324,10 @@ section {
     justify-content: center;
 }
 
-.my-card:hover {
+
+/* .my-card:hover {
     transform: scale(1.1);
-}
+} */
 
 .me-img img {
     width: 100px;
@@ -385,6 +401,7 @@ section {
 
 @media (max-width: 1023px) {
     header {
+        display: none;
         padding: 12px 20px;
         display: flex;
         flex-direction: column;
@@ -416,6 +433,7 @@ section {
     .contant {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     .contant-me {
         max-width: 1023px;
@@ -432,12 +450,14 @@ section {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        display: none;
     }
     .logo {
         display: none;
     }
     .main {
         background-position: center;
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(imgs/1.jpg) no-repeat;
         background-size: cover;
         display: flex;
         justify-content: center;
