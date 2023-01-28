@@ -22,6 +22,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 200px;
+    border-color: #99999980;
+    box-shadow: 0 0px 20px #00000040
 }
 
 .logo {
@@ -78,9 +80,8 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(rgba(100, 100, 100, 0.4), rgba(100, 100, 100, 0.4)), url(/imgs/pexels-pixabay-206901.jpg) no-repeat;
+    background: linear-gradient(rgba(100, 100, 100, 0.4), rgba(100, 100, 100, 0.4)), url(/imgs/1.jpg) no-repeat;
     background-size: cover;
-    background-position: top center;
     background-attachment: fixed;
     padding: 100px 200px;
 }
@@ -405,88 +406,51 @@ section {
 
 /* media */
 
-@media (max-width: 1023px) {
+@media(max-width:767px) {
     header {
-        display: none;
-        padding: 12px 20px;
+        position: fixed;
+        padding: 12px 0px 12px 5px;
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        background-color: rgba(0, 0, 0, 0.579);
     }
-    body {
-        max-width: 1023px;
+    p {
+        font-size: 14px;
+    }
+    .navigation {
+        align-self: center;
+    }
+    .navigation a {
+        padding: 0px 10px;
+        align-self: center;
     }
     .logo {
         display: none;
     }
     .main {
-        background-position: center;
+        background-position: right 35% bottom 45% !important;
         background-size: cover;
         display: flex;
         justify-content: left;
     }
     .main-div {
         position: absolute;
-        left: 100px;
+        left: 35px;
     }
     .title {
         font-size: 1em;
     }
     section {
         padding: 80px 10px;
-        max-width: 1023px;
     }
     .contant {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .contant-me {
-        max-width: 1023px;
-    }
-    .my-card {
-        max-width: 1023px;
-        height: 600px;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    header {
-        padding: 12px 20px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        display: none;
-    }
-    .logo {
-        display: none;
-    }
-    .main {
-        background-position: center;
-        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(imgs/1.jpg) no-repeat;
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-    }
-    .title {
-        font-size: 1em;
-    }
-    section {
-        padding: 80px 10px;
-        max-width: 640px;
-    }
-    .contant {
-        display: flex;
-        justify-content: center;
-    }
-    .title-icon i {
-        padding: 0;
-    }
-    .contant-me {
-        max-width: 1023px;
-    }
-    .my-card {
-        max-width: 640px;
-        height: 600px;
+    .info p {
+        margin: 20px 10px;
     }
 }

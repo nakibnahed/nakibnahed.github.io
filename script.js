@@ -15,3 +15,5 @@ function writeText() {
 setInterval(() => {
     writeText()
 }, 170, 5);
+
+document.getElementById("myname").style.color = "blue";
