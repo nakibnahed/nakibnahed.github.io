@@ -1,4 +1,4 @@
-let workTitle = "Web Developer";
+// let workTitle = "Web Developer";
 
 let index = 1;
 
@@ -15,3 +15,4 @@ function writeText() {
 setInterval(() => {
     writeText()
 }, 120, 5);
+  
