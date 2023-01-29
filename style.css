@@ -85,8 +85,9 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(rgba(45, 45, 45, 0.4), rgba(45, 45, 45, 0.4)), url(/imgs/1.jpg) no-repeat;
+    background: linear-gradient(rgba(45, 45, 45, 0.6), rgba(45, 45, 45, 0.6)), url(/imgs/code-11.jpg) no-repeat;
     background-size: cover;
+    background-position: right;
     background-attachment: fixed;
     padding: 100px 200px;
 }
@@ -404,17 +405,20 @@ section {
     align-items: center;
     margin-top: 25px;
     padding: 10px 50px;
-    margin: 25px auto;
+    margin: 25px auto 0px auto;
     text-align: center;
 }
 
 footer .social-icons {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .footer-title {
-    font-size: 1em;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 0;
+    text-align: center;
 }
 
 .footer-title span {
@@ -423,11 +427,12 @@ footer .social-icons {
 
 .social-icons a {
     color: #761C33;
+    padding: 0 15px 0 0;
 }
 
 .footer-title .social-icons a {
     font-size: 1.3em;
-    padding: 0 12px 0 0;
+    padding: 0 5px 0 0 !important;
 }
 
 
@@ -461,8 +466,7 @@ footer .social-icons {
         display: none;
     }
     .main {
-        background-position: right 35% bottom 45% !important;
-        background-size: 1500px !important;
+        background: linear-gradient(rgba(45, 45, 45, 0.6), rgba(45, 45, 45, 0.6)), url(/imgs/code-final.jpg) no-repeat;
         background-size: cover;
         display: flex;
         justify-content: left;
@@ -470,7 +474,7 @@ footer .social-icons {
     .main-div {
         position: absolute;
         left: 25px;
-        top: 400px;
+        top: 450px;
         border: 0.1px solid rgba(0, 0, 0, 0.155);
         background: linear-gradient(rgba(100, 100, 100, 0.7), rgba(46, 46, 46, 0.4), rgba(100, 100, 100, 0.6));
         border-radius: 16px;
@@ -481,70 +485,5 @@ footer .social-icons {
     }
     section {
         padding: 80px 10px;
-    }
-    .contant {
-        width: 80%;
-        margin: 0px auto;
-        margin-top: 100px;
-        max-width: 600px;
-        position: relative;
-        overflow: hidden;
-        border: 10px solid white;
-        box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
-    }
-    .card,
-    .project-card {
-        width: 100%;
-        display: none;
-        animation-name: fade;
-        animation-duration: 1s;
-    }
-    img {
-        width: 100%;
-    }
-    .controls {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        font-size: 1.5em;
-        padding: 15px 10px;
-        border-radius: 5px;
-    }
-    .controls:hover {
-        background: white;
-        transition: 0.3s;
-    }
-    .controls:active {
-        color: grey;
-    }
-    #left-arrow {
-        left: 10px;
-    }
-    #right-arrow {
-        right: 10px;
-    }
-    #dots-con {
-        text-align: center;
-    }
-    .dot {
-        display: inline-block;
-        background: grey;
-        padding: 8px;
-        border-radius: 50%;
-        margin: 10px 5px;
-    }
-    .active {
-        background: rgb(7, 67, 213);
-    }
-    @keyframes fade {
-        from {
-            opacity: 0.5;
-        }
-        to {
-            opacity: 1;
-        }
-    }
-    .info p {
-        margin: 20px 10px;
     }
 }
