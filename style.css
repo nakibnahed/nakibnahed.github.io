@@ -2,7 +2,7 @@
 @import "../node_modules/bootstrap/scss/functions";
 * {
     /* font-family: 'Poppins', sans-serif; */
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Avenir;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,22 +21,27 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 75px 20px 150px;
+    padding: 35px 75px 20px 150px;
     /* border-color: #99999980; */
     /* box-shadow: 0 0px 20px #00000040 */
 }
 
 .logo {
     text-decoration: none;
-    color: #761C33;
+    color: rgba(255, 255, 255, 0.7);
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 1.8em;
+    font-size: 2.5em;
+    font-family: fantasy;
+}
+
+.logo i {
+    font-size: 0.9em;
 }
 
 .logo:hover {
     text-decoration: none;
-    color: #761C33;
+    color: #5b1616;
 }
 
 header .toggle {
@@ -51,26 +56,17 @@ header .toggle {
 
 .toggle i {
     /* color: rgba(255, 255, 255, 0.641); */
-    color: #761C33;
+    color: rgba(255, 255, 255, 0.7);
     font-size: 30px;
+}
+
+.toggle i:hover {
+    color: #6b1919;
 }
 
 .navigation {
     display: none;
 }
-
-
-/* .navigation a {
-    color: #761C33;
-    text-decoration: none;
-    font-size: 1.4em;
-    font-weight: 600;
-    padding-left: 40px;
-}
-
-.navigation a:hover {
-    color: #fff;
-} */
 
 section {
     padding: 50px 200px;
@@ -100,7 +96,7 @@ section {
 }
 
 .main h2 {
-    color: #fff;
+    color: #ffffffb3;
     font-size: 1.4em;
     font-weight: 500;
 }
@@ -108,7 +104,7 @@ section {
 .main h2 span {
     display: inline-block;
     margin-top: 10px;
-    color: #761C33;
+    color: #5b1616;
     font-size: 2em;
     font-weight: 600;
 }
@@ -118,7 +114,7 @@ section {
 }
 
 .main h3 {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.7);
     font-size: 1.5em;
     font-weight: 500;
     letter-spacing: 1px;
@@ -134,7 +130,7 @@ section {
 .main-btn {
     text-decoration: none;
     color: #fff;
-    background: #761C33;
+    background: #5b1616;
     font-size: 1.1em;
     font-weight: 400;
     display: inline-block;
@@ -152,7 +148,7 @@ section {
 }
 
 .social-icons a {
-    color: #fff !important;
+    color: rgba(255, 255, 255, 0.7) !important;
     font-size: 1.7em;
     padding-right: 20px;
 }
@@ -408,9 +404,15 @@ section {
     text-align: center;
 }
 
-footer .social-icons {
-    margin-bottom: 10px;
+.footer-social-icons {
+    margin-bottom: 15px !important;
+}
+
+.footer-social-icons a {
     text-align: center;
+    color: #901235 !important;
+    font-size: 1.7em;
+    padding: 0px 10px;
 }
 
 .footer-title {
@@ -429,9 +431,10 @@ footer .social-icons {
     padding: 0 15px 0 0;
 }
 
-.footer-title .social-icons a {
+.footer-title .footer-social-icons a {
     font-size: 1.3em;
     padding: 0 5px 0 0 !important;
+    color: #761C33 !important;
 }
 
 
@@ -439,20 +442,26 @@ footer .social-icons {
 
 @media(max-width:767px) {
     header {
-        position: fixed;
+        position: absolute;
         z-index: 999;
-        padding: 20px 0px 20px 5px;
+        padding: 15px 10px 20px 20px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         flex-wrap: nowrap;
-        background-color: rgb(0, 0, 0);
+        background-color: transparent;
     }
     p {
         font-size: 14px !important;
     }
     a {
         font-weight: 200 !important;
+    }
+    .title-icon i {
+        font-size: 1.3em !important;
+    }
+    .card .icon {
+        font-size: 4em;
     }
     .navigation {
         align-self: center;
@@ -462,12 +471,15 @@ footer .social-icons {
         align-self: center;
     }
     .logo {
-        display: none;
+        font-size: 1.9em;
+    }
+    .toggle i {
+        font-size: 1.9em;
     }
     .main {
         background: linear-gradient(rgba(45, 45, 45, 0.6), rgba(45, 45, 45, 0.6)), url(/imgs/me-1.jpg) no-repeat;
         background-size: cover;
-        background-position: 40% -25px;
+        background-position: 40% -30px;
         display: flex;
         justify-content: left;
     }
@@ -480,15 +492,14 @@ footer .social-icons {
         border-radius: 16px;
         padding: 25px 25px 35px 25px;
     }
+    .card {
+        height: 350px;
+        padding-top: 20px;
+    }
     .title {
         font-size: 1em;
     }
     section {
         padding: 80px 10px;
     }
-    <<<<<<< HEAD
 }
-
-=======
-}
->>>>>>>1d5129e51bab2a43300cc9b67988881a4a3e1f44
