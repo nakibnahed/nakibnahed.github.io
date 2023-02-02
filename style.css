@@ -10,7 +10,7 @@
 }
 
 body {
-    background: #f5f5f7;
+    background: #fff;
 }
 
 header {
@@ -85,16 +85,16 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(rgba(45, 45, 45, 0.6), rgba(45, 45, 45, 0.6)), url(/imgs/code-11.jpg) no-repeat;
+    background: linear-gradient( rgba(45, 45, 45, 0.6), rgba(45, 45, 45, 0.4)), url(/imgs/me-3.jpg) no-repeat;
     background-size: cover;
-    background-position: right;
+    background-position: 100% 40%;
     background-attachment: fixed;
     padding: 100px 200px;
 }
 
 .main-div {
     border: 0.1px solid rgba(0, 0, 0, 0.155);
-    background: linear-gradient(rgba(100, 100, 100, 0.7), rgba(46, 46, 46, 0.4), rgba(100, 100, 100, 0.6));
+    background: linear-gradient(rgba(100, 100, 100, 0.4), rgba(110, 110, 110, 0.4), rgba(100, 100, 100, 0.4));
     border-radius: 16px;
     padding: 25px 130px 35px 25px;
 }
@@ -152,7 +152,7 @@ section {
 }
 
 .social-icons a {
-    color: #fff;
+    color: #fff !important;
     font-size: 1.7em;
     padding-right: 20px;
 }
@@ -354,7 +354,6 @@ section {
     width: 100px;
     height: 120px;
     border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.400);
 }
 
 .me-name {
@@ -466,8 +465,9 @@ footer .social-icons {
         display: none;
     }
     .main {
-        background: linear-gradient(rgba(45, 45, 45, 0.6), rgba(45, 45, 45, 0.6)), url(/imgs/code-final.jpg) no-repeat;
+        background: linear-gradient(rgba(45, 45, 45, 0.6), rgba(45, 45, 45, 0.6)), url(/imgs/me-1.jpg) no-repeat;
         background-size: cover;
+        background-position: 40% -25px;
         display: flex;
         justify-content: left;
     }
@@ -486,8 +486,9 @@ footer .social-icons {
     section {
         padding: 80px 10px;
     }
-<<<<<<< HEAD
+    <<<<<<< HEAD
 }
+
 =======
 }
->>>>>>> 1d5129e51bab2a43300cc9b67988881a4a3e1f44
+>>>>>>>1d5129e51bab2a43300cc9b67988881a4a3e1f44
