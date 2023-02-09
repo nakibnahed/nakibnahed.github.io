@@ -13,8 +13,9 @@ body {
     background: #fff;
 }
 
-header {
-    /* background-color: rgba(45, 44, 44, 0.7); */
+
+/* header {
+    background-color: rgba(45, 44, 44, 0.7);
     width: 100%;
     position: absolute;
     z-index: 999;
@@ -22,8 +23,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 35px 75px 20px 150px;
-    /* border-color: #99999980; */
-    /* box-shadow: 0 0px 20px #00000040 */
+    border-color: #99999980;
+    box-shadow: 0 0px 20px #00000040
 }
 
 .logo {
@@ -41,21 +42,18 @@ header {
 
 .logo:hover {
     text-decoration: none;
-    color: #5b1616;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 header .toggle {
     position: relative;
     width: 40px;
     height: 30px;
-    /* background: url(/imgs/hamburger-menu-icon-transparent-3.jpg) no-repeat;
-    background-position: center;
-    background-size: 30px; */
     cursor: pointer;
 }
 
 .toggle i {
-    /* color: rgba(255, 255, 255, 0.641); */
     color: rgba(255, 255, 255, 0.7);
     font-size: 30px;
 }
@@ -66,6 +64,16 @@ header .toggle {
 
 .navigation {
     display: none;
+} */
+
+.new-navbar {
+    background-color: transparent;
+    font-family: Avenir !important;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: end;
 }
 
 section {
@@ -81,7 +89,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient( rgba(45, 45, 45, 0.6), rgba(45, 45, 45, 0.4)), url(/imgs/me-3.jpg) no-repeat;
+    background: linear-gradient( rgba(45, 45, 45, 0.4), rgba(45, 45, 45, 0.4)), url(/imgs/me-3.jpg) no-repeat;
     background-size: cover;
     background-position: 100% 40%;
     background-attachment: fixed;
@@ -90,7 +98,7 @@ section {
 
 .main-div {
     border: 0.1px solid rgba(0, 0, 0, 0.155);
-    background: linear-gradient(rgba(100, 100, 100, 0.4), rgba(110, 110, 110, 0.4), rgba(100, 100, 100, 0.4));
+    background: linear-gradient(rgba(134, 134, 134, 0.4), rgba(137, 137, 137, 0.4), rgba(127, 127, 127, 0.4));
     border-radius: 16px;
     padding: 25px 130px 35px 25px;
 }
@@ -225,6 +233,7 @@ section {
 .card:hover {
     transform: scale(0.99);
     box-shadow: 0 0px 20px rgb(0 0 0 / 25%);
+    cursor: pointer;
 }
 
 .icon {
