@@ -77,7 +77,7 @@ header .toggle {
 }
 
 section {
-    padding: 50px 200px;
+    padding: 50px 100px;
     margin: 0;
 }
 
@@ -112,7 +112,7 @@ section {
 .main h2 span {
     display: inline-block;
     margin-top: 10px;
-    color: #5b1616;
+    color: #ffc107;
     font-size: 2em;
     font-weight: 600;
 }
@@ -137,10 +137,10 @@ section {
 
 .main-btn {
     text-decoration: none;
-    color: #fff;
-    background: #5b1616;
+    color: #000;
+    background: #fdbe00;
+    font-weight: 500;
     font-size: 1.1em;
-    font-weight: 400;
     display: inline-block;
     padding: 10px 20px;
     border-radius: 10px;
@@ -190,7 +190,7 @@ section {
 .title-icon i {
     padding: 18px 0 0 0;
     text-decoration: none;
-    color: #901235;
+    color: #761C33;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 2.8em;
@@ -200,7 +200,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #901235;
+    color: #761C33;
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
@@ -237,7 +237,7 @@ section {
 }
 
 .icon {
-    color: #901235;
+    color: #fdbe00;
     font-size: 8em;
     text-align: center;
     margin-top: 30px;
@@ -260,7 +260,7 @@ section {
 }
 
 .info h3 {
-    color: #901235;
+    color: #fdbe00;
     font-size: 1.9em;
     font-weight: 700;
     margin: 10px;
