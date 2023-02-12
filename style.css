@@ -180,7 +180,7 @@ section {
 
 /*    services section     */
 
-#slider {
+.slider-sec {
     margin-top: 20px;
     height: 500px;
     display: flex;
@@ -202,7 +202,7 @@ section {
     justify-content: end;
 }
 
-#controls i {
+.controls i {
     color: #fff;
     font-size: 1rem;
 }
@@ -253,7 +253,7 @@ section {
 }
 
 .slide-img:hover {
-    box-shadow: 0 0 0 200px #000000e6 inset;
+    box-shadow: 0 0 0 200px #0000008d inset;
 }
 
 .slide-img a {

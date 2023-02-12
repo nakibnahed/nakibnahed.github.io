@@ -3,7 +3,7 @@ let slider = tns({
     "slideBy": 1,
     "speed": 400,
     "nav": false,
-    controlsContainer: "#controls",
+    controlsContainer: ".controls",
     prevButton: ".previous",
     nextButton: ".next",
     responsive: {
