@@ -203,40 +203,44 @@ section {
 }
 
 .controls i {
-    color: #fff;
-    font-size: 1rem;
+    color: #0000007e;
+    font-size: 1.2rem;
 }
 
 .previous,
 .next {
-    padding: 2px;
+    margin: 5px;
+    padding: 5px;
     width: 30px;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 5px;
     outline: none;
-    transition: 0.7s ease-in-out;
-    border: 3px solid #fff;
-    background-color: #000;
+    transition: 0.3s ease-in-out;
+    border: 1px solid #fff;
+    background-color: transparent;
     box-shadow: 0 0 5px #bbb;
+    align-self: center;
 }
 
 .previous:hover,
 .next:hover {
-    border-color: #999;
+    border-color: #99999955;
 }
 
 .slide {
-    border: 0.1px solid #99999980;
+    border: 0.1px solid #999999;
     border-radius: 16px;
     height: auto;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
     height: 400px;
+    border-collapse: collapse;
 }
 
 .slide:hover {
     transform: scale(0.99);
     box-shadow: 0 0px 20px rgb(0 0 0 / 25%);
     cursor: pointer;
+    border-collapse: collapse;
 }
 
 .slide-img {
@@ -249,7 +253,8 @@ section {
     justify-content: center;
     align-items: center;
     transition: 0.5s;
-    border-radius: 16px 16px 0 0;
+    border-radius: 16px 16px 3px 3px;
+    border-bottom: 0.1px solid #99999994;
 }
 
 .slide-img:hover {
@@ -271,19 +276,36 @@ section {
 }
 
 .img-1 {
-    background-image: url(imgs/code-1.jpg);
+    background-image: url(imgs/Sharq_forum_logo.jpg);
 }
 
 .img-2 {
-    background-image: url(imgs/code-2.jpg);
+    background-image: url(imgs/Sharq_forum_logo.jpg);
 }
 
 .img-3 {
-    background-image: url(imgs/code-3.jpg);
+    background-image: url(imgs/Sharq_forum_logo.jpg);
+}
+
+.img-4 {
+    background-image: url(/imgs/PC-final-logo.jpg);
+}
+
+.img-5 {
+    background-image: url(/imgs/geeks34.jpeg);
 }
 
 .slide-info {
     padding: 15px;
+}
+
+.slide-info a {
+    text-decoration: none;
+    color: #761C33;
+}
+
+.slide-info a:hover {
+    color: #0000009b;
 }
 
 @media(max-width:1600px) {
@@ -349,7 +371,7 @@ section {
 }
 
 .icon {
-    color: #fdbe00;
+    color: #761C33;
     font-size: 8em;
     text-align: center;
     margin-top: 30px;
@@ -372,7 +394,7 @@ section {
 }
 
 .info h3 {
-    color: #fdbe00;
+    color: #761C33;
     font-size: 1.9em;
     font-weight: 700;
     margin: 10px;
