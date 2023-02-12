@@ -10,7 +10,7 @@
 }
 
 body {
-    background: #fff;
+    background: rgb(255, 255, 255);
 }
 
 
@@ -180,6 +180,118 @@ section {
 
 /*    services section     */
 
+#slider {
+    margin-top: 20px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 1600px;
+}
+
+.subcontainer {
+    width: 85%;
+    margin: auto;
+}
+
+.controller {
+    display: flex;
+    justify-content: end;
+}
+
+#controls i {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.previous,
+.next {
+    padding: 2px;
+    width: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    transition: 0.7s ease-in-out;
+    border: 3px solid #fff;
+    background-color: #000;
+    box-shadow: 0 0 5px #bbb;
+}
+
+.previous:hover,
+.next:hover {
+    border-color: #999;
+}
+
+.slide {
+    border: 0.1px solid #99999980;
+    border-radius: 16px;
+    height: auto;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+    height: 400px;
+}
+
+.slide:hover {
+    transform: scale(0.99);
+    box-shadow: 0 0px 20px rgb(0 0 0 / 25%);
+    cursor: pointer;
+}
+
+.slide-img {
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 16px 16px 0 0;
+}
+
+.slide-img:hover {
+    box-shadow: 0 0 0 200px #000000e6 inset;
+}
+
+.slide-img a {
+    text-decoration: none;
+    color: #fff;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 1.5rem;
+    opacity: 0;
+}
+
+.slide-img:hover a {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.img-1 {
+    background-image: url(imgs/code-1.jpg);
+}
+
+.img-2 {
+    background-image: url(imgs/code-2.jpg);
+}
+
+.img-3 {
+    background-image: url(imgs/code-3.jpg);
+}
+
+.slide-info {
+    padding: 15px;
+}
+
+@media(max-width:1600px) {
+    .container {
+        width: 100%;
+    }
+}
+
 .title-icon {
     display: flex;
     justify-content: center;
@@ -188,7 +300,7 @@ section {
 }
 
 .title-icon i {
-    padding: 18px 0 0 0;
+    padding: 0 0 0 0;
     text-decoration: none;
     color: #761C33;
     text-transform: uppercase;
@@ -203,7 +315,7 @@ section {
     color: #761C33;
     font-size: 2.2em;
     font-weight: 800;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     padding-left: 15px;
 }
 
@@ -216,7 +328,7 @@ section {
 }
 
 .card {
-    background: linear-gradient(0.50turn, #F5F5F5, #F0FFF0, #F0FFF0);
+    background: #fff;
     width: 350px;
     height: 450px;
     max-height: 700px;
@@ -367,6 +479,12 @@ section {
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
+}
+
+.info p {
+    text-align: left;
+    word-spacing: 0px;
+    float: left;
 }
 
 
