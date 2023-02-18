@@ -567,6 +567,10 @@ body {
     a {
         font-weight: 200 !important;
     }
+    .title-icon {
+        font-size: 1.4em !important;
+        margin: 25px auto 20px auto;
+    }
     .title-icon i {
         font-size: 1.3em !important;
     }
@@ -586,6 +590,9 @@ body {
     .toggle i {
         font-size: 1.9em;
     }
+    .main h2 span {
+        font-size: 1.5em;
+    }
     .main {
         background: linear-gradient(rgba(45, 45, 45, 0.6), rgba(45, 45, 45, 0.6)), url(/imgs/me-2.jpg) no-repeat;
         background-size: cover;
@@ -595,17 +602,32 @@ body {
         padding: 10px;
     }
     .main-div {
-        margin-top: 300px;
+        margin: 300px auto 0 auto;
         border: 0.1px solid rgba(0, 0, 0, 0.155);
         background: linear-gradient(rgba(100, 100, 100, 0.7), rgba(46, 46, 46, 0.4), rgba(100, 100, 100, 0.6));
         border-radius: 16px;
-        padding: 25px 25px 35px 25px;
+        padding: 25px 50px 35px 25px;
     }
     .card {
         height: 350px;
         padding-top: 20px;
+        margin: 10px 0px;
     }
     .title {
         font-size: 1em;
+    }
+    .controller {
+        margin-bottom: -15px;
+    }
+    .info {
+        text-align: center;
+        display: contents !important;
+    }
+    .info p {
+        margin: 20px 10px;
+        text-align: center;
+    }
+    .contant .card .icon {
+        font-size: 1.4em !important;
     }
 }
