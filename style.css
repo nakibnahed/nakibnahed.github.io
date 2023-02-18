@@ -171,7 +171,9 @@ section {
 }
 
 .previous,
-.next {
+.previous-2,
+.next,
+.next-2 {
     margin: 5px;
     padding: 5px;
     width: 30px;
@@ -590,16 +592,16 @@ section {
         font-size: 1.9em;
     }
     .main {
-        background: linear-gradient(rgba(45, 45, 45, 0.6), rgba(45, 45, 45, 0.6)), url(/imgs/me-1.jpg) no-repeat;
+        background: linear-gradient(rgba(45, 45, 45, 0.6), rgba(45, 45, 45, 0.6)), url(/imgs/me-2.jpg) no-repeat;
         background-size: cover;
-        background-position: 40% -30px;
+        background-position: 58% 0px;
         display: flex;
         justify-content: left;
     }
     .main-div {
         position: absolute;
-        left: 25px;
-        top: 450px;
+        left: 5px;
+        top: 335px;
         border: 0.1px solid rgba(0, 0, 0, 0.155);
         background: linear-gradient(rgba(100, 100, 100, 0.7), rgba(46, 46, 46, 0.4), rgba(100, 100, 100, 0.6));
         border-radius: 16px;
