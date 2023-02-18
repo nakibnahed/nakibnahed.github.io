@@ -43,11 +43,6 @@ body {
     justify-content: end;
 }
 
-section {
-    padding: 50px 100px;
-    margin: 0;
-}
-
 
 /*   Mine section */
 
@@ -597,11 +592,10 @@ section {
         background-position: 58% 0px;
         display: flex;
         justify-content: left;
+        padding: 10px;
     }
     .main-div {
-        position: absolute;
-        left: 5px;
-        top: 335px;
+        margin-top: 325px;
         border: 0.1px solid rgba(0, 0, 0, 0.155);
         background: linear-gradient(rgba(100, 100, 100, 0.7), rgba(46, 46, 46, 0.4), rgba(100, 100, 100, 0.6));
         border-radius: 16px;
@@ -613,8 +607,5 @@ section {
     }
     .title {
         font-size: 1em;
-    }
-    section {
-        padding: 80px 10px;
     }
 }
