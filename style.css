@@ -13,20 +13,6 @@ body {
     background: rgb(255, 255, 255);
 }
 
-
-/* header {
-    background-color: rgba(45, 44, 44, 0.7);
-    width: 100%;
-    position: absolute;
-    z-index: 999;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 35px 75px 20px 150px;
-    border-color: #99999980;
-    box-shadow: 0 0px 20px #00000040
-}
-
 .logo {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.7);
@@ -36,39 +22,20 @@ body {
     font-family: fantasy;
 }
 
-.logo i {
-    font-size: 0.9em;
-}
-
 .logo:hover {
-    text-decoration: none;
-    cursor: pointer;
     color: rgba(255, 255, 255, 0.7);
 }
-
-header .toggle {
-    position: relative;
-    width: 40px;
-    height: 30px;
-    cursor: pointer;
-}
-
-.toggle i {
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 30px;
-}
-
-.toggle i:hover {
-    color: #6b1919;
-}
-
-.navigation {
-    display: none;
-} */
 
 .new-navbar {
     background-color: transparent;
     font-family: Avenir !important;
+    padding-top: 20px;
+    transition: all 0.5s;
+}
+
+.navbar-scrolled {
+    background-color: #00000093;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 
 .navbar-items {
@@ -93,10 +60,11 @@ section {
     background-size: cover;
     background-position: 100% 40%;
     background-attachment: fixed;
-    padding: 100px 200px;
+    padding: 50px 150px;
 }
 
 .main-div {
+    margin-top: 150px;
     border: 0.1px solid rgba(0, 0, 0, 0.155);
     background: linear-gradient(rgba(134, 134, 134, 0.4), rgba(137, 137, 137, 0.4), rgba(127, 127, 127, 0.4));
     border-radius: 16px;
@@ -180,16 +148,11 @@ section {
 
 /*    services section     */
 
-.slider-sec {
-    margin-top: 20px;
-    height: 500px;
+.container {
+    width: 1600px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.container {
-    width: 1600px;
 }
 
 .subcontainer {
@@ -315,6 +278,7 @@ section {
 }
 
 .title-icon {
+    margin: 30px auto;
     display: flex;
     justify-content: center;
     flex-direction: row;
