@@ -56,6 +56,7 @@ let slider_2 = tns({
         },
         480: {
             items: 1
+
         }
     }
 })
