@@ -362,22 +362,6 @@
         .card:hover #code {
             color: rgb(90, 5, 66);
         }
-        
-        .info {
-            text-align: center;
-        }
-        
-        .info h3 {
-            color: #761C33;
-            font-size: 1.9em;
-            font-weight: 700;
-            margin: 10px;
-        }
-        
-        .info p {
-            margin: 20px 50px;
-            font-size: 18px;
-        }
         /*   Projects  */
         
         .projects .contant {
@@ -470,44 +454,32 @@
             font-weight: 700;
             margin: 10px;
         }
-        
-        .info p {
-            text-align: left;
-            word-spacing: 0px;
-            float: left;
-        }
         /*  contact */
         
-        .contant {
-            display: flex;
-            flex-wrap: wrap;
-        }
-        
-        .contact .icon {
-            font-size: 4em;
-        }
-        
-        .contact .info p {
-            font-size: 1em;
-        }
-        
-        .contacts .card {
+        .contact-card {
+            margin: 20px;
+            border-radius: 16px;
+            width: 300px;
             height: 250px;
             background-color: #f8f9fa;
             border: 0.1px solid #99999980;
             box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
         }
         
-        .contacts .card:hover {
-            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+        .info {
+            margin: 5px auto;
+            text-align: center;
         }
         
-        .card:hover #phone {
-            color: rgb(1, 124, 40);
+        .info h3 {
+            color: #761C33;
+            font-size: 1.9em;
+            font-weight: 700;
+            margin: 10px;
         }
         
-        .card:hover #email {
-            color: #1a5e7c;
+        .info p {
+            text-align: centerş
         }
         /*  footer  */
         
@@ -624,19 +596,5 @@
             }
             .controller {
                 margin-bottom: -15px;
-            }
-            .info {
-                text-align: center;
-                display: contents !important;
-            }
-            .info p {
-                margin: 20px 10px;
-                text-align: center;
-            }
-            .contant-card .icon i {
-                font-size: 2rem;
-            }
-            .contant-card .info h3 {
-                font-size: 1rem;
             }
         }
