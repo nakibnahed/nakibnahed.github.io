@@ -238,11 +238,11 @@
         }
         
         .img-1 {
-            background-image: url(imgs/Sharq_forum_logo.jpg);
+            background-image: url(imgs/Fellow-Camp.jpeg);
         }
         
         .img-2 {
-            background-image: url(imgs/Sharq_forum_logo.jpg);
+            background-image: url(imgs/alsharq-acadimea.jpeg);
         }
         
         .img-3 {
@@ -250,7 +250,7 @@
         }
         
         .img-4 {
-            background-image: url(/imgs/PC-final-logo.jpg);
+            background-image: url(/imgs/property-club.png);
         }
         
         .img-5 {
@@ -478,8 +478,15 @@
             margin: 10px;
         }
         
-        .info p {
-            text-align: centerş
+        .info a {
+            text-align: center;
+            text-decoration: none;
+            color: #000;
+        }
+        
+        .info a:hover {
+            color: #761C33;
+            transform: scale(1.1);
         }
         /*  footer  */
         
