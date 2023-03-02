@@ -544,15 +544,10 @@
         /* media */
         
         @media(max-width:767px) {
-            header {
-                position: absolute;
+            .new-navbar {
+                position: absolute !important;
+                width: 100%;
                 z-index: 999;
-                padding: 15px 10px 20px 20px;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                flex-wrap: nowrap;
-                background-color: transparent;
             }
             p {
                 font-size: 14px !important;
