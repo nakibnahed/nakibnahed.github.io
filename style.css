@@ -224,6 +224,7 @@
         }
         
         .slide-img a {
+            position: absolute;
             text-decoration: none;
             color: #fff;
             transform: scale(0);
@@ -235,6 +236,13 @@
         .slide-img:hover a {
             opacity: 1;
             transform: scale(1);
+        }
+        
+        .works-box-comp-logo {
+            position: absolute;
+            background-color: #ffffff42;
+            border-radius: 5px;
+            padding: 10px;
         }
         
         .img-1 {
@@ -250,7 +258,7 @@
         }
         
         .img-4 {
-            background-image: url(/imgs/property-club.png);
+            background-image: url(/imgs/propertyclubturkey.png);
         }
         
         .img-5 {
@@ -319,10 +327,10 @@
             transition: 0.3s ease;
             opacity: 0.9;
             box-decoration-break: initial;
-            border: 0.1px solid #99999980;
+            border: 1px solid #99999980;
             border-radius: 16px !important;
             box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
-            margin: 20px;
+            margin: 10px;
         }
         
         .card:hover {
