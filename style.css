@@ -177,15 +177,17 @@
             border-radius: 5px;
             outline: none;
             transition: 0.3s ease-in-out;
-            border: 1px solid #fff;
+            border: 0.1px solid #999;
             background-color: transparent;
-            box-shadow: 0 0 5px #bbb;
+            box-shadow: 0 0 5px #99999949;
             align-self: center;
+            color: #999;
         }
         
         .previous:hover,
         .next:hover {
             border-color: #99999955;
+            color: #999;
         }
         
         .slide {
