@@ -27,10 +27,9 @@
         }
         
         .new-navbar {
-            background-color: transparent;
-            font-family: Avenir !important;
-            padding-top: 20px;
-            transition: all 0.5s;
+            position: absolute;
+            width: 100%;
+            z-index: 999;
         }
         
         .navbar-scrolled {
