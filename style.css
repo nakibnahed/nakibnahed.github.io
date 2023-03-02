@@ -10,7 +10,7 @@
         }
         
         body {
-            background: rgba(255, 255, 255, 0.7);
+            background: rgba(255, 255, 255);
         }
         
         .logo {
@@ -19,7 +19,7 @@
             text-transform: uppercase;
             font-weight: 700;
             font-size: 2.5em;
-            font-family: fantasy;
+            font-family: fantasy !important;
         }
         
         .logo:hover {
@@ -79,7 +79,6 @@
         .main h2 span {
             display: inline-block;
             margin-top: 10px;
-            coor: #ffc107;
             font-size: 2em;
             font-weight: 600;
         }
@@ -578,7 +577,10 @@
                 align-self: center;
             }
             .logo {
-                font-size: 1.9em;
+                padding-top: 10px;
+                padding-left: 5px;
+                font-size: 1.7em;
+                font-family: fantasy !important;
             }
             .toggle i {
                 font-size: 1.9em;
