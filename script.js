@@ -69,3 +69,10 @@ let slider_2 = tns({
 //         navEl.classList.remove('navbar-scrolled');
 //     }
 // })
+
+fetch("info.json")
+  .then((response) => response.json())
+  .then((data) => {
+    console.log(data.about);
+    document.querySelector("#aboutMe").innerText = data.about;
+  });

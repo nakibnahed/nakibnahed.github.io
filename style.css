@@ -502,6 +502,11 @@ body {
   margin: 10px;
 }
 
+.info p {
+  text-align: justify;
+  letter-spacing: 0.1px;
+}
+
 .info a {
   text-align: center;
   text-decoration: none;
