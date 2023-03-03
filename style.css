@@ -1,613 +1,636 @@
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-        @import "../node_modules/bootstrap/scss/functions";
-        * {
-            /* font-family: 'Poppins', sans-serif; */
-            font-family: Avenir;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            scroll-behavior: smooth;
-        }
-        
-        body {
-            background: rgba(255, 255, 255);
-        }
-        
-        .logo {
-            text-decoration: none;
-            color: rgba(255, 255, 255, 0.7);
-            text-transform: uppercase;
-            font-weight: 700;
-            font-size: 2.5em;
-            font-family: fantasy !important;
-        }
-        
-        .logo:hover {
-            color: rgba(255, 255, 255, 0.7);
-        }
-        
-        .navbar {
-            position: absolute;
-            width: 100%;
-            z-index: 999;
-        }
-        
-        .navbar-scrolled {
-            background-color: #00000093;
-            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
-        }
-        
-        .navbar-items {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .nav-link {
-            color: #fff;
-            font-weight: 600;
-        }
-        /*   Mine section */
-        
-        .main {
-            width: 100%;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            background: linear-gradient( rgba(45, 45, 45, 0.4), rgba(45, 45, 45, 0.4)), url(/imgs/me-3.jpg) no-repeat;
-            background-size: cover;
-            background-position: 100% 40%;
-            background-attachment: fixed;
-            padding: 50px 150px;
-        }
-        
-        .main-div {
-            margin-top: 150px;
-            border: 0.1px solid rgba(0, 0, 0, 0.155);
-            background: linear-gradient(rgba(134, 134, 134, 0.4), rgba(137, 137, 137, 0.4), rgba(127, 127, 127, 0.4));
-            border-radius: 16px;
-            padding: 25px 130px 35px 25px;
-        }
-        
-        .main h2 {
-            color: #ffffffb3;
-            font-size: 1.4em;
-            font-weight: 500;
-        }
-        
-        .main h2 span {
-            display: inline-block;
-            margin-top: 10px;
-            font-size: 2em;
-            font-weight: 600;
-        }
-        
-        .nahed-name {
-            font-family: cursive;
-        }
-        
-        .main h3 {
-            color: rgba(255, 255, 255, 0.7);
-            font-size: 1.5em;
-            font-weight: 500;
-            letter-spacing: 1px;
-            margin-top: 10px;
-            margin-bottom: 25px;
-        }
-        
-        .main-div a {
-            text-decoration: none;
-            transition: 0.1s ease;
-        }
-        
-        .main-btn {
-            text-decoration: none;
-            color: #000;
-            background: #fdbe00;
-            font-weight: 500;
-            font-size: 1.1em;
-            display: inline-block;
-            padding: 10px 20px;
-            border-radius: 10px;
-            margin-bottom: 25px;
-            letter-spacing: 1px;
-        }
-        
-        .main-btn:hover {
-            background: transparent;
-            border: 0.1px solid rgba(182, 182, 182, 0.3);
-            color: #fff;
-            box-shadow: 0 0px 20px rgb(0 0 0 / 25%);
-        }
-        
-        .social-icons a {
-            color: rgba(255, 255, 255, 0.7) !important;
-            font-size: 1.7em;
-            padding-right: 20px;
-        }
-        
-        .social-icons a #linkedin:hover {
-            color: #0072b1;
-        }
-        
-        .social-icons a #github:hover {
-            color: #171515;
-        }
-        
-        .social-icons a #instagram:hover {
-            color: #fe4164;
-        }
-        
-        .social-icons a #whatsapp:hover {
-            color: rgb(1, 124, 40);
-        }
-        /*    services section     */
-        
-        .container {
-            width: 1600px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .subcontainer {
-            width: 85%;
-            margin: auto;
-        }
-        
-        .controller {
-            display: flex;
-            justify-content: end;
-        }
-        
-        .controls i {
-            color: #0000007e;
-            font-size: 1.2rem;
-        }
-        
-        .previous,
-        .previous-2,
-        .next,
-        .next-2 {
-            margin: 5px;
-            padding: 5px;
-            width: 30px;
-            cursor: pointer;
-            border-radius: 5px;
-            outline: none;
-            transition: 0.3s ease-in-out;
-            border: 0.1px solid #999;
-            background-color: transparent;
-            box-shadow: 0 0 5px #99999949;
-            align-self: center;
-            color: #999;
-        }
-        
-        .previous:hover,
-        .next:hover {
-            border-color: #99999955;
-            color: #999;
-        }
-        
-        .slide {
-            border: 0.1px solid #999999;
-            border-radius: 16px;
-            height: auto;
-            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
-            height: 400px;
-            border-collapse: collapse;
-        }
-        
-        .slide:hover {
-            transform: scale(0.99);
-            box-shadow: 0 0px 20px rgb(0 0 0 / 25%);
-            cursor: pointer;
-            border-collapse: collapse;
-        }
-        
-        .slide-img {
-            width: 100%;
-            height: 200px;
-            background-position: center;
-            background-size: cover;
-            cursor: pointer;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            transition: 0.5s;
-            border-radius: 16px 16px 3px 3px;
-            border-bottom: 0.1px solid #99999994;
-        }
-        
-        .slide-img:hover {
-            box-shadow: 0 0 0 200px #0000008d inset;
-        }
-        
-        .slide-img a {
-            position: absolute;
-            text-decoration: none;
-            color: #fff;
-            transform: scale(0);
-            transition: 0.8s;
-            font-size: 1.5rem;
-            opacity: 0;
-        }
-        
-        .slide-img:hover a {
-            opacity: 1;
-            transform: scale(1);
-        }
-        
-        .works-box-comp-logo {
-            position: absolute;
-            background-color: #ffffff42;
-            border-radius: 5px;
-            padding: 10px;
-        }
-        
-        .img-1 {
-            background-image: url(imgs/Fellow-Camp.jpeg);
-        }
-        
-        .img-2 {
-            background-image: url(imgs/alsharq-acadimea.jpeg);
-        }
-        
-        .img-3 {
-            background-image: url(imgs/Sharq_forum_logo.jpg);
-        }
-        
-        .img-4 {
-            background-image: url(/imgs/propertyclubturkey.png);
-        }
-        
-        .img-5 {
-            background-image: url(/imgs/geeks34.jpeg);
-        }
-        
-        .slide-info {
-            padding: 15px;
-        }
-        
-        .slide-info a {
-            text-decoration: none;
-            color: #761C33;
-        }
-        
-        .slide-info a:hover {
-            color: #0000009b;
-        }
-        
-        @media(max-width:1600px) {
-            .container {
-                width: 100%;
-            }
-        }
-        
-        .title-icon {
-            margin: 30px auto;
-            display: flex;
-            justify-content: center;
-            flex-direction: row;
-            flex-wrap: wrap;
-        }
-        
-        .title-icon i {
-            padding: 0 0 0 0;
-            text-decoration: none;
-            color: #761C33;
-            text-transform: uppercase;
-            font-weight: 700;
-            font-size: 2.8em;
-        }
-        
-        .title {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #761C33;
-            font-size: 2.2em;
-            font-weight: 800;
-            margin-bottom: 0px;
-            padding-left: 15px;
-        }
-        
-        .contant {
-            display: flex;
-            justify-content: center;
-            flex-direction: row;
-            flex-wrap: wrap;
-            align-items: center;
-        }
-        
-        .card {
-            background: #fff;
-            max-height: 700px;
-            padding: 10px;
-            transition: 0.3s ease;
-            opacity: 0.9;
-            box-decoration-break: initial;
-            border: 1px solid #99999980;
-            border-radius: 16px !important;
-            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
-            margin: 10px;
-        }
-        
-        .card:hover {
-            transform: scale(0.99);
-            box-shadow: 0 0px 20px rgb(0 0 0 / 25%);
-            cursor: pointer;
-        }
-        
-        .contant-card {
-            background: #fff;
-            max-height: 700px;
-            padding: 10px;
-            transition: 0.3s ease;
-            opacity: 0.9;
-            box-decoration-break: initial;
-            border: 0.1px solid #99999980;
-            border-radius: 16px !important;
-            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
-            margin: 20px;
-        }
-        
-        .icon {
-            color: #761C33;
-            font-size: 3em;
-            text-align: center;
-            margin-top: 30px;
-        }
-        
-        .card:hover #wordpress {
-            color: rgb(0, 138, 192);
-        }
-        
-        .card:hover #seo {
-            color: rgb(0, 181, 57);
-        }
-        
-        .card:hover #code {
-            color: rgb(90, 5, 66);
-        }
-        /*   Projects  */
-        
-        .projects .contant {
-            margin-top: 50px;
-        }
-        
-        .project-card {
-            background-color: #f8f9fa;
-            border: 0.1px solid #99999980;
-            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
-            min-height: 14em;
-            width: 25em;
-            height: 300px;
-            overflow: hidden;
-            border-radius: 10px;
-            margin: 20px;
-            transition: 0.3s ease;
-        }
-        
-        .project-card:hover {
-            transform: scale(0.99);
-            box-shadow: 0 0px 20px rgb(0 0 0 / 25%);
-        }
-        
-        .project-card:hover .preject-img {
-            opacity: 1;
-        }
-        
-        .preject-img img {
-            width: 100%;
-            max-height: 220px;
-            border: 1px 10px solid black;
-            height: auto;
-        }
-        
-        .project-info {
-            padding: 1em;
-        }
-        
-        .project-category {
-            font-size: 1em;
-            color: #000;
-        }
-        
-        .project-title {
-            display: flex;
-            justify-content: space-between;
-            text-transform: uppercase;
-            font-weight: 800;
-            margin-top: 10px;
-        }
-        
-        .more-details {
-            text-decoration: none;
-            color: #901329;
-            font-size: 0.8em;
-        }
-        
-        .more-details:hover {
-            color: #000;
-        }
-        /* About Me */
-        
-        .my-card {
-            background: #fff;
-            width: 50.25em !important;
-            border: 0.1px solid rgba(0, 0, 0, 0.2);
-            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
-            border-radius: 16px;
-            padding: 30px;
-            margin: 20px;
-            transition: 0.7s ease;
-            text-align: center;
-            justify-content: center;
-        }
-        /* .my-card:hover {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "../node_modules/bootstrap/scss/functions";
+* {
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: Avenir;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgba(255, 255, 255);
+}
+
+.logo {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.5em;
+  font-family: fantasy !important;
+}
+
+.logo:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+
+.navbar-scrolled {
+  background-color: #00000093;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  color: #fff;
+  font-weight: 600;
+}
+
+/*   Mine section */
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(rgba(45, 45, 45, 0.4), rgba(45, 45, 45, 0.4)),
+    url(/imgs/me-3.jpg) no-repeat;
+  background-size: cover;
+  background-position: 100% 40%;
+  background-attachment: fixed;
+  padding: 50px 150px;
+}
+
+.main-div {
+  margin-top: 150px;
+  border: 0.1px solid rgba(0, 0, 0, 0.155);
+  background: linear-gradient(
+    rgba(134, 134, 134, 0.4),
+    rgba(137, 137, 137, 0.4),
+    rgba(127, 127, 127, 0.4)
+  );
+  border-radius: 16px;
+  padding: 25px 130px 35px 25px;
+}
+
+.main h2 {
+  color: #ffffffb3;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.main h2 span {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.nahed-name {
+  font-family: cursive;
+}
+
+.main h3 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.5em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.main-div a {
+  text-decoration: none;
+  transition: 0.1s ease;
+}
+
+.main-btn {
+  text-decoration: none;
+  color: #000;
+  background: #fdbe00;
+  font-weight: 500;
+  font-size: 1.1em;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+.main-btn:hover {
+  background: transparent;
+  border: 0.1px solid rgba(182, 182, 182, 0.3);
+  color: #fff;
+  box-shadow: 0 0px 20px rgb(0 0 0 / 25%);
+}
+
+.social-icons a {
+  color: rgba(255, 255, 255, 0.7) !important;
+  font-size: 1.7em;
+  padding-right: 20px;
+}
+
+.social-icons a #linkedin:hover {
+  color: #0072b1;
+}
+
+.social-icons a #github:hover {
+  color: #171515;
+}
+
+.social-icons a #instagram:hover {
+  color: #fe4164;
+}
+
+.social-icons a #whatsapp:hover {
+  color: rgb(1, 124, 40);
+}
+
+/*    services section     */
+
+.container {
+  width: 1600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subcontainer {
+  width: 85%;
+  margin: auto;
+}
+
+.controller {
+  display: flex;
+  justify-content: end;
+}
+
+.controls i {
+  color: #0000007e;
+  font-size: 1.2rem;
+}
+
+.previous,
+.previous-2,
+.next,
+.next-2 {
+  margin: 5px;
+  padding: 5px;
+  width: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.3s ease-in-out;
+  border: 0.1px solid #999;
+  background-color: transparent;
+  box-shadow: 0 0 5px #99999949;
+  align-self: center;
+  color: #999;
+}
+
+.previous:hover,
+.next:hover {
+  border-color: #99999955;
+  color: #999;
+}
+
+.slide {
+  border: 0.1px solid #999999;
+  border-radius: 16px;
+  height: auto;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+  height: 400px;
+  border-collapse: collapse;
+}
+
+.slide:hover {
+  transform: scale(0.99);
+  box-shadow: 0 0px 20px rgb(0 0 0 / 25%);
+  cursor: pointer;
+  border-collapse: collapse;
+}
+
+.slide-img {
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  border-radius: 16px 16px 3px 3px;
+  border-bottom: 0.1px solid #99999994;
+}
+
+.slide-img:hover {
+  box-shadow: 0 0 0 200px #0000008d inset;
+}
+
+.slide-img a {
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+  transform: scale(0);
+  transition: 0.8s;
+  font-size: 1.5rem;
+  opacity: 0;
+}
+
+.slide-img:hover a {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.works-box-comp-logo {
+  position: absolute;
+  background-color: #ffffff42;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.img-1 {
+  background-image: url(imgs/Fellow-Camp.jpeg);
+}
+
+.img-2 {
+  background-image: url(imgs/alsharq-acadimea.jpeg);
+}
+
+.img-3 {
+  background-image: url(imgs/Sharq_forum_logo.jpg);
+}
+
+.img-4 {
+  background-image: url(/imgs/propertyclubturkey.png);
+}
+
+.img-5 {
+  background-image: url(/imgs/geeks34.jpeg);
+}
+
+.slide-info {
+  padding: 15px;
+}
+
+.slide-info h4 i {
+  color: #761c33;
+  font-size: 1.2rem;
+}
+
+.slide-info a {
+  text-decoration: none;
+  color: #761c33;
+}
+
+.slide-info a:hover {
+  color: #0000009b;
+}
+
+@media (max-width: 1600px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.title-icon {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.title-icon i {
+  padding: 0 0 0 0;
+  text-decoration: none;
+  color: #761c33;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.8em;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #761c33;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 0px;
+  padding-left: 15px;
+}
+
+.contant {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card {
+  background: #fff;
+  max-height: 700px;
+  padding: 10px;
+  transition: 0.3s ease;
+  opacity: 0.9;
+  box-decoration-break: initial;
+  border: 1px solid #99999980;
+  border-radius: 16px !important;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+  margin: 10px;
+}
+
+.card:hover {
+  transform: scale(0.99);
+  box-shadow: 0 0px 20px rgb(0 0 0 / 25%);
+  cursor: pointer;
+}
+
+.contant-card {
+  background: #fff;
+  max-height: 700px;
+  padding: 10px;
+  transition: 0.3s ease;
+  opacity: 0.9;
+  box-decoration-break: initial;
+  border: 0.1px solid #99999980;
+  border-radius: 16px !important;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+  margin: 20px;
+}
+
+.icon {
+  color: #761c33;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.card:hover #wordpress {
+  color: rgb(0, 138, 192);
+}
+
+.card:hover #seo {
+  color: rgb(0, 181, 57);
+}
+
+.card:hover #code {
+  color: rgb(90, 5, 66);
+}
+
+/*   Projects  */
+
+.projects .contant {
+  margin-top: 50px;
+}
+
+.project-card {
+  background-color: #f8f9fa;
+  border: 0.1px solid #99999980;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+  min-height: 14em;
+  width: 25em;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(0.99);
+  box-shadow: 0 0px 20px rgb(0 0 0 / 25%);
+}
+
+.project-card:hover .preject-img {
+  opacity: 1;
+}
+
+.preject-img img {
+  width: 100%;
+  max-height: 220px;
+  border: 1px 10px solid black;
+  height: auto;
+}
+
+.project-info {
+  padding: 1em;
+}
+
+.project-category {
+  font-size: 1em;
+  color: #000;
+}
+
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.more-details {
+  text-decoration: none;
+  color: #901329;
+  font-size: 0.8em;
+}
+
+.more-details:hover {
+  color: #000;
+}
+
+/* About Me */
+
+.my-card {
+  background: #fff;
+  width: 50.25em !important;
+  border: 0.1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  padding: 30px;
+  margin: 20px;
+  transition: 0.7s ease;
+  text-align: center;
+  justify-content: center;
+}
+
+/* .my-card:hover {
     transform: scale(1.1);
 } */
-        
-        .me-img img {
-            width: 100px;
-            height: 120px;
-            border-radius: 10px;
-        }
-        
-        .me-name {
-            padding-top: 5px;
-            color: #901235;
-            font-size: 1.2em;
-            font-weight: 700;
-            margin: 10px;
-        }
-        /*  contact */
-        
-        .contact-card {
-            margin: 20px;
-            border-radius: 16px;
-            width: 300px;
-            height: 250px;
-            background-color: #f8f9fa;
-            border: 0.1px solid #99999980;
-            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
-        }
-        
-        .info {
-            margin: 5px auto;
-            text-align: center;
-        }
-        
-        .info h3 {
-            color: #761C33;
-            font-size: 1.9em;
-            font-weight: 700;
-            margin: 10px;
-        }
-        
-        .info a {
-            text-align: center;
-            text-decoration: none;
-            color: #000;
-        }
-        
-        .info a:hover {
-            color: #761C33;
-            transform: scale(1.1);
-        }
-        /*  footer  */
-        
-        .footer {
-            display: block;
-            color: #761C33;
-            justify-content: space-between;
-            align-items: center;
-            margin-top: 25px;
-            padding: 10px 50px;
-            margin: 25px auto 0px auto;
-            text-align: center;
-        }
-        
-        .footer-social-icons {
-            margin-bottom: 15px !important;
-        }
-        
-        .footer-social-icons a {
-            text-align: center;
-            color: #901235 !important;
-            font-size: 1.7em;
-            padding: 0px 10px;
-        }
-        
-        .footer-title {
-            font-size: 14px;
-            font-weight: 300;
-            margin-bottom: 0;
-            text-align: center;
-        }
-        
-        .footer-title span {
-            color: #761C33;
-        }
-        
-        .social-icons a {
-            color: #761C33;
-            padding: 0 15px 0 0;
-        }
-        
-        .footer-title .footer-social-icons a {
-            font-size: 1.3em;
-            padding: 0 5px 0 0 !important;
-            color: #761C33 !important;
-        }
-        /* media */
-        
-        @media(max-width:767px) {
-            .navbar {
-                position: absolute !important;
-                width: 100%;
-                z-index: 999;
-            }
-            p {
-                font-size: 14px !important;
-            }
-            a {
-                font-weight: 200 !important;
-            }
-            .title-icon {
-                font-size: 1.4em !important;
-                margin: 25px auto 20px auto;
-            }
-            .title-icon i {
-                font-size: 1.3em !important;
-            }
-            .card .icon {
-                font-size: 4em;
-            }
-            .navigation {
-                align-self: center;
-            }
-            .navigation a {
-                padding: 0px 10px;
-                align-self: center;
-            }
-            .logo {
-                padding-top: 10px;
-                padding-left: 5px;
-                font-size: 1.7em;
-                font-family: fantasy !important;
-            }
-            .toggle i {
-                font-size: 1.9em;
-            }
-            .main h2 span {
-                font-size: 1.5em;
-            }
-            .main {
-                background: linear-gradient(rgba(45, 45, 45, 0.6), rgba(45, 45, 45, 0.6)), url(/imgs/me-2.jpg) no-repeat;
-                background-size: cover;
-                background-position: 58% 0px;
-                display: flex;
-                justify-content: left;
-                padding: 10px;
-            }
-            .main-div {
-                margin: 300px auto 0 auto;
-                border: 0.1px solid rgba(0, 0, 0, 0.155);
-                background: linear-gradient(rgba(100, 100, 100, 0.7), rgba(46, 46, 46, 0.4), rgba(100, 100, 100, 0.6));
-                border-radius: 16px;
-                padding: 25px 50px 35px 25px;
-            }
-            .card {
-                height: 350px;
-                padding-top: 20px;
-                margin: 10px 0px;
-            }
-            .title {
-                font-size: 1em;
-            }
-            .controller {
-                margin-bottom: -15px;
-            }
-        }
+
+.me-img img {
+  width: 100px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.me-name {
+  padding-top: 5px;
+  color: #901235;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+}
+
+/*  contact */
+
+.contact-card {
+  margin: 20px;
+  border-radius: 16px;
+  width: 300px;
+  height: 250px;
+  background-color: #f8f9fa;
+  border: 0.1px solid #99999980;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+}
+
+.info {
+  margin: 5px auto;
+  text-align: center;
+}
+
+.info h3 {
+  color: #761c33;
+  font-size: 1.9em;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.info a {
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.info a:hover {
+  color: #761c33;
+  transform: scale(1.1);
+}
+
+/*  footer  */
+
+.footer {
+  display: block;
+  color: #761c33;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  padding: 10px 50px;
+  margin: 25px auto 0px auto;
+  text-align: center;
+}
+
+.footer-social-icons {
+  margin-bottom: 15px !important;
+}
+
+.footer-social-icons a {
+  text-align: center;
+  color: #901235 !important;
+  font-size: 1.7em;
+  padding: 0px 10px;
+}
+
+.footer-title {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.footer-title span {
+  color: #761c33;
+}
+
+.social-icons a {
+  color: #761c33;
+  padding: 0 15px 0 0;
+}
+
+.footer-title .footer-social-icons a {
+  font-size: 1.3em;
+  padding: 0 5px 0 0 !important;
+  color: #761c33 !important;
+}
+
+/* media */
+
+@media (max-width: 767px) {
+  .navbar {
+    position: absolute !important;
+    width: 100%;
+    z-index: 999;
+  }
+  p {
+    font-size: 14px !important;
+  }
+  a {
+    font-weight: 200 !important;
+  }
+  .title-icon {
+    font-size: 1.4em !important;
+    margin: 25px auto 20px auto;
+  }
+  .title-icon i {
+    font-size: 1.3em !important;
+  }
+  .card .icon {
+    font-size: 4em;
+  }
+  .navigation {
+    align-self: center;
+  }
+  .navigation a {
+    padding: 0px 10px;
+    align-self: center;
+  }
+  .logo {
+    padding-top: 10px;
+    padding-left: 5px;
+    font-size: 1.7em;
+    font-family: fantasy !important;
+  }
+  .toggle i {
+    font-size: 1.9em;
+  }
+  .main h2 span {
+    font-size: 1.5em;
+  }
+  .main {
+    background: linear-gradient(rgba(45, 45, 45, 0.6), rgba(45, 45, 45, 0.6)),
+      url(/imgs/me-2.jpg) no-repeat;
+    background-size: cover;
+    background-position: 58% 0px;
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+  }
+  .main-div {
+    margin: 300px auto 0 auto;
+    border: 0.1px solid rgba(0, 0, 0, 0.155);
+    background: linear-gradient(
+      rgba(100, 100, 100, 0.7),
+      rgba(46, 46, 46, 0.4),
+      rgba(100, 100, 100, 0.6)
+    );
+    border-radius: 16px;
+    padding: 25px 50px 35px 25px;
+  }
+  .card {
+    height: 350px;
+    padding-top: 20px;
+    margin: 10px 0px;
+  }
+  .title {
+    font-size: 1em;
+  }
+  .controller {
+    margin-bottom: -15px;
+  }
+}
