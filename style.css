@@ -612,6 +612,7 @@ body {
       url(/imgs/me-222.jpg) no-repeat;
     background-size: cover;
     background-position: 58% 0px;
+    background-attachment: fixed;
     display: flex;
     justify-content: left;
     padding: 10px;
