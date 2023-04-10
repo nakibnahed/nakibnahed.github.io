@@ -1,3 +1,35 @@
 {
-  "about": "My name is Nahed Nakib, and I am a web developer. I have a passion for bringing ideas to life on the web, and I am dedicated to Delivering high - quality, user - friendly websites.I always strive to stay ahead of the curve in the rapidly evolving world of technology.I am proficient in a variety of programming languages and development methodologies.I am committed to delivering high - quality, user solutions that meet the needs of my clients.In my free time, I enjoy staying active and engaging in activities that allow me to disconnect from the digital world.I love for jogs and getting lost in a good book, as both activities provide me with a sense of calm and balance.I believe that taking care of both your physical and mental well - being is It is vital to being productive and successful in both your personal and personal life professional life. "
+  "services": {
+    "website": {
+      "website_title": "Website",
+      "website_description": "Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network)."
+    },
+    "wordpress": {
+      "wordpress_title": "Wordpress",
+      "wordpress_description": "WordPress is a free and open-source content management system written in hypertext preprocessor language and paired with a MySQL or MariaDB database with supported HTTPS."
+    },
+    "seo": {
+      "seo_title": "SEO",
+      "seo_description": "search engine optimization is the process of improving the quality and quantity of website traffic to a website or a web page from search engines."
+    }
+  },
+
+  "modal_services": {
+    "website_modal": {
+      "website_title_modal": "Web Development",
+      "website_description_modal": "Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services."
+    },
+    "wordpress_modal": {
+      "wordpress_title_modal": "Wordpress",
+      "wordpress_description_modal": "WordPress is a free and open-source content management system written in hypertext preprocessor language and paired with a MySQL or MariaDB database with supported HTTPS. Features include a plugin architecture and a template system, referred to within WordPress as 'Themes'."
+    },
+    "seo_modal": {
+      "seo_title_modal": "SEO",
+      "seo_description_modal": "Search engine optimization is the process of improving the quality and quantity of website traffic to a website or a web page from search engines. SEO targets unpaid traffic rather than direct traffic or paid traffic."
+    }
+  },
+
+  "about": {
+    "about_me": "My name is Nahed Nakib, and I am a web developer. I have a passion for bringing ideas to life on the web, and I am dedicated to Delivering high - quality, user - friendly websites.I always strive to stay ahead of the curve in the rapidly evolving world of technology.I am proficient in a variety of programming languages and development methodologies.I am committed to delivering high - quality, user solutions that meet the needs of my clients.In my free time, I enjoy staying active and engaging in activities that allow me to disconnect from the digital world.I love for jogs and getting lost in a good book, as both activities provide me with a sense of calm and balance.I believe that taking care of both your physical and mental well - being is It is vital to being productive and successful in both your personal and personal life professional life. "
+  }
 }

@@ -65,14 +65,14 @@
   <body>
     <nav class="navbar navbar-expand-xxxl nav-justified navbarlight new-navbar">
       <div class="container">
-        <!-- <a href="#" class="navbar-brand mt-2 h1 logo"> NN </a> -->
+        <a href="#" class="navbar-brand mt-2 h1 logo"> NN </a>
 
         <button
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
           aria-controls="navbarNav"
-          aria-expanded="false"
+          aria-expanded="true"
           aria-label="Toggle navigation"
           class="navbar-toggler"
         >
@@ -163,14 +163,10 @@
                     <i id="code" class="fa-solid fa-code"></i>
                   </div>
                   <div class="info">
-                    <h3 id="code">Website</h3>
-                    <p>
-                      Web development is the work involved in developing a
-                      website for the Internet (World Wide Web) or an intranet
-                      (a private network).
-                      <br />
-                      Read More...
-                    </p>
+                    <h3 id="WebsiteTitle"></h3>
+                    <p id="WebsiteDescription"></p>
+                    <br />
+                    <p>Read More...</p>
                   </div>
                 </div>
               </div>
@@ -186,15 +182,10 @@
                     <i id="wordpress" class="fa-brands fa-wordpress"></i>
                   </div>
                   <div class="info">
-                    <h3 id="wordpress">Wordpress</h3>
-                    <p id="wordpress">
-                      WordPress is a free and open-source content management
-                      system written in hypertext preprocessor language and
-                      paired with a MySQL or MariaDB database with supported
-                      HTTPS.
-                      <br />
-                      Read More...
-                    </p>
+                    <h3 id="WordpressTitle"></h3>
+                    <p id="WordpressDescription"></p>
+                    <br />
+                    <p>Read More...</p>
                   </div>
                 </div>
               </div>
@@ -210,14 +201,10 @@
                     <i id="seo" class="fa-brands fa-searchengin"></i>
                   </div>
                   <div class="info">
-                    <h3 id="seo">SEO</h3>
-                    <p>
-                      Search engine optimization is the process of improving the
-                      quality and quantity of website traffic to a website or a
-                      web page from search engines.
-                      <br />
-                      Read More...
-                    </p>
+                    <h3 id="SEOTitle"></h3>
+                    <p id="SEODescription"></p>
+                    <br />
+                    <p>Read More...</p>
                   </div>
                 </div>
               </div>
@@ -241,9 +228,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h3 class="modal-title" id="exampleModalLabel">
-                Web Development
-              </h3>
+              <h3 class="modal-title" id="WebsiteTitleModal"></h3>
               <button
                 type="button"
                 class="close"
@@ -255,13 +240,7 @@
             </div>
             <div class="modal-body">
               <div class="card">
-                <p>
-                  Web development is the work involved in developing a website
-                  for the Internet (World Wide Web) or an intranet (a private
-                  network). Web development can range from developing a simple
-                  single static page of plain text to complex web applications,
-                  electronic businesses, and social network services.
-                </p>
+                <p id="WebsiteDescriptionModal"></p>
               </div>
             </div>
 
@@ -288,7 +267,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h3 class="modal-title" id="exampleModalLabel">Wordpress</h3>
+              <h3 class="modal-title" id="WordpressTitleModal"></h3>
               <button
                 type="button"
                 class="close"
@@ -300,13 +279,7 @@
             </div>
             <div class="modal-body">
               <div class="card">
-                <p>
-                  WordPress is a free and open-source content management system
-                  written in hypertext preprocessor language and paired with a
-                  MySQL or MariaDB database with supported HTTPS. Features
-                  include a plugin architecture and a template system, referred
-                  to within WordPress as 'Themes'.
-                </p>
+                <p id="WordpressDescriptionModal"></p>
               </div>
             </div>
             <div class="modal-footer">
@@ -332,7 +305,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h3 class="modal-title" id="exampleModalLabel">SEO</h3>
+              <h3 class="modal-title" id="SEOTitleModal"></h3>
               <button
                 type="button"
                 class="close"
@@ -344,12 +317,7 @@
             </div>
             <div class="modal-body">
               <div class="card">
-                <p>
-                  Search engine optimization is the process of improving the
-                  quality and quantity of website traffic to a website or a web
-                  page from search engines. SEO targets unpaid traffic rather
-                  than direct traffic or paid traffic.
-                </p>
+                <p id="SEODescriptionModal"></p>
               </div>
             </div>
             <div class="modal-footer">
