@@ -197,11 +197,13 @@ body {
 }
 
 .slide {
+  flex-grow: 1;
+
   border: 0.1px solid #999999;
   border-radius: 16px;
-  height: auto;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
   height: 400px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+
   border-collapse: collapse;
 }
 
@@ -343,6 +345,7 @@ body {
 .card {
   background: #fff;
   max-height: 700px;
+  height: 400px;
   padding: 10px;
   transition: 0.3s ease;
   opacity: 0.9;
@@ -350,7 +353,6 @@ body {
   border: 1px solid #99999980;
   border-radius: 16px !important;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
-  margin: 10px;
 }
 
 .card:hover {
@@ -362,6 +364,7 @@ body {
 .contant-card {
   background: #fff;
   max-height: 700px;
+  width: 300px;
   padding: 10px;
   transition: 0.3s ease;
   opacity: 0.9;
@@ -491,8 +494,8 @@ body {
 .contact-card {
   margin: 20px;
   border-radius: 16px;
-  width: 300px;
-  height: 250px;
+  width: fit-content;
+  height: auto;
   background-color: #f8f9fa;
   border: 0.1px solid #99999980;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
@@ -511,8 +514,8 @@ body {
 }
 
 .info p {
-  text-align: justify;
-  letter-spacing: 0.1px;
+  text-align: center;
+  word-spacing: 0.1px;
 }
 
 .info a {

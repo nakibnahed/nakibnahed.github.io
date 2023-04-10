@@ -44,7 +44,7 @@ let slider_2 = tns({
   responsive: {
     1600: {
       items: 3,
-      gutter: 30,
+      gutter: 20,
     },
     1024: {
       items: 3,
@@ -73,6 +73,5 @@ let slider_2 = tns({
 fetch("info.json")
   .then((response) => response.json())
   .then((data) => {
-    console.log(data.about);
     document.querySelector("#aboutMe").innerText = data.about;
   });
