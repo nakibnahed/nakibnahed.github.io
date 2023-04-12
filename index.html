@@ -133,7 +133,7 @@
 
     <section class="slider-sec" id="services">
       <div class="title-icon">
-        <i class="fa-regular fa-database"></i>
+        <i class="fa-solid fa-laptop"></i>
         <h2 class="title">Services</h2>
       </div>
       <div class="container">
@@ -195,6 +195,25 @@
                   type="button"
                   class="btn"
                   data-toggle="modal"
+                  data-target="#Host"
+                >
+                  <div class="icon" id="">
+                    <i class="fa-solid fa-database"></i>
+                  </div>
+                  <div class="info">
+                    <h3 id="HostTitle"></h3>
+                    <p id="HostDescription"></p>
+                    <br />
+                    <p>Read More...</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="card"
+                  type="button"
+                  class="btn"
+                  data-toggle="modal"
                   data-target="#SEO"
                 >
                   <div class="icon" id="">
@@ -225,7 +244,7 @@
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
               <h3 class="modal-title" id="WebsiteTitleModal"></h3>
@@ -239,7 +258,7 @@
               </button>
             </div>
             <div class="modal-body">
-              <div class="card">
+              <div class="modal-card">
                 <p id="WebsiteDescriptionModal"></p>
               </div>
             </div>
@@ -264,7 +283,7 @@
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
               <h3 class="modal-title" id="WordpressTitleModal"></h3>
@@ -278,9 +297,70 @@
               </button>
             </div>
             <div class="modal-body">
-              <div class="card">
+              <div class="modal-card">
                 <p id="WordpressDescriptionModal"></p>
+                <a
+                  href="https://en.wikipedia.org/wiki/WordPress"
+                  target="_blank"
+                  >Read More...</a
+                >
               </div>
+              <iframe
+                width="100%"
+                height="500px"
+                src="https://www.youtube.com/embed/cT4NlI00hMw"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="Host"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" id="HostTitleModal"></h3>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-card">
+                <p id="HostDescriptionModal"></p>
+              </div>
+              <iframe
+                width="100%"
+                height="500px"
+                src="https://www.youtube.com/embed/6kfaxkgqIfc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
             </div>
             <div class="modal-footer">
               <button
@@ -302,7 +382,7 @@
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
               <h3 class="modal-title" id="SEOTitleModal"></h3>
@@ -316,8 +396,13 @@
               </button>
             </div>
             <div class="modal-body">
-              <div class="card">
+              <div class="modal-card">
                 <p id="SEODescriptionModal"></p>
+                <a
+                  href="https://en.wikipedia.org/wiki/Search_engine_optimization"
+                  target="_blank"
+                  >Read More...</a
+                >
               </div>
             </div>
             <div class="modal-footer">
@@ -477,7 +562,7 @@
     <section class="about-me" id="about">
       <div class="title-icon">
         <i class="fa-regular fa-address-card"></i>
-        <h2 class="title">About Me</h2>
+        <h2 id="demo" class="title">About Me</h2>
       </div>
       <div class="contant contant-me">
         <div class="my-card">

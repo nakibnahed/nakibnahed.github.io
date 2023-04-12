@@ -230,7 +230,7 @@ body {
 }
 
 .slide-img:hover {
-  box-shadow: 0 0 0 200px #0000008d inset;
+  box-shadow: 0 0 0 200px #0000008e inset;
 }
 
 .slide-img a {
@@ -248,12 +248,14 @@ body {
 .slide-img:hover a {
   opacity: 1;
   transform: scale(1);
-  background-color: #000000;
+}
+.slide-img:hover .works-box-comp-logo {
+  opacity: 0;
 }
 
 .works-box-comp-logo {
   position: absolute;
-  background-color: #ffffffd2;
+  background-color: #ffffff89;
   border-radius: 5px;
   padding: 10px;
 }
@@ -340,6 +342,13 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
+}
+.modal-card {
+  width: 100%;
+  margin: 20px auto;
+  padding: 10px;
+  border: 0.1px solid #99999980;
+  border-radius: 16px !important;
 }
 
 .card {

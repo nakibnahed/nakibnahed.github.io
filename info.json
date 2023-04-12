@@ -8,6 +8,10 @@
       "wordpress_title": "Wordpress",
       "wordpress_description": "WordPress is a free and open-source content management system written in hypertext preprocessor language and paired with a MySQL or MariaDB database with supported HTTPS."
     },
+    "host": {
+      "host_title": "Hosting",
+      "host_description": "Traditionally, web hosting services include everything needed to host and maintain a website or other IT assets, including servers and hardware, related software, data storage,,"
+    },
     "seo": {
       "seo_title": "SEO",
       "seo_description": "search engine optimization is the process of improving the quality and quantity of website traffic to a website or a web page from search engines."
@@ -21,11 +25,15 @@
     },
     "wordpress_modal": {
       "wordpress_title_modal": "Wordpress",
-      "wordpress_description_modal": "WordPress is a free and open-source content management system written in hypertext preprocessor language and paired with a MySQL or MariaDB database with supported HTTPS. Features include a plugin architecture and a template system, referred to within WordPress as 'Themes'."
+      "wordpress_description_modal": "WordPress (WP or WordPress.org) is a free and open-source content management system (CMS) written in hypertext preprocessor (PHP) language[4] and paired with a MySQL or MariaDB database with supported HTTPS. Features include a plugin architecture and a template system, referred to within WordPress as 'Themes'. WordPress was originally created as a blog-publishing system but has evolved to support other web content types including more traditional mailing lists and Internet fora, media galleries, membership sites, learning management systems (LMS) and online stores. WordPress is used by 42.8% of the top 10 million websites as of October 2021.WordPress was released on May 27, 2003, by its founders, American developer Matt Mullenweg and English developer Mike Little, as a fork of b2/cafelog. The software is released under the GPLv2 (or later) license.To function, WordPress has to be installed on a web server, either part of an Internet hosting service like WordPress.com or a computer running the software package WordPress.org to serve as a network host in its own right. A local computer may be used for single-user testing and learning purposes.The WordPress Foundation owns WordPress, WordPress projects, and other related trademarks."
+    },
+    "hosting_modal": {
+      "host_title_modal": "Hosting",
+      "host_description_modal": "Hosting service providers offer a wide range of web hosting services to deliver the best experience possible for their clients. Traditionally, web hosting services include everything needed to host and maintain a website or other IT assets, including servers and hardware, related software, data storage, IT support, cybersecurity and more. There are many benefits to choosing a web hosting model as opposed to attempting to go it alone by placing a web server in an office. Clearly, this approach allows companies to offload all day-to-day hosting and management responsibilities to a third party — who usually has more expertise and resources related to hosting. In many cases, web hosting helps companies reduce costs since it eliminates the need for upfront, capital-intensive investments and enables them to pay a smaller subscription fee each month. This model also removes day-to-day management burdens from busy IT teams and frees them to focus on potentially higher-value projects related to business growth."
     },
     "seo_modal": {
       "seo_title_modal": "SEO",
-      "seo_description_modal": "Search engine optimization is the process of improving the quality and quantity of website traffic to a website or a web page from search engines. SEO targets unpaid traffic rather than direct traffic or paid traffic."
+      "seo_description_modal": "Search engine optimization (SEO) is the process of improving the quality and quantity of website traffic to a website or a web page from search engines. SEO targets unpaid traffic (known as 'natural' or 'organic' results) rather than direct traffic or paid traffic. Unpaid traffic may originate from different kinds of searches, including image search, video search, academic search, news search, and industry-specific vertical search engines.As an Internet marketing strategy, SEO considers how search engines work, the computer-programmed algorithms that dictate search engine behavior, what people search for, the actual search terms or keywords typed into search engines, and which search engines are preferred by their targeted audience. SEO is performed because a website will receive more visitors from a search engine when websites rank higher on the search engine results page (SERP). These visitors can then potentially be converted into customers."
     }
   },
 

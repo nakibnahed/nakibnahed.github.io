@@ -72,6 +72,11 @@ const jsonInfo = (data) => {
   document.querySelector("#WordpressDescription").innerText =
     data.services.wordpress.wordpress_description;
 
+  document.querySelector("#HostTitle").innerText =
+    data.services.host.host_title;
+  document.querySelector("#HostDescription").innerText =
+    data.services.host.host_description;
+
   document.querySelector("#SEOTitle").innerText = data.services.seo.seo_title;
   document.querySelector("#SEODescription").innerText =
     data.services.seo.seo_description;
@@ -86,6 +91,11 @@ const jsonInfo = (data) => {
     data.modal_services.wordpress_modal.wordpress_title_modal;
   document.querySelector("#WordpressDescriptionModal").innerText =
     data.modal_services.wordpress_modal.wordpress_description_modal;
+
+  document.querySelector("#HostTitleModal").innerText =
+    data.modal_services.hosting_modal.host_title_modal;
+  document.querySelector("#HostDescriptionModal").innerText =
+    data.modal_services.hosting_modal.host_description_modal;
 
   document.querySelector("#SEOTitleModal").innerText =
     data.modal_services.seo_modal.seo_title_modal;
