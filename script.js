@@ -29,6 +29,11 @@ let slider = tns({
   },
 });
 
+//
+//
+//
+//
+
 let slider_2 = tns({
   container: ".my-slider-2",
   slideBy: 1,
@@ -59,6 +64,19 @@ let slider_2 = tns({
     },
   },
 });
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 const jsonInfo = (data) => {
   // services json info
@@ -109,6 +127,22 @@ const jsonInfo = (data) => {
 fetch("info.json")
   .then((response) => response.json())
   .then(jsonInfo);
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 // const navEl = document.querySelector('.new-navbar');
 

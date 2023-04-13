@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "bootstrap": "^5.3.0-alpha1"
+    "bootstrap": "^5.3.0-alpha3"
   },
   "devDependencies": {
     "typescript": "^4.9.5"
