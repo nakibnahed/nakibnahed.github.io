@@ -19,7 +19,6 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2.5em;
-  font-family: fantasy !important;
 }
 
 .logo:hover {
@@ -605,7 +604,7 @@ body {
   }
   .title-icon {
     font-size: 1.4em !important;
-    margin: 25px auto 20px auto;
+    margin: 40px auto 20px auto;
   }
   .title-icon i {
     font-size: 1.3em !important;
@@ -624,7 +623,6 @@ body {
     padding-top: 10px;
     padding-left: 5px;
     font-size: 1.7em;
-    font-family: fantasy !important;
   }
   .toggle i {
     font-size: 1.9em;
