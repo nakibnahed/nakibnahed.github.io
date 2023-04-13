@@ -203,10 +203,13 @@ body {
   height: 400px;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
   border-collapse: collapse;
+  transform: scale(0.99);
+  transition: 0.1s ease-in-out;
 }
 
 .slide:hover {
-  transform: scale(0.99);
+  transition: 0.1s ease-in-out;
+  transform: scale(1);
   box-shadow: 0 0px 20px rgb(0 0 0 / 25%);
   cursor: pointer;
   border-collapse: collapse;
@@ -300,11 +303,11 @@ body {
   color: #0000009b;
 }
 
-@media (max-width: 1600px) {
+/* @media (max-width: 1600px) {
   .container {
     width: 100%;
   }
-}
+} */
 
 .title-icon {
   margin: 30px auto;
@@ -354,16 +357,18 @@ body {
   max-height: 700px;
   height: 400px;
   padding: 10px;
-  transition: 0.3s ease;
+  transition: 0.1s ease;
   opacity: 0.9;
   box-decoration-break: initial;
   border: 1px solid #99999980;
   border-radius: 16px !important;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+  transform: scale(0.99);
 }
 
 .card:hover {
-  transform: scale(0.99);
+  transform: scale(1);
+  transition: 0.1s ease;
   box-shadow: 0 0px 20px rgb(0 0 0 / 25%);
   cursor: pointer;
 }
@@ -387,18 +392,6 @@ body {
   font-size: 3em;
   text-align: center;
   margin-top: 30px;
-}
-
-.card:hover #wordpress {
-  color: rgb(0, 138, 192);
-}
-
-.card:hover #seo {
-  color: rgb(0, 181, 57);
-}
-
-.card:hover #code {
-  color: rgb(90, 5, 66);
 }
 
 /*   Projects  */
