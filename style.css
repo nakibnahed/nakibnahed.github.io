@@ -151,7 +151,7 @@ body {
 /*    services section     */
 
 .container {
-  width: 1600px;
+  display: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
