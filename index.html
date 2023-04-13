@@ -71,6 +71,8 @@
   </head>
 
   <body>
+    <!-- Navbar section -->
+
     <nav class="navbar navbar-expand-xxxl nav-justified navbarlight new-navbar">
       <div class="container">
         <a href="#" class="navbar-brand mt-2 h1 logo"> NN </a>
@@ -131,7 +133,7 @@
           <a
             href="https://api.whatsapp.com/send?phone=00905346810886"
             target="_blank"
-            ><i id="whatsapp" class="fa-brands fa-whatsapp"></i
+            ><i id="whatsapp" class="fa-brands fa-whatsapp fa-beat"></i
           ></a>
         </div>
       </div>
@@ -241,7 +243,7 @@
       </div>
     </section>
 
-    <!-- Modal  -->
+    <!-- Modal section  -->
 
     <section>
       <div
@@ -427,7 +429,7 @@
       </div>
     </section>
 
-    <!-----Projects------->
+    <!-----Projects section------->
 
     <section class="slider-sec" id="works">
       <div class="title-icon" id="projects">
@@ -565,7 +567,7 @@
       </div>
     </section>
 
-    <!---About Me ---->
+    <!---About Me section---->
 
     <section class="about-me" id="about">
       <div class="title-icon">
@@ -577,7 +579,7 @@
           <div class="me-img">
             <img src="imgs/cv-photo.png" alt=" " />
           </div>
-          <div class="info">
+          <div class="me-info">
             <h3 class="me-name">Nahed Nakib</h3>
             <p id="aboutMe"></p>
           </div>
@@ -585,29 +587,38 @@
       </div>
     </section>
 
-    <!----contact----->
+    <!----contact section----->
+
     <section class="cards contact" id="contact">
       <div class="title-icon">
         <i class="fa-regular fa-globe"></i>
         <h2 class="title">Let's Work Together</h2>
       </div>
       <div class="contant">
-        <div class="contant-card">
+        <div
+          class="contant-card"
+          onclick="location.href='https://api.whatsapp.com/send?phone=00905346810886'"
+        >
           <div class="icon">
-            <i id="phone " class="fa-solid fa-phone"></i>
+            <i id="phone " class="fa-solid fa-phone fa-beat"></i>
           </div>
-          <div class="info">
+          <div class="me-info">
             <h3 id="phone">Phone</h3>
-            <a href="https://api.whatsapp.com/send?phone=00905346810886"
+            <a
+              id="hponee"
+              href="https://api.whatsapp.com/send?phone=00905346810886"
               >+905346810886</a
             >
           </div>
         </div>
-        <div class="contant-card">
+        <div
+          class="contant-card"
+          onclick="location.href='mailto:nahednakibyos@gmail.com'"
+        >
           <div class="icon">
-            <i id="email " class="fa-solid fa-envelope"></i>
+            <i id="email " class="fa-solid fa-envelope fa-beat"></i>
           </div>
-          <div class="info">
+          <div class="me-info">
             <h3 id="email ">Email</h3>
             <a href="mailto:nahednakibyos@gmail.com" target="_blank">
               nahednakibyos@gmail.com</a
@@ -616,6 +627,8 @@
         </div>
       </div>
     </section>
+
+    <!-- Footer section -->
 
     <footer class="footer">
       <div class="footer-social-icons">
@@ -650,7 +663,6 @@
       />
     </footer>
 
-    <!-- <span class="project-price " style="color: #841a1a; font-size: large; "></span> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

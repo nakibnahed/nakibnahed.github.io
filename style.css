@@ -281,10 +281,6 @@ body {
   background-image: url(/imgs/propertyclubturkey.png);
 }
 
-.img-5 {
-  background-image: url(/imgs/geeks34.jpeg);
-}
-
 .slide-info {
   padding: 15px;
 }
@@ -302,7 +298,32 @@ body {
 .slide-info a:hover {
   color: #0000009b;
 }
+.info {
+  margin: 5px auto;
+  text-align: center;
+}
 
+.info h3 {
+  color: #761c33;
+  font-size: 1.6em;
+  font-weight: 700;
+  margin: 10px;
+}
+.info p {
+  text-align: center;
+  word-spacing: 0.1px;
+}
+
+.info a {
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.info a:hover {
+  color: #761c33;
+  transform: scale(1.1);
+}
 /* @media (max-width: 1600px) {
   .container {
     width: 100%;
@@ -374,6 +395,7 @@ body {
 }
 
 .contant-card {
+  cursor: pointer;
   background: #fff;
   max-height: 700px;
   width: 300px;
@@ -471,14 +493,10 @@ body {
   justify-content: center;
 }
 
-/* .my-card:hover {
-    transform: scale(1.1);
-} */
-
 .me-img img {
   width: 100px;
-  height: 120px;
-  border-radius: 10px;
+  height: 100px;
+  border-radius: 100px;
 }
 
 .me-name {
@@ -501,30 +519,30 @@ body {
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
 }
 
-.info {
+.me-info {
   margin: 5px auto;
   text-align: center;
 }
 
-.info h3 {
+.me-info h3 {
   color: #761c33;
-  font-size: 1.9em;
+  font-size: 1.3em;
   font-weight: 700;
   margin: 10px;
 }
 
-.info p {
-  text-align: center;
+.me-info p {
+  text-align: justify;
   word-spacing: 0.1px;
 }
 
-.info a {
+.me-info a {
   text-align: center;
   text-decoration: none;
   color: #000;
 }
 
-.info a:hover {
+.me-info a:hover {
   color: #761c33;
   transform: scale(1.1);
 }
