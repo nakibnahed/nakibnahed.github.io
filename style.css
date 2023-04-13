@@ -10,12 +10,12 @@
 }
 
 body {
-  background: rgba(255, 255, 255);
+  background: #ffffff;
 }
 
 .logo {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.7);
+  color: #ffffffb3;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2.5em;
@@ -34,7 +34,7 @@ body {
 
 .navbar-scrolled {
   background-color: #00000093;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 3px 10px #00000026;
 }
 
 .navbar-items {
@@ -55,7 +55,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(rgba(45, 45, 45, 0.4), rgba(45, 45, 45, 0.4)),
+  background: linear-gradient(#2d2d2d66, #2d2d2d66),
     url(/imgs/me-33.jpg) no-repeat;
   background-size: cover;
   background-position: 100% 40%;
@@ -65,12 +65,8 @@ body {
 
 .main-div {
   margin-top: 150px;
-  border: 0.1px solid rgba(0, 0, 0, 0.155);
-  background: linear-gradient(
-    rgba(134, 134, 134, 0.4),
-    rgba(137, 137, 137, 0.4),
-    rgba(127, 127, 127, 0.4)
-  );
+  border: 0.1px solid #00000028;
+  background: linear-gradient(#86868666, #89898966, #7f7f7f66);
   border-radius: 16px;
   padding: 25px 130px 35px 25px;
 }
@@ -93,7 +89,7 @@ body {
 }
 
 .main h3 {
-  color: rgba(255, 255, 255, 0.7);
+  color: #ffffffb3;
   font-size: 1.5em;
   font-weight: 500;
   letter-spacing: 1px;
@@ -109,8 +105,9 @@ body {
 .main-btn {
   text-decoration: none;
   color: #000;
-  background: #fdbe00;
+  background: #ffc107;
   font-weight: 500;
+  border: none;
   font-size: 1.1em;
   display: inline-block;
   padding: 10px 20px;
@@ -121,13 +118,13 @@ body {
 
 .main-btn:hover {
   background: transparent;
-  border: 0.1px solid rgba(182, 182, 182, 0.3);
+  border: 0.1px solid #b6b6b64d;
   color: #fff;
-  box-shadow: 0 0px 20px rgb(0 0 0 / 25%);
+  box-shadow: 0 0px 20px #00000040;
 }
 
 .social-icons a {
-  color: rgba(255, 255, 255, 0.7) !important;
+  color: #ffffffb3 !important;
   font-size: 1.7em;
   padding-right: 20px;
 }
@@ -145,7 +142,7 @@ body {
 }
 
 .social-icons a #whatsapp:hover {
-  color: rgb(1, 124, 40);
+  color: #017c28;
 }
 
 /*    services section     */
@@ -200,7 +197,7 @@ body {
   border: 0.1px solid #999999;
   border-radius: 16px;
   height: 400px;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 5px 25px #0000000d;
   border-collapse: collapse;
   transform: scale(0.99);
   transition: 0.1s ease-in-out;
@@ -209,7 +206,7 @@ body {
 .slide:hover {
   transition: 0.1s ease-in-out;
   transform: scale(1);
-  box-shadow: 0 0px 20px rgb(0 0 0 / 25%);
+  box-shadow: 0 0px 20px #00000040;
   cursor: pointer;
   border-collapse: collapse;
 }
@@ -382,14 +379,14 @@ body {
   box-decoration-break: initial;
   border: 1px solid #99999980;
   border-radius: 16px !important;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 5px 25px #0000000d;
   transform: scale(0.99);
 }
 
 .card:hover {
   transform: scale(1);
   transition: 0.1s ease;
-  box-shadow: 0 0px 20px rgb(0 0 0 / 25%);
+  box-shadow: 0 0px 20px #00000040;
   cursor: pointer;
 }
 
@@ -404,7 +401,7 @@ body {
   box-decoration-break: initial;
   border: 0.1px solid #99999980;
   border-radius: 16px !important;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 5px 25px #0000000d;
   margin: 20px;
 }
 
@@ -424,7 +421,7 @@ body {
 .project-card {
   background-color: #f8f9fa;
   border: 0.1px solid #99999980;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 5px 25px #0000000d;
   min-height: 14em;
   width: 25em;
   height: 300px;
@@ -436,7 +433,7 @@ body {
 
 .project-card:hover {
   transform: scale(0.99);
-  box-shadow: 0 0px 20px rgb(0 0 0 / 25%);
+  box-shadow: 0 0px 20px #00000040;
 }
 
 .project-card:hover .preject-img {
@@ -446,7 +443,7 @@ body {
 .preject-img img {
   width: 100%;
   max-height: 220px;
-  border: 1px 10px solid black;
+  border: 1px 10px solid #000;
   height: auto;
 }
 
@@ -482,8 +479,8 @@ body {
 .my-card {
   background: #fff;
   width: 50.25em !important;
-  border: 0.1px solid rgba(0, 0, 0, 0.2);
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+  border: 0.1px solid #00000033;
+  box-shadow: 0 5px 25px #0000000d;
   border-radius: 16px;
   padding: 30px;
   margin: 20px;
@@ -515,7 +512,7 @@ body {
   height: auto;
   background-color: #f8f9fa;
   border: 0.1px solid #99999980;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 5px 25px #0000000d;
 }
 
 .me-info {
@@ -636,7 +633,7 @@ body {
     font-size: 1.5em;
   }
   .main {
-    background: linear-gradient(rgba(45, 45, 45, 0.4), rgba(45, 45, 45, 0.4)),
+    background: linear-gradient(#2d2d2d66, #2d2d2d66),
       url(/imgs/me-222.jpg) no-repeat;
     background-size: cover;
     background-position: 58% 0px;
@@ -646,12 +643,8 @@ body {
   }
   .main-div {
     margin: 300px auto 0 auto;
-    border: 0.1px solid rgba(0, 0, 0, 0.155);
-    background: linear-gradient(
-      rgba(100, 100, 100, 0.7),
-      rgba(46, 46, 46, 0.4),
-      rgba(100, 100, 100, 0.6)
-    );
+    border: 0.1px solid #00000028;
+    background: linear-gradient(#646464b3, #2e2e2e66, #64646499);
     border-radius: 16px;
     padding: 25px 50px 35px 25px;
   }
