@@ -12,6 +12,9 @@
 body {
   background: #ffffff;
 }
+a i {
+  color: #761c33;
+}
 
 .logo {
   text-decoration: none;
@@ -30,6 +33,7 @@ body {
 .navbar {
   position: absolute;
   width: 100%;
+  left: 4.5rem;
   z-index: 999;
 }
 
@@ -660,4 +664,56 @@ body {
   .controller {
     margin-bottom: -15px;
   }
+}
+
+.sidebar {
+  position: fixed;
+  height: 100vh;
+  width: 4.5rem;
+}
+
+/* .sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+} */
+
+/* .sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+} */
+.main {
+  margin-left: 4.5rem;
+}
+
+[aria-label]:focus:after,
+[aria-label]:hover:after {
+  position: absolute;
+  z-index: 999;
+  left: 4.3rem;
+  display: flex;
+  overflow: hidden;
+  width: 200px;
+  height: 2em;
+  border-radius: 0.2em;
+  padding: 0 0.7em;
+  content: attr(aria-label);
+  color: #fff;
+  background: #000;
+  font-size: 1em;
+  line-height: 2em;
+  text-align: left;
 }

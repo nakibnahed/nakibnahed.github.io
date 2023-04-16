@@ -71,9 +71,129 @@
   </head>
 
   <body>
+    <div class="d-flex flex-column flex-shrink-0 bg-body-tertiary sidebar z-3">
+      <div class="border-top">
+        <a
+          href="#"
+          class="d-flex align-items-center justify-content-center p-3 link-body-emphasis text-decoration-none"
+          aria-expanded="false"
+        >
+          <img
+            src="imgs/cv-photo.png"
+            alt="Nahed Nakib"
+            width="36"
+            height="36"
+            class="rounded-circle"
+          />
+        </a>
+      </div>
+
+      <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
+        <li class="nav-item">
+          <a
+            href="#services"
+            class="nav-link py-3 border-bottom rounded-0"
+            aria-current="page"
+            data-bs-toggle="tooltip"
+            data-bs-placement="right"
+            aria-label="Services"
+          >
+            <i class="fa-solid fa-laptop"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="#works"
+            class="nav-link py-3 border-bottom"
+            data-bs-toggle="tooltip"
+            data-bs-placement="right"
+            aria-label="Work & Projects"
+          >
+            <i class="fa-solid fa-diagram-project"></i>
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="#about"
+            class="nav-link py-3 border-bottom rounded-0"
+            data-bs-toggle="tooltip"
+            data-bs-placement="right"
+            aria-label="About Me"
+          >
+            <i class="fa-regular fa-address-card"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="#contact"
+            class="nav-link py-3 border-bottom rounded-0"
+            data-bs-toggle="tooltip"
+            data-bs-placement="right"
+            aria-label="Let's Work Together"
+          >
+            <i class="fa-solid fa-globe"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="mailto:nahednakibyos@gmail.com"
+            target="_blank"
+            class="nav-link py-3 border-bottom rounded-0"
+          >
+            <i id="email " class="fa-solid fa-envelope fa-beat"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="tel:+905346810886"
+            class="nav-link py-3 border-bottom rounded-0"
+          >
+            <i id="phone " class="fa-solid fa-phone fa-beat"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://api.whatsapp.com/send?phone=00905346810886"
+            target="_blank"
+            class="nav-link py-3 border-bottom rounded-0"
+          >
+            <i id="whatsapp" class="fa-brands fa-whatsapp fa-beat"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/nakibnahed"
+            target="_blank"
+            class="nav-link py-3 border-bottom rounded-0"
+          >
+            <i id="github" class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/nahed-nakib-450ab9239/"
+            target="_blank"
+            class="nav-link py-3 border-bottom rounded-0"
+          >
+            <i id="linkedin" class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://instagram.com/nahed_nakib?igshid=YmMyMTA2M2Y="
+            target="_blank"
+            class="nav-link py-3 border-bottom rounded-0"
+          >
+            <i id="instagram" class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
     <!-- Navbar section -->
 
-    <nav class="navbar navbar-expand-xxxl nav-justified navbarlight new-navbar">
+    <!-- <nav class="navbar navbar-expand-xxxl nav-justified navbarlight new-navbar">
       <div class="container-xxl">
         <a href="#" class="navbar-brand mt-2 h1 logo"> NN </a>
 
@@ -106,7 +226,7 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> -->
 
     <!----- Mine section ------>
     <section class="main">
@@ -133,7 +253,7 @@
           <a
             href="https://api.whatsapp.com/send?phone=00905346810886"
             target="_blank"
-            ><i id="whatsapp" class="fa-brands fa-whatsapp fa-beat"></i
+            ><i id="whatsapp" class="fa-brands fa-whatsapp"></i
           ></a>
         </div>
       </div>
@@ -595,20 +715,13 @@
         <h2 class="title">Let's Work Together</h2>
       </div>
       <div class="contant">
-        <div
-          class="contant-card"
-          onclick="location.href='https://api.whatsapp.com/send?phone=00905346810886'"
-        >
+        <div class="contant-card" onclick="location.href='tel:+905346810886'">
           <div class="icon">
             <i id="phone " class="fa-solid fa-phone fa-beat"></i>
           </div>
           <div class="me-info">
             <h3 id="phone">Phone</h3>
-            <a
-              id="hponee"
-              href="https://api.whatsapp.com/send?phone=00905346810886"
-              >+905346810886</a
-            >
+            <a id="hponee" href="tel:+905346810886">+905346810886</a>
           </div>
         </div>
         <div
