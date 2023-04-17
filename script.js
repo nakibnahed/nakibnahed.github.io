@@ -143,6 +143,16 @@ fetch("info.json")
 //
 //
 //
+var myNav = document.querySelector("#sidebar");
+window.onscroll = function () {
+  if (document.body.scrollTop >= 200) {
+    myNav.classList.add("nav-colored");
+    myNav.classList.remove("nav-transparent");
+  } else {
+    myNav.classList.add("nav-transparent");
+    myNav.classList.remove("nav-colored");
+  }
+};
 
 // const navEl = document.querySelector('.new-navbar');
 

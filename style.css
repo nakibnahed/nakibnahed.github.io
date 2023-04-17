@@ -12,7 +12,7 @@
 body {
   background: #ffffff;
 }
-a i {
+.sidebar-icon i {
   color: #761c33;
 }
 
@@ -695,7 +695,7 @@ a i {
 .sidebar a:hover {
   color: #f1f1f1;
 } */
-.main {
+.page-content {
   margin-left: 4.5rem;
 }
 
@@ -716,4 +716,13 @@ a i {
   font-size: 1em;
   line-height: 2em;
   text-align: left;
+}
+
+.nav-colored,
+.sidebar {
+  display: none !important;
+}
+.nav-transparent {
+  background-color: #fff !important;
+  display: block !important;
 }
