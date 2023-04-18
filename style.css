@@ -698,6 +698,17 @@ body {
 .page-content {
   margin-left: 4.5rem;
 }
+.show-menu {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  width: 4.5rem;
+  background-color: transparent;
+  z-index: 2;
+  border: 0.1px solid #9999993f;
+  text-align: center;
+  border-radius: 10px;
+}
 
 [aria-label]:focus:after,
 [aria-label]:hover:after {
@@ -716,6 +727,7 @@ body {
   font-size: 1em;
   line-height: 2em;
   text-align: left;
+  opacity: 0.5;
 }
 
 .nav-colored,

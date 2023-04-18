@@ -71,133 +71,161 @@
   </head>
 
   <body>
-    <div
-      id="sidebar"
-      class="d-flex flex-column flex-shrink-0 bg-body-tertiary sidebar z-3"
-    >
-      <div class="border-top">
+    <div>
+      <div
+        id="sidebar"
+        class="d-flex flex-column flex-shrink-0 bg-body-tertiary sidebar z-3"
+      >
+        <div class="border-top">
+          <a
+            href="#"
+            class="d-flex align-items-center justify-content-center p-3 link-body-emphasis text-decoration-none"
+            aria-expanded="false"
+          >
+            <img
+              src="imgs/Logo-2.png"
+              alt="Nahed Nakib"
+              width="36"
+              height="36"
+              class="rounded-circle"
+            />
+          </a>
+        </div>
+
+        <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
+          <li class="nav-item">
+            <a
+              href="#services"
+              class="nav-link py-3 border-bottom rounded-0 sidebar-icon"
+              aria-current="page"
+              data-bs-toggle="tooltip"
+              data-bs-placement="right"
+              aria-label="Services"
+            >
+              <i class="fa-solid fa-laptop"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="#works"
+              class="nav-link py-3 border-bottom sidebar-icon"
+              data-bs-toggle="tooltip"
+              data-bs-placement="right"
+              aria-label="Work & Projects"
+            >
+              <i class="fa-solid fa-diagram-project"></i>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="#about"
+              class="nav-link py-3 border-bottom rounded-0 sidebar-icon"
+              data-bs-toggle="tooltip"
+              data-bs-placement="right"
+              aria-label="About Me"
+            >
+              <i class="fa-regular fa-address-card"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="#contact"
+              class="nav-link py-3 border-bottom rounded-0 sidebar-icon"
+              data-bs-toggle="tooltip"
+              data-bs-placement="right"
+              aria-label="Let's Work Together"
+            >
+              <i class="fa-solid fa-globe"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="mailto:nahednakibyos@gmail.com"
+              target="_blank"
+              aria-current="page"
+              data-bs-toggle="tooltip"
+              data-bs-placement="right"
+              class="nav-link py-3 border-bottom rounded-0 sidebar-icon"
+              aria-label="Send an email"
+            >
+              <i id="email " class="fa-solid fa-envelope fa-beat"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="tel:+905346810886"
+              class="nav-link py-3 border-bottom rounded-0 sidebar-icon"
+              aria-label="Phone Call"
+            >
+              <i id="phone " class="fa-solid fa-phone fa-beat"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://api.whatsapp.com/send?phone=00905346810886"
+              target="_blank"
+              class="nav-link py-3 border-bottom rounded-0 sidebar-icon"
+              aria-label="Whatsapp"
+            >
+              <i id="whatsapp" class="fa-brands fa-whatsapp fa-beat"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/nakibnahed"
+              target="_blank"
+              class="nav-link py-3 border-bottom rounded-0 sidebar-icon"
+              aria-label="Github"
+            >
+              <i id="github" class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/nahed-nakib-450ab9239/"
+              target="_blank"
+              class="nav-link py-3 border-bottom rounded-0 sidebar-icon"
+              aria-label="Linkedin"
+            >
+              <i id="linkedin" class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/nahed_nakib?igshid=YmMyMTA2M2Y="
+              target="_blank"
+              class="nav-link py-3 border-bottom rounded-0 sidebar-icon"
+              aria-label="Instagram"
+            >
+              <i id="instagram" class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              onclick="closeSidebar()"
+              class="btn sidebar-icon"
+              data-bs-toggle="tooltip"
+              data-bs-placement="right"
+              aria-label="Hide Menu"
+            >
+              <i class="fa-solid fa-arrow-left"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="show-menu">
         <a
-          href="#"
-          class="d-flex align-items-center justify-content-center p-3 link-body-emphasis text-decoration-none"
-          aria-expanded="false"
+          onclick="openSidebar()"
+          class="btn sidebar-icon"
+          id="showMenu"
+          data-bs-toggle="tooltip"
+          data-bs-placement="right"
+          aria-label="Show Menu"
         >
-          <img
-            src="imgs/Logo-2.png"
-            alt="Nahed Nakib"
-            width="36"
-            height="36"
-            class="rounded-circle"
-          />
+          <i class="fa-solid fa-arrow-right"></i>
         </a>
       </div>
-
-      <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
-        <li class="nav-item">
-          <a
-            href="#services"
-            class="nav-link py-3 border-bottom rounded-0 sidebar-icon"
-            aria-current="page"
-            data-bs-toggle="tooltip"
-            data-bs-placement="right"
-            aria-label="Services"
-          >
-            <i class="fa-solid fa-laptop"></i>
-          </a>
-        </li>
-        <li>
-          <a
-            href="#works"
-            class="nav-link py-3 border-bottom sidebar-icon"
-            data-bs-toggle="tooltip"
-            data-bs-placement="right"
-            aria-label="Work & Projects"
-          >
-            <i class="fa-solid fa-diagram-project"></i>
-          </a>
-        </li>
-
-        <li>
-          <a
-            href="#about"
-            class="nav-link py-3 border-bottom rounded-0 sidebar-icon"
-            data-bs-toggle="tooltip"
-            data-bs-placement="right"
-            aria-label="About Me"
-          >
-            <i class="fa-regular fa-address-card"></i>
-          </a>
-        </li>
-        <li>
-          <a
-            href="#contact"
-            class="nav-link py-3 border-bottom rounded-0 sidebar-icon"
-            data-bs-toggle="tooltip"
-            data-bs-placement="right"
-            aria-label="Let's Work Together"
-          >
-            <i class="fa-solid fa-globe"></i>
-          </a>
-        </li>
-        <li>
-          <a
-            href="mailto:nahednakibyos@gmail.com"
-            target="_blank"
-            class="nav-link py-3 border-bottom rounded-0 sidebar-icon"
-            aria-label="Send an email"
-          >
-            <i id="email " class="fa-solid fa-envelope fa-beat"></i>
-          </a>
-        </li>
-        <li>
-          <a
-            href="tel:+905346810886"
-            class="nav-link py-3 border-bottom rounded-0 sidebar-icon"
-            aria-label="Phone Call"
-          >
-            <i id="phone " class="fa-solid fa-phone fa-beat"></i>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://api.whatsapp.com/send?phone=00905346810886"
-            target="_blank"
-            class="nav-link py-3 border-bottom rounded-0 sidebar-icon"
-            aria-label="Whatsapp"
-          >
-            <i id="whatsapp" class="fa-brands fa-whatsapp fa-beat"></i>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://github.com/nakibnahed"
-            target="_blank"
-            class="nav-link py-3 border-bottom rounded-0 sidebar-icon"
-            aria-label="Github"
-          >
-            <i id="github" class="fa-brands fa-github"></i>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/nahed-nakib-450ab9239/"
-            target="_blank"
-            class="nav-link py-3 border-bottom rounded-0 sidebar-icon"
-            aria-label="Linkedin"
-          >
-            <i id="linkedin" class="fa-brands fa-linkedin-in"></i>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://instagram.com/nahed_nakib?igshid=YmMyMTA2M2Y="
-            target="_blank"
-            class="nav-link py-3 border-bottom rounded-0 sidebar-icon"
-            aria-label="Instagram"
-          >
-            <i id="instagram" class="fa-brands fa-instagram"></i>
-          </a>
-        </li>
-      </ul>
     </div>
 
     <!-- Navbar section -->

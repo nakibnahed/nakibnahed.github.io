@@ -128,21 +128,6 @@ fetch("info.json")
   .then((response) => response.json())
   .then(jsonInfo);
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 var myNav = document.querySelector("#sidebar");
 window.onscroll = function () {
   if (document.body.scrollTop >= 200) {
@@ -154,12 +139,11 @@ window.onscroll = function () {
   }
 };
 
-// const navEl = document.querySelector('.new-navbar');
-
-// window.addEventListener('scroll', () => {
-//     if (window.scrollY >= 56) {
-//         navEl.classList.add('navbar-scrolled');
-//     } else if (window.scrollY < 56) {
-//         navEl.classList.remove('navbar-scrolled');
-//     }
-// })
+function closeSidebar() {
+  document.getElementById("sidebar").style.left = "-4.5rem";
+  document.querySelector(".page-content").style.marginLeft = "0";
+}
+function openSidebar() {
+  document.getElementById("sidebar").style.left = "0";
+  document.querySelector(".page-content").style.marginLeft = "4.5rem";
+}
