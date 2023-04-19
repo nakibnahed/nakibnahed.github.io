@@ -695,9 +695,7 @@ body {
 .sidebar a:hover {
   color: #f1f1f1;
 } */
-.page-content {
-  margin-left: 4.5rem;
-}
+
 .show-menu {
   position: fixed;
   top: 50px;

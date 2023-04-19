@@ -141,9 +141,7 @@ window.onscroll = function () {
 
 function closeSidebar() {
   document.getElementById("sidebar").style.left = "-4.5rem";
-  document.querySelector(".page-content").style.marginLeft = "0";
 }
 function openSidebar() {
   document.getElementById("sidebar").style.left = "0";
-  document.querySelector(".page-content").style.marginLeft = "4.5rem";
 }
