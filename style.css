@@ -282,6 +282,13 @@ body {
   background-image: url(/imgs/propertyclubturkey.png);
 }
 
+.img-5 {
+  background: linear-gradient(#2d2d2d66, #2d2d2d66),
+    url(/imgs/Geeks34\ main\ photo.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
 .slide-info {
   padding: 15px;
 }
@@ -698,6 +705,7 @@ body {
 
 .show-menu {
   position: fixed;
+
   top: 50px;
   left: 0;
   width: 4.5rem;
