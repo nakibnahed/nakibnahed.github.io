@@ -716,8 +716,8 @@ body {
   border-radius: 10px;
 }
 
-[aria-label]:focus:after,
-[aria-label]:hover:after {
+.sidebar-icon[aria-label]:focus:after,
+.sidebar-icon[aria-label]:hover:after {
   position: absolute;
   z-index: 999;
   left: 4.3rem;
