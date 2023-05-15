@@ -129,15 +129,29 @@ fetch("info.json")
   .then(jsonInfo);
 
 var myNav = document.querySelector("#sidebar");
-window.onscroll = function () {
-  if (document.body.scrollTop >= 200) {
-    myNav.classList.add("nav-colored");
-    myNav.classList.remove("nav-transparent");
-  } else {
+$(window).scroll(function () {
+  if ($(window).scrollTop() >= 800) {
     myNav.classList.add("nav-transparent");
     myNav.classList.remove("nav-colored");
+    const pageContent = document.querySelectorAll(".page-content");
+    for (let i = 0; i <= pageContent.length; i++) {
+      pageContent[i].style.marginLeft = "3rem";
+    }
   }
-};
+});
+// window.onscroll = function () {
+//   if (document.body.scrollTop >= 100) {
+//     myNav.classList.add("nav-colored");
+//     myNav.classList.remove("nav-transparent");
+//     const pageContent = document.querySelectorAll(".page-content");
+//     for (let i = 0; i <= pageContent.length; i++) {
+//       pageContent[i].style.marginLeft = "3rem";
+//     }
+//   } else {
+//     myNav.classList.add("nav-transparent");
+//     myNav.classList.remove("nav-colored");
+//   }
+// };
 
 function closeSidebar() {
   document.getElementById("sidebar").style.left = "-4.5rem";

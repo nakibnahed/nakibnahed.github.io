@@ -674,9 +674,12 @@ body {
 }
 
 .sidebar {
+  top: 15vh;
   position: fixed;
-  height: 100vh;
-  width: 4.5rem;
+  height: 58vh;
+  width: 3rem;
+  border-radius: 0 10px 10px 0;
+  border: none;
 }
 
 /* .sidebar {
@@ -706,9 +709,9 @@ body {
 .show-menu {
   position: fixed;
 
-  top: 50px;
+  top: 150px;
   left: 0;
-  width: 4.5rem;
+  width: 3rem;
   background-color: transparent;
   z-index: 2;
   border: 0.1px solid #9999993f;
@@ -743,4 +746,5 @@ body {
 .nav-transparent {
   background-color: #fff !important;
   display: block !important;
+  transition: 0.5s ease-in;
 }
