@@ -155,7 +155,16 @@ $(window).scroll(function () {
 
 function closeSidebar() {
   document.getElementById("sidebar").style.left = "-4.5rem";
+  const pageContent = document.querySelectorAll(".page-content");
+  for (let i = 0; i <= pageContent.length; i++) {
+    pageContent[i].style.marginLeft = "0";
+    pageContent[i].style.transition = "0.2s ease-in";
+  }
 }
 function openSidebar() {
   document.getElementById("sidebar").style.left = "0";
+  const pageContent = document.querySelectorAll(".page-content");
+  for (let i = 0; i <= pageContent.length; i++) {
+    pageContent[i].style.marginLeft = "3rem";
+  }
 }
