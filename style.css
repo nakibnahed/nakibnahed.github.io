@@ -12,6 +12,13 @@
 body {
   background: #ffffff;
 }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+}
 .sidebar-icon i {
   color: #761c33;
 }
@@ -382,9 +389,13 @@ body {
 }
 
 .card {
+  display: flex;
+  justify-content: start;
+  align-items: stretch;
   background: #fff;
   max-height: 700px;
-  height: 400px;
+  min-height: 380px;
+  height: fit-content;
   padding: 10px;
   transition: 0.1s ease;
   opacity: 0.9;
@@ -403,6 +414,7 @@ body {
 }
 
 .contant-card {
+  overflow: hidden;
   cursor: pointer;
   background: #fff;
   max-height: 700px;
@@ -415,6 +427,16 @@ body {
   border-radius: 16px !important;
   box-shadow: 0 5px 25px #0000000d;
   margin: 20px;
+}
+
+.read-more {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.read-more p {
+  position: relative;
+  align-self: center;
 }
 
 .icon {
@@ -674,42 +696,21 @@ body {
 }
 
 .sidebar {
-  top: 15vh;
+  top: 25vh;
   position: fixed;
-  height: 58vh;
+  height: 47vh;
   width: 3rem;
   border-radius: 0 10px 10px 0;
   border: none;
 }
 
-/* .sidebar {
-  height: 100%;
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 16px;
-} */
-
-/* .sidebar a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #818181;
-  display: block;
-}
-
 .sidebar a:hover {
   color: #f1f1f1;
-} */
+}
 
 .show-menu {
   position: fixed;
-
-  top: 150px;
+  top: 250px;
   left: 0;
   width: 3rem;
   background-color: transparent;

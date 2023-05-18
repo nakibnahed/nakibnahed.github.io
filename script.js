@@ -133,38 +133,35 @@ $(window).scroll(function () {
   if ($(window).scrollTop() >= 800) {
     myNav.classList.add("nav-transparent");
     myNav.classList.remove("nav-colored");
-    const pageContent = document.querySelectorAll(".page-content");
-    for (let i = 0; i <= pageContent.length; i++) {
-      pageContent[i].style.marginLeft = "3rem";
-    }
+    // const pageContent = document.querySelectorAll(".page-content");
+    // const mediaQuery = window.matchMedia("(max-width: 768px)");
+    // for (let i = 0; i <= pageContent.length; i++) {
+    //   if (mediaQuery.matches) {
+    //     pageContent[i].style.marginLeft = "3rem";
+    //     pageContent[i].style.transition = "0.2s ease-in";
+    //   }
+    // }
   }
 });
-// window.onscroll = function () {
-//   if (document.body.scrollTop >= 100) {
-//     myNav.classList.add("nav-colored");
-//     myNav.classList.remove("nav-transparent");
-//     const pageContent = document.querySelectorAll(".page-content");
-//     for (let i = 0; i <= pageContent.length; i++) {
-//       pageContent[i].style.marginLeft = "3rem";
-//     }
-//   } else {
-//     myNav.classList.add("nav-transparent");
-//     myNav.classList.remove("nav-colored");
-//   }
-// };
 
 function closeSidebar() {
   document.getElementById("sidebar").style.left = "-4.5rem";
   const pageContent = document.querySelectorAll(".page-content");
+  const mediaQuery = window.matchMedia("(max-width: 768px)");
   for (let i = 0; i <= pageContent.length; i++) {
-    pageContent[i].style.marginLeft = "0";
-    pageContent[i].style.transition = "0.2s ease-in";
+    if (mediaQuery.matches) {
+      pageContent[i].style.marginLeft = "0";
+      pageContent[i].style.transition = "0.2s ease-in";
+    }
   }
 }
 function openSidebar() {
   document.getElementById("sidebar").style.left = "0";
   const pageContent = document.querySelectorAll(".page-content");
+  const mediaQuery = window.matchMedia("(max-width: 768px)");
   for (let i = 0; i <= pageContent.length; i++) {
-    pageContent[i].style.marginLeft = "3rem";
+    if (mediaQuery.matches) {
+      pageContent[i].style.marginLeft = "3rem";
+    }
   }
 }

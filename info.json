@@ -6,15 +6,15 @@
     },
     "wordpress": {
       "wordpress_title": "Wordpress",
-      "wordpress_description": "WordPress is a free and open-source content management system written in hypertext preprocessor language and paired with a MySQL or MariaDB database with supported HTTPS."
+      "wordpress_description": "WordPress is a free and open-source content management system written in hypertext preprocessor language"
     },
     "host": {
       "host_title": "Hosting",
-      "host_description": "Traditionally, web hosting services include everything needed to host and maintain a website or other IT assets, including servers and hardware, related software, data storage,,"
+      "host_description": "Traditionally, web hosting services include everything needed to host and maintain a website or other IT assets,"
     },
     "seo": {
       "seo_title": "SEO",
-      "seo_description": "search engine optimization is the process of improving the quality and quantity of website traffic to a website or a web page from search engines."
+      "seo_description": "search engine optimization is the process of improving the quality and quantity of website traffic to a website"
     }
   },
 
