@@ -529,8 +529,7 @@ h4 {
   font-size: 46px;
   margin-left: 30px;
   color: #761c33;
-  text-decoration: line-through;
-
+  text-decoration: line-through #999 2px;
   display: inline;
 }
 .price-num span {
