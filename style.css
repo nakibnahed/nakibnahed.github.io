@@ -404,7 +404,6 @@ h4 {
   border-radius: 16px !important;
   box-shadow: 0 5px 25px #0000000d;
   transform: scale(0.99);
-  margin: 14px;
   width: 350px;
 }
 
@@ -512,9 +511,19 @@ h4 {
 
 /* pricing plan */
 
+.prices-section {
+  margin: 100px auto;
+}
+
 .price-foucused-card {
   transform: scale(1.1);
   border-color: #761c33;
+  z-index: 999;
+  box-shadow: 0 0px 20px #00000058;
+}
+.price-foucused-card:hover {
+  transform: scale(1.12);
+  box-shadow: 0 0px 20px #00000058;
 }
 
 .price-title {
@@ -539,14 +548,15 @@ h4 {
   padding: 0px;
   font-family: monospace;
   display: inline;
+  margin-left: -15px;
 }
 .price-info ul {
   text-align: center;
   list-style-type: none;
-  justify-self: left;
+  padding-left: 0;
 }
 .price-info ul li {
-  margin: 10px;
+  margin: 10px 0px;
   font-size: 18px;
 }
 
