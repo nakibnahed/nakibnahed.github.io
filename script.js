@@ -129,20 +129,8 @@ fetch("info.json")
   .then(jsonInfo);
 
 var myNav = document.querySelector("#sidebar");
-$(window).scroll(function () {
-  if ($(window).scrollTop() >= 800) {
-    myNav.classList.add("nav-transparent");
-    myNav.classList.remove("nav-colored");
-    // const pageContent = document.querySelectorAll(".page-content");
-    // const mediaQuery = window.matchMedia("(max-width: 768px)");
-    // for (let i = 0; i <= pageContent.length; i++) {
-    //   if (mediaQuery.matches) {
-    //     pageContent[i].style.marginLeft = "3rem";
-    //     pageContent[i].style.transition = "0.2s ease-in";
-    //   }
-    // }
-  }
-});
+
+myNav.classList.remove("nav-colored");
 
 function closeSidebar() {
   document.getElementById("sidebar").style.left = "-4.5rem";
@@ -156,12 +144,14 @@ function closeSidebar() {
   }
 }
 function openSidebar() {
+  myNav.classList.add("nav-transparent");
   document.getElementById("sidebar").style.left = "0";
   const pageContent = document.querySelectorAll(".page-content");
   const mediaQuery = window.matchMedia("(max-width: 768px)");
   for (let i = 0; i <= pageContent.length; i++) {
     if (mediaQuery.matches) {
       pageContent[i].style.marginLeft = "3rem";
+      pageContent[i].style.transition = "0.2s ease-in";
     }
   }
 }

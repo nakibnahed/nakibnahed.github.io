@@ -10,7 +10,7 @@
 }
 
 body {
-  background: #ffffff;
+  background: #fff;
 }
 
 h1,
@@ -404,6 +404,8 @@ h4 {
   border-radius: 16px !important;
   box-shadow: 0 5px 25px #0000000d;
   transform: scale(0.99);
+  margin: 14px;
+  width: 350px;
 }
 
 .card:hover {
@@ -506,6 +508,55 @@ h4 {
 
 .more-details:hover {
   color: #000;
+}
+
+/* pricing plan */
+
+.price-foucused-card {
+  transform: scale(1.1);
+  border-color: #761c33;
+}
+
+.price-title {
+  text-align: center;
+  margin: 10px;
+}
+.price-num {
+  text-align: center;
+  margin: 5px;
+}
+.price-num h2 {
+  font-size: 46px;
+  margin-left: 30px;
+  color: #761c33;
+  text-decoration: line-through;
+
+  display: inline;
+}
+.price-num span {
+  color: #000;
+  font-size: 8px;
+  margin: 0px;
+  padding: 0px;
+  font-family: monospace;
+  display: inline;
+}
+.price-info ul {
+  text-align: center;
+  list-style-type: none;
+  justify-self: left;
+}
+.price-info ul li {
+  margin: 10px;
+  font-size: 18px;
+}
+
+.price-info ul li .prices-numbers {
+  color: #761c33;
+}
+
+.price-num-final h2 {
+  text-decoration: none !important;
 }
 
 /* About Me */
