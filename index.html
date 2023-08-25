@@ -71,11 +71,14 @@
   </head>
 
   <body>
+    <section
+      class="container-fluid main-container container-home p-0 g-0 aos-init aos-animate"
+    >
+      <div class="color-block d-none d-lg-block"></div>
+    </section>
+
     <div>
-      <div
-        id="sidebar"
-        class="d-flex flex-column flex-shrink-0 bg-body-tertiary sidebar z-3"
-      >
+      <div id="sidebar" class="d-flex flex-column flex-shrink-0 sidebar z-3">
         <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
           <li>
             <a
@@ -139,7 +142,7 @@
               <i id="instagram" class="fa-brands fa-instagram"></i>
             </a>
           </li>
-          <li>
+          <!-- <li>
             <a
               onclick="closeSidebar()"
               class="btn sidebar-icon"
@@ -149,10 +152,10 @@
             >
               <i class="fa-solid fa-arrow-left"></i>
             </a>
-          </li>
+          </li> -->
         </ul>
       </div>
-      <div class="show-menu">
+      <!-- <div class="show-menu">
         <a
           onclick="openSidebar()"
           class="btn sidebar-icon"
@@ -163,36 +166,41 @@
         >
           <i class="fa-solid fa-arrow-right"></i>
         </a>
-      </div>
+      </div> -->
     </div>
 
     <!----- Mine section ------>
     <section class="main">
-      <div class="main-div">
-        <h2 class="myname">
-          Hello, I'm Nahed<br /><span id="work-title">Web Developer</span>
-        </h2>
-        <h3>I Build Websites!</h3>
-        <a href="#projects" id="main-btn" class="main-btn">View my work</a>
-        <div class="social-icons">
-          <a
-            href="https://www.linkedin.com/in/nahed-nakib-450ab9239/"
-            target="_blank"
-            ><i id="linkedin" class="fa-brands fa-linkedin-in"></i
-          ></a>
-          <a href="https://github.com/nakibnahed" target="_blank"
-            ><i id="github" class="fa-brands fa-github"></i
-          ></a>
-          <a
-            href="https://instagram.com/nahed_nakib?igshid=YmMyMTA2M2Y="
-            target="_blank"
-            ><i id="instagram" class="fa-brands fa-instagram"></i
-          ></a>
-          <a
-            href="https://api.whatsapp.com/send?phone=00905346810886"
-            target="_blank"
-            ><i id="whatsapp" class="fa-brands fa-whatsapp"></i
-          ></a>
+      <div class="main-box-container container">
+        <div class="main-div">
+          <h2 class="myname">
+            Hello, I'm Nahed<br /><span id="work-title">Web Developer</span>
+          </h2>
+          <h3>I Build Websites!</h3>
+          <a href="#projects" id="main-btn" class="main-btn">View my work</a>
+          <div class="social-icons">
+            <a
+              href="https://www.linkedin.com/in/nahed-nakib-450ab9239/"
+              target="_blank"
+              ><i id="linkedin" class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a href="https://github.com/nakibnahed" target="_blank"
+              ><i id="github" class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://instagram.com/nahed_nakib?igshid=YmMyMTA2M2Y="
+              target="_blank"
+              ><i id="instagram" class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="https://api.whatsapp.com/send?phone=00905346810886"
+              target="_blank"
+              ><i id="whatsapp" class="fa-brands fa-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+        <div class="main-foto">
+          <div><img src="/imgs/dark.jpg" alt="" /></div>
         </div>
       </div>
     </section>
