@@ -431,7 +431,6 @@ h4 {
   min-height: 400px;
   padding: 10px;
   transition: 0.1s ease;
-  opacity: 0.9;
   box-decoration-break: initial;
   height: auto !important;
   border-radius: 16px !important;
@@ -601,6 +600,13 @@ h4 {
 
 /* About Me */
 
+.about-me-container {
+  position: relative;
+}
+.about-me-container div {
+  position: relative;
+}
+
 .my-card {
   background: #2b2a2a;
   box-shadow: 0 5px 25px #0000000d;
@@ -614,21 +620,8 @@ h4 {
 }
 
 .my-card-info {
-  width: 40%;
   text-align: center;
-
   align-self: center;
-}
-
-.my-card-img {
-  width: 40%;
-}
-
-.my-card-img img {
-  width: 200px;
-  height: 300px;
-  border-radius: 16px;
-  text-align: center;
 }
 
 .me-name {
