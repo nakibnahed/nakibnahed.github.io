@@ -804,6 +804,10 @@ body {
     padding-top: 20px;
     margin: auto;
   }
+
+  .about-me-container {
+    padding: 25px;
+  }
   .title {
     font-size: 1em;
   }
