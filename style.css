@@ -566,7 +566,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 5px;
+  padding: 15px;
   width: 100%;
   background-color: var(--main-primary-color);
   border-radius: 16px 16px 0px 0;
