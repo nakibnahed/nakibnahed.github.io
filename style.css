@@ -794,7 +794,10 @@ body {
     padding: 25px 50px 55px 25px;
   }
   .main-foto {
-    margin-top: -950px;
+    margin-top: -1000px;
+  }
+  .main-foto div img {
+    width: 400px;
   }
   .card {
     height: 400px;
