@@ -82,96 +82,63 @@
         <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
           <li>
             <a
-              href="mailto:nahednakibyos@gmail.com"
-              target="_blank"
+              href="#services"
+              target="_self"
               aria-current="page"
               data-bs-toggle="tooltip"
               data-bs-placement="right"
               class="nav-link py-3 rounded-0 sidebar-icon"
-              aria-label="Send an email"
+              aria-label="Services"
             >
-              <i id="email " class="fa-solid fa-envelope"></i>
+              <i id="servicesIcon" class="fa-solid fa-hard-drive"></i>
             </a>
           </li>
           <li>
             <a
-              href="tel:+905346810886"
+              href="#works"
               class="nav-link py-3 rounded-0 sidebar-icon"
-              aria-label="Phone Call"
+              aria-label="Projects"
             >
-              <i id="phone " class="fa-solid fa-phone"></i>
+              <i id="projectsIcon" class="fa-solid fa-project-diagram"></i>
             </a>
           </li>
           <li>
             <a
-              href="https://api.whatsapp.com/send?phone=00905346810886"
-              target="_blank"
+              href="#about"
+              target="_self"
               class="nav-link py-3 rounded-0 sidebar-icon"
-              aria-label="Whatsapp"
+              aria-label="About Me"
             >
-              <i id="whatsapp" class="fa-brands fa-whatsapp fa-beat"></i>
+              <i id="aboutMeIcon" class="fa-solid fa-user"></i>
             </a>
           </li>
           <li>
             <a
-              href="https://github.com/nakibnahed"
-              target="_blank"
+              href="#pricePlan1"
+              target="_self"
               class="nav-link py-3 rounded-0 sidebar-icon"
-              aria-label="Github"
+              aria-label="Praicing Plans"
             >
-              <i id="github" class="fa-brands fa-github"></i>
+              <i id="praicingIcon" class="fa-solid fa-dollar"></i>
             </a>
           </li>
           <li>
             <a
-              href="https://www.linkedin.com/in/nahed-nakib-450ab9239/"
-              target="_blank"
+              href="#contact"
+              target="_self"
               class="nav-link py-3 rounded-0 sidebar-icon"
-              aria-label="Linkedin"
+              aria-label="Let's Work Together"
             >
-              <i id="linkedin" class="fa-brands fa-linkedin-in"></i>
+              <i id="contactIcon" class="fa-solid fa-torii-gate"></i>
             </a>
           </li>
-          <li>
-            <a
-              href="https://instagram.com/nahed_nakib?igshid=YmMyMTA2M2Y="
-              target="_blank"
-              class="nav-link py-3 rounded-0 sidebar-icon"
-              aria-label="Instagram"
-            >
-              <i id="instagram" class="fa-brands fa-instagram"></i>
-            </a>
-          </li>
-          <!-- <li>
-            <a
-              onclick="closeSidebar()"
-              class="btn sidebar-icon"
-              data-bs-toggle="tooltip"
-              data-bs-placement="right"
-              aria-label="Hide Menu"
-            >
-              <i class="fa-solid fa-arrow-left"></i>
-            </a>
-          </li> -->
         </ul>
       </div>
-      <!-- <div class="show-menu">
-        <a
-          onclick="openSidebar()"
-          class="btn sidebar-icon"
-          id="showMenu"
-          data-bs-toggle="tooltip"
-          data-bs-placement="right"
-          aria-label="Show Menu"
-        >
-          <i class="fa-solid fa-arrow-right"></i>
-        </a>
-      </div> -->
     </div>
 
     <!----- Mine section ------>
     <section class="main">
-      <div class="main-box-container container">
+      <div class="main-box-container container flex-wrap">
         <div class="main-div">
           <h2 class="myname">
             Hello, I'm Nahed<br /><span id="work-title">Web Developer</span>
@@ -492,7 +459,7 @@
 
     <!-----Projects section------->
 
-    <section class="slider-sec page-content" id="works">
+    <section class="slider-sec page-content works" id="works">
       <div class="title-icon" id="projects">
         <h2 class="title">Works & Projects</h2>
       </div>
@@ -650,13 +617,31 @@
       </div>
     </section>
 
+    <!---About Me section---->
+
+    <section class="about-me page-content" id="about">
+      <div class="title-icon">
+        <h2 id="demo" class="title">About Me</h2>
+      </div>
+      <div class="container about-me-container">
+        <div>
+          <div class="my-card container-sm">
+            <div class="my-card-info text-left">
+              <h2 class="me-name">Nahed Nakib</h2>
+              <p class="text-justify" id="aboutMe"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!--- Pricing Plans section  (Website Building) ---->
 
-    <section class="prices-section page-conten" id="prices">
+    <section class="prices-section page-conten" id="pricePlan1">
       <div class="title-icon my-xxl-5" id="projects">
         <h2 class="title mb-4">Website Building Pricing Plans</h2>
       </div>
-      <div class="container">
+      <div class="container flex-wrap">
         <div>
           <div
             class="card"
@@ -704,6 +689,7 @@
             data-toggle="modal"
             data-target="#WebDevelopment"
           >
+            <div class="price-foucused-card-top-line"><p>Most Sold</p></div>
             <div class="price-title mt-4">
               <h2>Popular</h2>
             </div>
@@ -780,11 +766,11 @@
 
     <!--- Pricing Plans section  (Website Menegment---->
 
-    <section class="prices-section page-conten" id="prices">
+    <section class="prices-section page-conten" id="pricePlan2">
       <div class="title-icon my-xxl-5" id="projects">
         <h2 class="title mb-4">Website Menegment Pricing Plans</h2>
       </div>
-      <div class="container">
+      <div class="container flex-wrap">
         <div>
           <div
             class="card"
@@ -832,6 +818,7 @@
             data-toggle="modal"
             data-target="#WebDevelopment"
           >
+            <div class="price-foucused-card-top-line"><p>Most Sold</p></div>
             <div class="price-title mt-4">
               <h2>10 Hours weekly</h2>
             </div>
@@ -901,24 +888,6 @@
               <span>monthly</span>
             </div>
             <div class="read-more mt-4"><p>Read More...</p></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!---About Me section---->
-
-    <section class="about-me page-content" id="about">
-      <div class="title-icon">
-        <h2 id="demo" class="title">About Me</h2>
-      </div>
-      <div class="container about-me-container">
-        <div>
-          <div class="my-card container-sm">
-            <div class="my-card-info text-left">
-              <h2 class="me-name">Nahed Nakib</h2>
-              <p class="text-justify" id="aboutMe"></p>
-            </div>
           </div>
         </div>
       </div>
